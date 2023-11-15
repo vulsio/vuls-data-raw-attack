@@ -32,14 +32,17 @@
       "phase_name": "defense-evasion"
     }
   ],
-  "modified": "2023-09-06T20:17:26.167Z",
+  "modified": "2023-11-06T20:14:51.609Z",
   "name": "Ignore Process Interrupts",
   "object_marking_refs": [
     "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
   ],
   "revoked": false,
   "spec_version": "",
-  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_attack_spec_version": "3.2.0",
+  "x_mitre_contributors": [
+    "Viren Chaudhari, Qualys"
+  ],
   "x_mitre_data_sources": [
     "Process: Process Creation",
     "Command: Command Execution"

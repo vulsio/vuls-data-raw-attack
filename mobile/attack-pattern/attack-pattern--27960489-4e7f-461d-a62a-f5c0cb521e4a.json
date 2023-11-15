@@ -16,14 +16,14 @@
       "url": "https://auth0.com/blog/why-should-use-accesstokens-to-secure-an-api/"
     },
     {
-      "description": "okta. (n.d.). What Happens If Your JWT Is Stolen?. Retrieved September 12, 2019.",
-      "source_name": "okta",
-      "url": "https://developer.okta.com/blog/2018/06/20/what-happens-if-your-jwt-is-stolen"
-    },
-    {
       "description": "Cai, S., Flores, J., de Guzman, C., et. al.. (2019, August 27). Microsoft identity platform access tokens. Retrieved October 4, 2019.",
       "source_name": "Microsoft Identity Platform Access 2019",
       "url": "https://docs.microsoft.com/en-us/azure/active-directory/develop/access-tokens"
+    },
+    {
+      "description": "okta. (n.d.). What Happens If Your JWT Is Stolen?. Retrieved September 12, 2019.",
+      "source_name": "okta",
+      "url": "https://developer.okta.com/blog/2018/06/20/what-happens-if-your-jwt-is-stolen"
     },
     {
       "description": "Stalmans, E.. (2017, August 2). Phishing with OAuth and o365/Azure. Retrieved October 4, 2019.",
@@ -41,34 +41,32 @@
       "phase_name": "lateral-movement"
     }
   ],
-  "modified": "2021-09-20T16:50:41.832Z",
+  "modified": "2023-11-02T15:39:10.534Z",
   "name": "Application Access Token",
   "object_marking_refs": [
     "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
   ],
   "revoked": true,
   "spec_version": "",
-  "x_mitre_attack_spec_version": "",
+  "x_mitre_attack_spec_version": "3.2.0",
   "x_mitre_contributors": [
-    "Jen Burns, HubSpot",
     "Mark Wee",
     "Jeff Sakowicz, Microsoft Identity Developer Platform Services (IDPM Services)",
     "Saisha Agrawal, Microsoft Threat Intelligent Center (MSTIC)",
-    "Shailesh Tiwary (Indian Army)"
+    "Shailesh Tiwary (Indian Army)",
+    "Jack Burns, HubSpot"
   ],
   "x_mitre_defense_bypassed": [
     "Multi-Factor Authentication",
     "Logon Credentials"
   ],
+  "x_mitre_deprecated": false,
   "x_mitre_detection": "Monitor access token activity for abnormal use and permissions granted to unusual or suspicious applications. Administrators can set up a variety of logs and leverage audit tools to monitor actions that can be conducted as a result of OAuth 2.0 access. For instance, audit reports enable admins to identify privilege escalation actions such as role creations or policy modifications, which could be actions performed after initial access.",
   "x_mitre_domains": [
     "enterprise-attack"
   ],
   "x_mitre_is_subtechnique": false,
   "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_permissions_required": [
-    "User"
-  ],
   "x_mitre_platforms": [
     "SaaS",
     "Office 365"
