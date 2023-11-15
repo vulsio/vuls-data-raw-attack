@@ -1,0 +1,29 @@
+{
+  "type": "relationship",
+  "id": "relationship--9486b28e-681e-4e19-a7d9-c496af933c2d",
+  "created": "2022-03-30T14:26:51.844Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "Monitor executed commands and arguments for modifications to domain trust settings, such as when a user or application modifies the federation settings on the domain or updates domain authentication from Managed to Federated via ActionTypes <code>Set federation settings on domain</code> and <code>Set domain authentication</code>.(Citation: Microsoft - Azure Sentinel ADFSDomainTrustMods)(Citation: Microsoft 365 Defender Solorigate)",
+  "external_references": [
+    {
+      "description": "Microsoft. (2020, December). Azure Sentinel Detections. Retrieved December 30, 2020.",
+      "source_name": "Microsoft - Azure Sentinel ADFSDomainTrustMods",
+      "url": "https://github.com/Azure/Azure-Sentinel/blob/master/Detections/AuditLogs/ADFSDomainTrustMods.yaml"
+    },
+    {
+      "description": "Microsoft 365 Defender Team. (2020, December 28). Using Microsoft 365 Defender to protect against Solorigate. Retrieved January 7, 2021.",
+      "source_name": "Microsoft 365 Defender Solorigate",
+      "url": "https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/"
+    }
+  ],
+  "modified": "2022-03-30T14:26:51.844Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "detects",
+  "source_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
+  "spec_version": "",
+  "target_ref": "attack-pattern--ebb42bbe-62d7-47d7-a55f-3b08b61d792d",
+  "x_mitre_attack_spec_version": "2.1.0",
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+}

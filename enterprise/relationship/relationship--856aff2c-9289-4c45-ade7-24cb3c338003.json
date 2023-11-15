@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--856aff2c-9289-4c45-ade7-24cb3c338003",
+  "created": "2023-03-22T03:24:55.359Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[CARROTBAT](https://attack.mitre.org/software/S0462) has the ability to execute obfuscated commands on the infected host.(Citation: Unit 42 CARROTBAT November 2018)",
+  "external_references": [
+    {
+      "description": "Grunzweig, J. and Wilhoit, K. (2018, November 29). The Fractured Block Campaign: CARROTBAT Used to Deliver Malware Targeting Southeast Asia. Retrieved June 2, 2020.",
+      "source_name": "Unit 42 CARROTBAT November 2018",
+      "url": "https://unit42.paloaltonetworks.com/unit42-the-fractured-block-campaign-carrotbat-malware-used-to-deliver-malware-targeting-southeast-asia/"
+    }
+  ],
+  "modified": "2023-03-22T03:24:55.359Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "malware--1b9f0800-035e-4ed1-9648-b18294cc5bc8",
+  "spec_version": "",
+  "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

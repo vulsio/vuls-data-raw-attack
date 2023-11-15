@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--24566f69-12b6-4703-86e2-bbf966ac5535",
+  "created": "2023-03-10T19:40:59.086Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[QakBot](https://attack.mitre.org/software/S0650) can remotely create a temporary service on a target host.(Citation: NCC Group Black Basta June 2022)",
+  "external_references": [
+    {
+      "description": "Inman, R. and Gurney, P. (2022, June 6). Shining the Light on Black Basta. Retrieved March 8, 2023.",
+      "source_name": "NCC Group Black Basta June 2022",
+      "url": "https://research.nccgroup.com/2022/06/06/shining-the-light-on-black-basta/"
+    }
+  ],
+  "modified": "2023-03-10T19:40:59.086Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
+  "spec_version": "",
+  "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

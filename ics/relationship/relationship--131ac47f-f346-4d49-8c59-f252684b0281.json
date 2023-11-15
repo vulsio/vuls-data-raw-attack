@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--131ac47f-f346-4d49-8c59-f252684b0281",
+  "created": "2022-04-11T00:24:43.237Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[HermeticWizard](https://attack.mitre.org/software/S0698) can use `cmd.exe` for execution on compromised hosts.(Citation: ESET Hermetic Wizard March 2022)",
+  "external_references": [
+    {
+      "description": "ESET. (2022, March 1). IsaacWiper and HermeticWizard: New wiper and worm targetingUkraine. Retrieved April 10, 2022.",
+      "source_name": "ESET Hermetic Wizard March 2022",
+      "url": "https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine"
+    }
+  ],
+  "modified": "2022-04-11T00:24:43.237Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "malware--ff7ed9c1-dca3-4e62-9da6-72c5d388b8fa",
+  "spec_version": "",
+  "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+  "x_mitre_attack_spec_version": "2.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

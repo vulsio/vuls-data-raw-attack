@@ -1,0 +1,25 @@
+{
+  "type": "relationship",
+  "id": "relationship--163851e2-5236-41cb-897f-06e33624c3ec",
+  "created": "2021-06-18T15:26:55.692Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[Siloscape](https://attack.mitre.org/software/S0623) searches for the kubectl binary.(Citation: Unit 42 Siloscape Jun 2021)",
+  "external_references": [
+    {
+      "description": "Prizmant, D. (2021, June 7). Siloscape: First Known Malware Targeting Windows Containers to Compromise Cloud Environments. Retrieved June 9, 2021.",
+      "source_name": "Unit 42 Siloscape Jun 2021",
+      "url": "https://unit42.paloaltonetworks.com/siloscape/"
+    }
+  ],
+  "modified": "2021-09-07T20:45:41.675Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "source_ref": "malware--4fbd565b-bf55-4ac7-80b4-b183a7b64b9c",
+  "spec_version": "",
+  "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+  "x_mitre_attack_spec_version": "",
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "relationship",
+  "id": "relationship--8990db18-edc0-4634-b62f-840baf1dd231",
+  "created": "2022-03-30T14:26:51.866Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "Monitor for newly constructed network connections that are sent or received by untrusted hosts, look for connections to/from strange ports, as well as reputation of IPs and URLs related cryptocurrency hosts. \n\nNote: Destination Host Name is not a comprehensive list of potential cryptocurrency URLs. \n\n<h4>Analytic 1 - Suspicious Port Connections</h4>\n<code>suspicious_netcoms = filter network traffic where ((src_port = “3333” OR src_port = “4444” OR src_port = “5555” OR src_port = “6666”) AND \n(dst_host_name = “cryptmonero.com” OR dst_host_name = “crypto-pool.fr” OR dst_host_name = “crypto-pool.info” OR dst_host_name = “cryptonight-hub.miningpoolhub.com”))</code>",
+  "modified": "2023-09-15T19:14:06.786Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "detects",
+  "revoked": false,
+  "source_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+  "spec_version": "",
+  "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

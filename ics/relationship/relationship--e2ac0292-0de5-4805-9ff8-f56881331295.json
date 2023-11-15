@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--e2ac0292-0de5-4805-9ff8-f56881331295",
+  "created": "2023-01-17T22:00:39.901Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "During [C0018](https://attack.mitre.org/campaigns/C0018), the threat actors used PDQ Deploy to move [AvosLocker](https://attack.mitre.org/software/S1053) and tools across the network.(Citation: Cisco Talos Avos Jun 2022)",
+  "external_references": [
+    {
+      "description": "Venere, G. Neal, C. (2022, June 21). Avos ransomware group expands with new attack arsenal. Retrieved January 11, 2023.",
+      "source_name": "Cisco Talos Avos Jun 2022",
+      "url": "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+    }
+  ],
+  "modified": "2023-02-14T17:11:06.212Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",
+  "spec_version": "",
+  "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

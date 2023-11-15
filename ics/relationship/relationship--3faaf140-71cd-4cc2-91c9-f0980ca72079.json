@@ -1,0 +1,25 @@
+{
+  "type": "relationship",
+  "id": "relationship--3faaf140-71cd-4cc2-91c9-f0980ca72079",
+  "created": "2021-01-13T21:16:05.2Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) has used a variety of widely-available tools, which in some cases they modified to add functionality and/or subvert antimalware solutions.(Citation: Microsoft GALLIUM December 2019)",
+  "external_references": [
+    {
+      "description": "MSTIC. (2019, December 12). GALLIUM: Targeting global telecom. Retrieved January 13, 2021.",
+      "source_name": "Microsoft GALLIUM December 2019",
+      "url": "https://www.microsoft.com/security/blog/2019/12/12/gallium-targeting-global-telecom/"
+    }
+  ],
+  "modified": "2021-03-26T11:49:13.159Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
+  "spec_version": "",
+  "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+  "x_mitre_attack_spec_version": "",
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "1.0"
+}

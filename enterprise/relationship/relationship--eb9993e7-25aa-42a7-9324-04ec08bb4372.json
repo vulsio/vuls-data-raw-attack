@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--eb9993e7-25aa-42a7-9324-04ec08bb4372",
+  "created": "2023-09-26T20:45:48.625Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "(Citation: MoustachedBouncer ESET August 2023)",
+  "external_references": [
+    {
+      "description": "Faou, M. (2023, August 10). MoustachedBouncer: Espionage against foreign diplomats in Belarus. Retrieved September 25, 2023.",
+      "source_name": "MoustachedBouncer ESET August 2023",
+      "url": "https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/"
+    }
+  ],
+  "modified": "2023-09-26T20:45:48.625Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "intrusion-set--7251b44b-6072-476c-b8d9-a6e32c355b28",
+  "spec_version": "",
+  "target_ref": "malware--1fefb062-feda-484a-8f10-0cebf65e20e3",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

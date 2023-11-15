@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--ba9380c1-1d2e-4161-8c46-9fc9f793cbd3",
+  "created": "2022-12-12T15:54:12.61Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "[KEYPLUG](https://attack.mitre.org/software/S1051) can use TLS-encrypted WebSocket Protocol (WSS) for C2.(Citation: Mandiant APT41)",
+  "external_references": [
+    {
+      "description": "Rufus Brown, Van Ta, Douglas Bienstock, Geoff Ackerman, John Wolfram. (2022, March 8). Does This Look Infected? A Summary of APT41 Targeting U.S. State Governments. Retrieved July 8, 2022.",
+      "source_name": "Mandiant APT41",
+      "url": "https://www.mandiant.com/resources/apt41-us-state-governments"
+    }
+  ],
+  "modified": "2022-12-12T15:54:12.61Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",
+  "spec_version": "",
+  "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

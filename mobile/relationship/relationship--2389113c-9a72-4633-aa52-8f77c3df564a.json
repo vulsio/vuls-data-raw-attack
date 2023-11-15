@@ -1,0 +1,27 @@
+{
+  "type": "relationship",
+  "id": "relationship--2389113c-9a72-4633-aa52-8f77c3df564a",
+  "created": "2023-03-26T20:13:49.222Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "For the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) compromised domains to use for C2.(Citation: MSTIC NOBELIUM Mar 2021)",
+  "external_references": [
+    {
+      "description": "Nafisi, R., Lelli, A. (2021, March 4). GoldMax, GoldFinder, and Sibot: Analyzing NOBELIUM’s layered persistence. Retrieved March 8, 2021.",
+      "source_name": "MSTIC NOBELIUM Mar 2021",
+      "url": "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/"
+    }
+  ],
+  "modified": "2023-03-26T20:13:49.222Z",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "relationship_type": "uses",
+  "revoked": false,
+  "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
+  "spec_version": "",
+  "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_deprecated": false,
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_version": "0.1"
+}

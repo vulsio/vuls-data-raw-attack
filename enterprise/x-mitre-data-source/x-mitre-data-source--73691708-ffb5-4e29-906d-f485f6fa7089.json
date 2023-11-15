@@ -1,0 +1,56 @@
+{
+  "type": "x-mitre-data-source",
+  "id": "x-mitre-data-source--73691708-ffb5-4e29-906d-f485f6fa7089",
+  "created": "2021-10-20T15:05:19.273Z",
+  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "description": "A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task(Citation: Confluence Linux Command  Line)(Citation: Audit OSX)",
+  "external_references": [
+    {
+      "external_id": "DS0017",
+      "source_name": "mitre-attack",
+      "url": "https://attack.mitre.org/datasources/DS0017"
+    },
+    {
+      "description": "Confluence Support. (2021, September 8). How to enable command line audit logging in linux. Retrieved September 23, 2021.",
+      "source_name": "Confluence Linux Command  Line",
+      "url": "https://confluence.atlassian.com/confkb/how-to-enable-command-line-audit-logging-in-linux-956166545.html"
+    },
+    {
+      "description": "Gagliardi, R. (n.d.). Audit in a OS X System. Retrieved September 23, 2021.",
+      "source_name": "Audit OSX",
+      "url": "https://www.scip.ch/en/?labs.20150108"
+    }
+  ],
+  "modified": "2023-04-20T18:38:00.625Z",
+  "name": "Command",
+  "object_marking_refs": [
+    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+  ],
+  "revoked": false,
+  "spec_version": "",
+  "x_mitre_attack_spec_version": "3.1.0",
+  "x_mitre_collection_layers": [
+    "Container",
+    "Host"
+  ],
+  "x_mitre_contributors": [
+    "Center for Threat-Informed Defense (CTID)",
+    "Austin Clark, @c2defense"
+  ],
+  "x_mitre_deprecated": false,
+  "x_mitre_domains": [
+    "enterprise-attack",
+    "mobile-attack"
+  ],
+  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+  "x_mitre_platforms": [
+    "Containers",
+    "Linux",
+    "Network",
+    "Windows",
+    "macOS",
+    "Android",
+    "iOS"
+  ],
+  "x_mitre_version": "1.1"
+}
