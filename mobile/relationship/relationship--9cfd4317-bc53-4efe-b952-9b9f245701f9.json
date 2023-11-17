@@ -1,27 +1,27 @@
 {
-  "type": "relationship",
-  "id": "relationship--9cfd4317-bc53-4efe-b952-9b9f245701f9",
-  "created": "2022-07-18T22:59:04.998Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Monitor for the enrollment of devices and user accounts with alternative security settings that do not require MFA credentials for successful logon. Monitor for attempts to disable MFA on individual user accounts.(Citation: Mandiant Cloudy Logs 2023)",
-  "external_references": [
-    {
-      "description": "Pany, D. & Hanley, C. (2023, May 3). Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations. Retrieved October 16, 2023.",
-      "source_name": "Mandiant Cloudy Logs 2023",
-      "url": "https://www.mandiant.com/resources/blog/cloud-bad-log-configurations"
-    }
-  ],
-  "modified": "2023-10-16T17:20:29.617Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "detects",
-  "revoked": false,
-  "source_ref": "x-mitre-data-component--d27b0089-2c39-4b6c-84ff-303e48657e77",
-  "spec_version": "",
-  "target_ref": "attack-pattern--b4409cd8-0da9-46e1-a401-a241afd4d1cc",
-  "x_mitre_attack_spec_version": "3.2.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "0.1"
+	"type": "relationship",
+	"id": "relationship--9cfd4317-bc53-4efe-b952-9b9f245701f9",
+	"created": "2022-07-18T22:59:04.998Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Monitor for the enrollment of devices and user accounts with alternative security settings that do not require MFA credentials for successful logon. Monitor for attempts to disable MFA on individual user accounts.(Citation: Mandiant Cloudy Logs 2023)",
+	"external_references": [
+		{
+			"description": "Pany, D. & Hanley, C. (2023, May 3). Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations. Retrieved October 16, 2023.",
+			"source_name": "Mandiant Cloudy Logs 2023",
+			"url": "https://www.mandiant.com/resources/blog/cloud-bad-log-configurations"
+		}
+	],
+	"modified": "2023-10-16T17:20:29.617Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "detects",
+	"revoked": false,
+	"source_ref": "x-mitre-data-component--d27b0089-2c39-4b6c-84ff-303e48657e77",
+	"spec_version": "",
+	"target_ref": "attack-pattern--b4409cd8-0da9-46e1-a401-a241afd4d1cc",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
 }

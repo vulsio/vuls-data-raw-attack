@@ -1,20 +1,20 @@
 {
-  "type": "relationship",
-  "id": "relationship--b83dc94a-1fd6-4c07-8f8e-fc9479b00346",
-  "created": "2022-04-18T16:46:33.87Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Monitor network traffic for suspicious/malicious behavior involving DHCP, such as changes in DNS and/or gateway parameters. Additionally, monitor network traffic for rogue DHCPv6 activity.",
-  "modified": "2022-10-18T20:19:59.844Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "detects",
-  "revoked": false,
-  "source_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-  "spec_version": "",
-  "target_ref": "attack-pattern--59ff91cd-1430-4075-8563-e6f15f4f9ff5",
-  "x_mitre_attack_spec_version": "2.1.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "0.1"
+	"type": "relationship",
+	"id": "relationship--b83dc94a-1fd6-4c07-8f8e-fc9479b00346",
+	"created": "2022-04-18T16:46:33.87Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Monitor network traffic for suspicious/malicious behavior involving DHCP, such as changes in DNS and/or gateway parameters. Additionally, monitor network traffic for rogue DHCPv6 activity.",
+	"modified": "2022-10-18T20:19:59.844Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "detects",
+	"revoked": false,
+	"source_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+	"spec_version": "",
+	"target_ref": "attack-pattern--59ff91cd-1430-4075-8563-e6f15f4f9ff5",
+	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
 }

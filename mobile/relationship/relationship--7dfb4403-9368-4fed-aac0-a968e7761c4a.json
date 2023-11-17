@@ -1,18 +1,18 @@
 {
-  "type": "relationship",
-  "id": "relationship--7dfb4403-9368-4fed-aac0-a968e7761c4a",
-  "created": "2020-01-19T16:59:45.703Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Use multi-factor authentication for user and privileged accounts.",
-  "modified": "2022-04-01T14:15:39.392Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "mitigates",
-  "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
-  "spec_version": "",
-  "target_ref": "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--7dfb4403-9368-4fed-aac0-a968e7761c4a",
+	"created": "2020-01-19T16:59:45.703Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Use multi-factor authentication for user and privileged accounts.",
+	"modified": "2022-04-01T14:15:39.392Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "mitigates",
+	"source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+	"spec_version": "",
+	"target_ref": "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

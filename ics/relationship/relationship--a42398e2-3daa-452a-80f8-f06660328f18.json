@@ -1,27 +1,27 @@
 {
-  "type": "relationship",
-  "id": "relationship--a42398e2-3daa-452a-80f8-f06660328f18",
-  "created": "2019-06-21T16:45:15.046Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Properly manage accounts and permissions used by parties in trusted relationships to minimize potential abuse by the party and if the party is compromised by an adversary. In Office 365 environments, partner relationships and roles can be viewed under the “Partner Relationships” page.(Citation: Office 365 Partner Relationships)\n",
-  "external_references": [
-    {
-      "description": "Microsoft. (2022, March 4). Manage partner relationships. Retrieved May 27, 2022.",
-      "source_name": "Office 365 Partner Relationships",
-      "url": "https://docs.microsoft.com/en-us/microsoft-365/commerce/manage-partners?view=o365-worldwide"
-    }
-  ],
-  "modified": "2022-10-18T22:36:33.915Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "mitigates",
-  "revoked": false,
-  "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",
-  "spec_version": "",
-  "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
-  "x_mitre_attack_spec_version": "2.1.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--a42398e2-3daa-452a-80f8-f06660328f18",
+	"created": "2019-06-21T16:45:15.046Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Properly manage accounts and permissions used by parties in trusted relationships to minimize potential abuse by the party and if the party is compromised by an adversary. In Office 365 environments, partner relationships and roles can be viewed under the “Partner Relationships” page.(Citation: Office 365 Partner Relationships)\n",
+	"external_references": [
+		{
+			"description": "Microsoft. (2022, March 4). Manage partner relationships. Retrieved May 27, 2022.",
+			"source_name": "Office 365 Partner Relationships",
+			"url": "https://docs.microsoft.com/en-us/microsoft-365/commerce/manage-partners?view=o365-worldwide"
+		}
+	],
+	"modified": "2022-10-18T22:36:33.915Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "mitigates",
+	"revoked": false,
+	"source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",
+	"spec_version": "",
+	"target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
+	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

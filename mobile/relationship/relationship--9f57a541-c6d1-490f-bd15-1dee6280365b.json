@@ -1,25 +1,25 @@
 {
-  "type": "relationship",
-  "id": "relationship--9f57a541-c6d1-490f-bd15-1dee6280365b",
-  "created": "2021-10-01T17:50:33.661Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[Kerrdown](https://attack.mitre.org/software/S0585) can download specific payloads to a compromised host based on OS architecture.(Citation: Unit 42 KerrDown February 2019)",
-  "external_references": [
-    {
-      "description": "Ray, V. and Hayashi, K. (2019, February 1). Tracking OceanLotus’ new Downloader, KerrDown. Retrieved October 1, 2021.",
-      "source_name": "Unit 42 KerrDown February 2019",
-      "url": "https://unit42.paloaltonetworks.com/tracking-oceanlotus-new-downloader-kerrdown/"
-    }
-  ],
-  "modified": "2021-10-01T17:50:33.661Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "source_ref": "malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5",
-  "spec_version": "",
-  "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--9f57a541-c6d1-490f-bd15-1dee6280365b",
+	"created": "2021-10-01T17:50:33.661Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Kerrdown](https://attack.mitre.org/software/S0585) can download specific payloads to a compromised host based on OS architecture.(Citation: Unit 42 KerrDown February 2019)",
+	"external_references": [
+		{
+			"description": "Ray, V. and Hayashi, K. (2019, February 1). Tracking OceanLotus’ new Downloader, KerrDown. Retrieved October 1, 2021.",
+			"source_name": "Unit 42 KerrDown February 2019",
+			"url": "https://unit42.paloaltonetworks.com/tracking-oceanlotus-new-downloader-kerrdown/"
+		}
+	],
+	"modified": "2021-10-01T17:50:33.661Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"source_ref": "malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5",
+	"spec_version": "",
+	"target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

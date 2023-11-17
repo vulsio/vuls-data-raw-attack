@@ -1,30 +1,30 @@
 {
-  "type": "relationship",
-  "id": "relationship--be366a5f-308d-42aa-ae76-f14dbbb8b136",
-  "created": "2021-01-25T13:58:25.242Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[Dtrack](https://attack.mitre.org/software/S0567)’s dropper can list all running processes.(Citation: Securelist Dtrack)(Citation: CyberBit Dtrack)",
-  "external_references": [
-    {
-      "description": "Konstantin Zykov. (2019, September 23). Hello! My name is Dtrack. Retrieved January 20, 2021.",
-      "source_name": "Securelist Dtrack",
-      "url": "https://securelist.com/my-name-is-dtrack/93338/"
-    },
-    {
-      "description": "Hod Gavriel. (2019, November 21). Dtrack: In-depth analysis of APT on a nuclear power plant. Retrieved January 20, 2021.",
-      "source_name": "CyberBit Dtrack",
-      "url": "https://www.cyberbit.com/blog/endpoint-security/dtrack-apt-malware-found-in-nuclear-power-plant/"
-    }
-  ],
-  "modified": "2021-04-14T16:08:33.708Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "source_ref": "malware--f8774023-8021-4ece-9aca-383ac89d2759",
-  "spec_version": "",
-  "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--be366a5f-308d-42aa-ae76-f14dbbb8b136",
+	"created": "2021-01-25T13:58:25.242Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Dtrack](https://attack.mitre.org/software/S0567)’s dropper can list all running processes.(Citation: Securelist Dtrack)(Citation: CyberBit Dtrack)",
+	"external_references": [
+		{
+			"description": "Konstantin Zykov. (2019, September 23). Hello! My name is Dtrack. Retrieved January 20, 2021.",
+			"source_name": "Securelist Dtrack",
+			"url": "https://securelist.com/my-name-is-dtrack/93338/"
+		},
+		{
+			"description": "Hod Gavriel. (2019, November 21). Dtrack: In-depth analysis of APT on a nuclear power plant. Retrieved January 20, 2021.",
+			"source_name": "CyberBit Dtrack",
+			"url": "https://www.cyberbit.com/blog/endpoint-security/dtrack-apt-malware-found-in-nuclear-power-plant/"
+		}
+	],
+	"modified": "2021-04-14T16:08:33.708Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"source_ref": "malware--f8774023-8021-4ece-9aca-383ac89d2759",
+	"spec_version": "",
+	"target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

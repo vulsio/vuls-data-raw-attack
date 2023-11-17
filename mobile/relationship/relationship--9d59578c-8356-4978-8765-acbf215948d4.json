@@ -1,17 +1,17 @@
 {
-  "type": "relationship",
-  "id": "relationship--9d59578c-8356-4978-8765-acbf215948d4",
-  "created": "2020-03-11T14:17:21.294Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "modified": "2020-03-11T14:17:21.294Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "subtechnique-of",
-  "source_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-  "spec_version": "",
-  "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--9d59578c-8356-4978-8765-acbf215948d4",
+	"created": "2020-03-11T14:17:21.294Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"modified": "2020-03-11T14:17:21.294Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "subtechnique-of",
+	"source_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
+	"spec_version": "",
+	"target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

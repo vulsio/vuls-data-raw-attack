@@ -1,27 +1,27 @@
 {
-  "type": "relationship",
-  "id": "relationship--ed592480-2e4d-4604-aa8d-89bf58d72f6b",
-  "created": "2023-10-03T19:09:36.878Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has the ability to view the screen on compromised hosts.(Citation: AsyncRAT GitHub)",
-  "external_references": [
-    {
-      "description": "Nyan-x-Cat. (n.d.). NYAN-x-CAT / AsyncRAT-C-Sharp. Retrieved October 3, 2023.",
-      "source_name": "AsyncRAT GitHub",
-      "url": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/blob/master/README.md"
-    }
-  ],
-  "modified": "2023-10-04T16:01:34.423Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "revoked": false,
-  "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",
-  "spec_version": "",
-  "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-  "x_mitre_attack_spec_version": "3.2.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "0.1"
+	"type": "relationship",
+	"id": "relationship--ed592480-2e4d-4604-aa8d-89bf58d72f6b",
+	"created": "2023-10-03T19:09:36.878Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has the ability to view the screen on compromised hosts.(Citation: AsyncRAT GitHub)",
+	"external_references": [
+		{
+			"description": "Nyan-x-Cat. (n.d.). NYAN-x-CAT / AsyncRAT-C-Sharp. Retrieved October 3, 2023.",
+			"source_name": "AsyncRAT GitHub",
+			"url": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/blob/master/README.md"
+		}
+	],
+	"modified": "2023-10-04T16:01:34.423Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",
+	"spec_version": "",
+	"target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
 }

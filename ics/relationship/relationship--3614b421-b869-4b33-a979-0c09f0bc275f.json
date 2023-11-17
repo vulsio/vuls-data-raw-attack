@@ -1,25 +1,25 @@
 {
-  "type": "relationship",
-  "id": "relationship--3614b421-b869-4b33-a979-0c09f0bc275f",
-  "created": "2021-08-03T15:19:36.062Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[BoomBox](https://attack.mitre.org/software/S0635) can download files from Dropbox using a hardcoded access token.(Citation: MSTIC Nobelium Toolset May 2021)",
-  "external_references": [
-    {
-      "description": "MSTIC. (2021, May 28). Breaking down NOBELIUM’s latest early-stage toolset. Retrieved August 4, 2021.",
-      "source_name": "MSTIC Nobelium Toolset May 2021",
-      "url": "https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/"
-    }
-  ],
-  "modified": "2022-01-18T18:10:37.91Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",
-  "spec_version": "",
-  "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--3614b421-b869-4b33-a979-0c09f0bc275f",
+	"created": "2021-08-03T15:19:36.062Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[BoomBox](https://attack.mitre.org/software/S0635) can download files from Dropbox using a hardcoded access token.(Citation: MSTIC Nobelium Toolset May 2021)",
+	"external_references": [
+		{
+			"description": "MSTIC. (2021, May 28). Breaking down NOBELIUM’s latest early-stage toolset. Retrieved August 4, 2021.",
+			"source_name": "MSTIC Nobelium Toolset May 2021",
+			"url": "https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/"
+		}
+	],
+	"modified": "2022-01-18T18:10:37.91Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",
+	"spec_version": "",
+	"target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

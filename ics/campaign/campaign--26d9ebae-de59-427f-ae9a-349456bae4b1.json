@@ -1,40 +1,40 @@
 {
-  "type": "campaign",
-  "id": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
-  "aliases": [
-    "Frankenstein"
-  ],
-  "created": "2022-09-07T13:40:09.75Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[Frankenstein](https://attack.mitre.org/campaigns/C0001) was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including [Empire](https://attack.mitre.org/software/S0363). The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.(Citation: Talos Frankenstein June 2019)",
-  "external_references": [
-    {
-      "external_id": "C0001",
-      "source_name": "mitre-attack",
-      "url": "https://attack.mitre.org/campaigns/C0001"
-    },
-    {
-      "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020.",
-      "source_name": "Talos Frankenstein June 2019",
-      "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html"
-    }
-  ],
-  "first_seen": "2019-01-01T06:00:00Z",
-  "last_seen": "2019-04-01T05:00:00Z",
-  "modified": "2023-03-22T03:55:03.775Z",
-  "name": "Frankenstein",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "revoked": false,
-  "spec_version": "",
-  "x_mitre_attack_spec_version": "3.1.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_domains": [
-    "enterprise-attack"
-  ],
-  "x_mitre_first_seen_citation": "(Citation: Talos Frankenstein June 2019)",
-  "x_mitre_last_seen_citation": "(Citation: Talos Frankenstein June 2019)",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.1"
+	"type": "campaign",
+	"id": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
+	"aliases": [
+		"Frankenstein"
+	],
+	"created": "2022-09-07T13:40:09.75Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Frankenstein](https://attack.mitre.org/campaigns/C0001) was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including [Empire](https://attack.mitre.org/software/S0363). The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.(Citation: Talos Frankenstein June 2019)",
+	"external_references": [
+		{
+			"external_id": "C0001",
+			"source_name": "mitre-attack",
+			"url": "https://attack.mitre.org/campaigns/C0001"
+		},
+		{
+			"description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020.",
+			"source_name": "Talos Frankenstein June 2019",
+			"url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html"
+		}
+	],
+	"first_seen": "2019-01-01T06:00:00Z",
+	"last_seen": "2019-04-01T05:00:00Z",
+	"modified": "2023-03-22T03:55:03.775Z",
+	"name": "Frankenstein",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"revoked": false,
+	"spec_version": "",
+	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_domains": [
+		"enterprise-attack"
+	],
+	"x_mitre_first_seen_citation": "(Citation: Talos Frankenstein June 2019)",
+	"x_mitre_last_seen_citation": "(Citation: Talos Frankenstein June 2019)",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.1"
 }

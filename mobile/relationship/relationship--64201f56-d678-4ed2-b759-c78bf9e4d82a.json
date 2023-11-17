@@ -1,18 +1,18 @@
 {
-  "type": "relationship",
-  "id": "relationship--64201f56-d678-4ed2-b759-c78bf9e4d82a",
-  "created": "2020-02-20T17:21:04.881Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Use multi-factor authentication. Where possible, also enable multi-factor authentication on externally facing services.",
-  "modified": "2021-04-06T12:32:47.837Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "mitigates",
-  "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
-  "spec_version": "",
-  "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--64201f56-d678-4ed2-b759-c78bf9e4d82a",
+	"created": "2020-02-20T17:21:04.881Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Use multi-factor authentication. Where possible, also enable multi-factor authentication on externally facing services.",
+	"modified": "2021-04-06T12:32:47.837Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "mitigates",
+	"source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+	"spec_version": "",
+	"target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

@@ -1,27 +1,27 @@
 {
-  "type": "relationship",
-  "id": "relationship--2443296f-a8fc-431d-9865-d68dd6142b37",
-  "created": "2023-09-27T19:45:40.574Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[NightClub](https://attack.mitre.org/software/S1090) has chosen file names to appear legitimate including EsetUpdate-0117583943.exe for its dropper.(Citation: MoustachedBouncer ESET August 2023)",
-  "external_references": [
-    {
-      "description": "Faou, M. (2023, August 10). MoustachedBouncer: Espionage against foreign diplomats in Belarus. Retrieved September 25, 2023.",
-      "source_name": "MoustachedBouncer ESET August 2023",
-      "url": "https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/"
-    }
-  ],
-  "modified": "2023-09-27T19:46:17.79Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "revoked": false,
-  "source_ref": "malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6",
-  "spec_version": "",
-  "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-  "x_mitre_attack_spec_version": "3.2.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "0.1"
+	"type": "relationship",
+	"id": "relationship--2443296f-a8fc-431d-9865-d68dd6142b37",
+	"created": "2023-09-27T19:45:40.574Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[NightClub](https://attack.mitre.org/software/S1090) has chosen file names to appear legitimate including EsetUpdate-0117583943.exe for its dropper.(Citation: MoustachedBouncer ESET August 2023)",
+	"external_references": [
+		{
+			"description": "Faou, M. (2023, August 10). MoustachedBouncer: Espionage against foreign diplomats in Belarus. Retrieved September 25, 2023.",
+			"source_name": "MoustachedBouncer ESET August 2023",
+			"url": "https://www.welivesecurity.com/en/eset-research/moustachedbouncer-espionage-against-foreign-diplomats-in-belarus/"
+		}
+	],
+	"modified": "2023-09-27T19:46:17.79Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6",
+	"spec_version": "",
+	"target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
 }

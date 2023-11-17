@@ -1,25 +1,25 @@
 {
-  "type": "relationship",
-  "id": "relationship--eeeac3c6-78d1-4506-a9a9-2518d0c6e500",
-  "created": "2017-12-14T16:46:06.044Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule tasks on a Windows system to run at a specific date and time.(Citation: TechNet Schtasks)",
-  "external_references": [
-    {
-      "description": "Microsoft. (n.d.). Schtasks. Retrieved April 28, 2016.",
-      "source_name": "TechNet Schtasks",
-      "url": "https://technet.microsoft.com/en-us/library/bb490996.aspx"
-    }
-  ],
-  "modified": "2020-03-28T21:42:39.261Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "source_ref": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
-  "spec_version": "",
-  "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--eeeac3c6-78d1-4506-a9a9-2518d0c6e500",
+	"created": "2017-12-14T16:46:06.044Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule tasks on a Windows system to run at a specific date and time.(Citation: TechNet Schtasks)",
+	"external_references": [
+		{
+			"description": "Microsoft. (n.d.). Schtasks. Retrieved April 28, 2016.",
+			"source_name": "TechNet Schtasks",
+			"url": "https://technet.microsoft.com/en-us/library/bb490996.aspx"
+		}
+	],
+	"modified": "2020-03-28T21:42:39.261Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"source_ref": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
+	"spec_version": "",
+	"target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

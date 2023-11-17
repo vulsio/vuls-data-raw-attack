@@ -1,17 +1,17 @@
 {
-  "type": "relationship",
-  "id": "relationship--c2fc4ab7-303c-4359-9504-c55e94ea9aab",
-  "created": "2020-11-05T16:01:29.588Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "modified": "2020-11-05T16:01:29.588Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "subtechnique-of",
-  "source_ref": "attack-pattern--e0232cb0-ded5-4c2e-9dc7-2893142a5c11",
-  "spec_version": "",
-  "target_ref": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--c2fc4ab7-303c-4359-9504-c55e94ea9aab",
+	"created": "2020-11-05T16:01:29.588Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"modified": "2020-11-05T16:01:29.588Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "subtechnique-of",
+	"source_ref": "attack-pattern--e0232cb0-ded5-4c2e-9dc7-2893142a5c11",
+	"spec_version": "",
+	"target_ref": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

@@ -1,21 +1,21 @@
 {
-  "type": "intrusion-set",
-  "id": "intrusion-set--9559ecaf-2e75-48a7-aee8-9974020bc772",
-  "created": "2017-05-31T21:32:07.928Z",
-  "external_references": [
-    {
-      "external_id": "G0042",
-      "source_name": "mitre-attack",
-      "url": "https://attack.mitre.org/groups/G0042"
-    }
-  ],
-  "modified": "2018-10-17T00:17:13.469Z",
-  "name": "MONSOON",
-  "revoked": true,
-  "spec_version": "",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_domains": [
-    "enterprise-attack"
-  ],
-  "x_mitre_version": "1.0"
+	"type": "intrusion-set",
+	"id": "intrusion-set--9559ecaf-2e75-48a7-aee8-9974020bc772",
+	"created": "2017-05-31T21:32:07.928Z",
+	"external_references": [
+		{
+			"external_id": "G0042",
+			"source_name": "mitre-attack",
+			"url": "https://attack.mitre.org/groups/G0042"
+		}
+	],
+	"modified": "2018-10-17T00:17:13.469Z",
+	"name": "MONSOON",
+	"revoked": true,
+	"spec_version": "",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_domains": [
+		"enterprise-attack"
+	],
+	"x_mitre_version": "1.0"
 }

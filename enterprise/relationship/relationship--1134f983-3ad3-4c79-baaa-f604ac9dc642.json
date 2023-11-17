@@ -1,47 +1,47 @@
 {
-  "type": "relationship",
-  "id": "relationship--1134f983-3ad3-4c79-baaa-f604ac9dc642",
-  "created": "2021-05-26T20:14:45.885Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has obtained and used tools like [Havij](https://attack.mitre.org/software/S0224), [sqlmap](https://attack.mitre.org/software/S0225), Metasploit, [Mimikatz](https://attack.mitre.org/software/S0002), and Plink.(Citation: Check Point Rocket Kitten)(Citation: FireEye APT35 2018)(Citation: Check Point APT35 CharmPower January 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
-  "external_references": [
-    {
-      "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018.",
-      "source_name": "Check Point Rocket Kitten",
-      "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
-    },
-    {
-      "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
-      "source_name": "Check Point APT35 CharmPower January 2022",
-      "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
-    },
-    {
-      "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
-      "source_name": "DFIR Phosphorus November 2021",
-      "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
-    },
-    {
-      "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
-      "source_name": "FireEye APT35 2018",
-      "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
-    },
-    {
-      "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity – MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
-      "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
-      "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
-    }
-  ],
-  "modified": "2023-01-12T19:50:32.746Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "revoked": false,
-  "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
-  "spec_version": "",
-  "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-  "x_mitre_attack_spec_version": "3.1.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--1134f983-3ad3-4c79-baaa-f604ac9dc642",
+	"created": "2021-05-26T20:14:45.885Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has obtained and used tools like [Havij](https://attack.mitre.org/software/S0224), [sqlmap](https://attack.mitre.org/software/S0225), Metasploit, [Mimikatz](https://attack.mitre.org/software/S0002), and Plink.(Citation: Check Point Rocket Kitten)(Citation: FireEye APT35 2018)(Citation: Check Point APT35 CharmPower January 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+	"external_references": [
+		{
+			"description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018.",
+			"source_name": "Check Point Rocket Kitten",
+			"url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+		},
+		{
+			"description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
+			"source_name": "Check Point APT35 CharmPower January 2022",
+			"url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
+		},
+		{
+			"description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+			"source_name": "DFIR Phosphorus November 2021",
+			"url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+		},
+		{
+			"description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+			"source_name": "FireEye APT35 2018",
+			"url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+		},
+		{
+			"description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity – MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+			"source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+			"url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+		}
+	],
+	"modified": "2023-01-12T19:50:32.746Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+	"spec_version": "",
+	"target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

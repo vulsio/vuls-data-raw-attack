@@ -1,40 +1,40 @@
 {
-  "type": "campaign",
-  "id": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",
-  "aliases": [
-    "Operation Honeybee"
-  ],
-  "created": "2022-09-16T21:08:54.358Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[Operation Honeybee](https://attack.mitre.org/campaigns/C0006) was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. [Operation Honeybee](https://attack.mitre.org/campaigns/C0006) initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.(Citation: McAfee Honeybee) ",
-  "external_references": [
-    {
-      "external_id": "C0006",
-      "source_name": "mitre-attack",
-      "url": "https://attack.mitre.org/campaigns/C0006"
-    },
-    {
-      "description": "Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.",
-      "source_name": "McAfee Honeybee",
-      "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/"
-    }
-  ],
-  "first_seen": "2017-08-01T05:00:00Z",
-  "last_seen": "2018-02-01T06:00:00Z",
-  "modified": "2022-10-13T17:57:06.034Z",
-  "name": "Operation Honeybee",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "revoked": false,
-  "spec_version": "",
-  "x_mitre_attack_spec_version": "3.0.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_domains": [
-    "enterprise-attack"
-  ],
-  "x_mitre_first_seen_citation": "(Citation: McAfee Honeybee)",
-  "x_mitre_last_seen_citation": "(Citation: McAfee Honeybee)",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "campaign",
+	"id": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",
+	"aliases": [
+		"Operation Honeybee"
+	],
+	"created": "2022-09-16T21:08:54.358Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Operation Honeybee](https://attack.mitre.org/campaigns/C0006) was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. [Operation Honeybee](https://attack.mitre.org/campaigns/C0006) initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.(Citation: McAfee Honeybee) ",
+	"external_references": [
+		{
+			"external_id": "C0006",
+			"source_name": "mitre-attack",
+			"url": "https://attack.mitre.org/campaigns/C0006"
+		},
+		{
+			"description": "Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.",
+			"source_name": "McAfee Honeybee",
+			"url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/"
+		}
+	],
+	"first_seen": "2017-08-01T05:00:00Z",
+	"last_seen": "2018-02-01T06:00:00Z",
+	"modified": "2022-10-13T17:57:06.034Z",
+	"name": "Operation Honeybee",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"revoked": false,
+	"spec_version": "",
+	"x_mitre_attack_spec_version": "3.0.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_domains": [
+		"enterprise-attack"
+	],
+	"x_mitre_first_seen_citation": "(Citation: McAfee Honeybee)",
+	"x_mitre_last_seen_citation": "(Citation: McAfee Honeybee)",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }

@@ -1,27 +1,27 @@
 {
-  "type": "relationship",
-  "id": "relationship--e28c174a-33d6-4fef-989f-7c58d0fb770d",
-  "created": "2023-03-29T15:49:27.117Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "[SysUpdate](https://attack.mitre.org/software/S0663) can call the `GetNetworkParams` API as part of its C2 establishment process.(Citation: Lunghi Iron Tiger Linux)",
-  "external_references": [
-    {
-      "description": "Daniel Lunghi. (2023, March 1). Iron Tiger’s SysUpdate Reappears, Adds Linux Targeting. Retrieved March 20, 2023.",
-      "source_name": "Lunghi Iron Tiger Linux",
-      "url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
-    }
-  ],
-  "modified": "2023-03-29T15:49:27.117Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "uses",
-  "revoked": false,
-  "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
-  "spec_version": "",
-  "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-  "x_mitre_attack_spec_version": "3.1.0",
-  "x_mitre_deprecated": false,
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "0.1"
+	"type": "relationship",
+	"id": "relationship--e28c174a-33d6-4fef-989f-7c58d0fb770d",
+	"created": "2023-03-29T15:49:27.117Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[SysUpdate](https://attack.mitre.org/software/S0663) can call the `GetNetworkParams` API as part of its C2 establishment process.(Citation: Lunghi Iron Tiger Linux)",
+	"external_references": [
+		{
+			"description": "Daniel Lunghi. (2023, March 1). Iron Tiger’s SysUpdate Reappears, Adds Linux Targeting. Retrieved March 20, 2023.",
+			"source_name": "Lunghi Iron Tiger Linux",
+			"url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+		}
+	],
+	"modified": "2023-03-29T15:49:27.117Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
+	"spec_version": "",
+	"target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
 }

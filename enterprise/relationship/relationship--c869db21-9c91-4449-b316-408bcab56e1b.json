@@ -1,18 +1,18 @@
 {
-  "type": "relationship",
-  "id": "relationship--c869db21-9c91-4449-b316-408bcab56e1b",
-  "created": "2019-07-18T20:58:45.951Z",
-  "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "description": "Ensure proper system and access isolation for critical network systems through use of multi-factor authentication.",
-  "modified": "2020-12-11T17:00:01.222Z",
-  "object_marking_refs": [
-    "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-  ],
-  "relationship_type": "mitigates",
-  "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
-  "spec_version": "",
-  "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
-  "x_mitre_attack_spec_version": "",
-  "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-  "x_mitre_version": "1.0"
+	"type": "relationship",
+	"id": "relationship--c869db21-9c91-4449-b316-408bcab56e1b",
+	"created": "2019-07-18T20:58:45.951Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Ensure proper system and access isolation for critical network systems through use of multi-factor authentication.",
+	"modified": "2020-12-11T17:00:01.222Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "mitigates",
+	"source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+	"spec_version": "",
+	"target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+	"x_mitre_attack_spec_version": "",
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "1.0"
 }
