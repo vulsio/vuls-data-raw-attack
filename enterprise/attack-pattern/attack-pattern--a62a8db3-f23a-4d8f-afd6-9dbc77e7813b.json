@@ -62,14 +62,14 @@
 			"phase_name": "initial-access"
 		}
 	],
-	"modified": "2023-09-08T20:27:52.947Z",
+	"modified": "2024-03-01T16:56:32.245Z",
 	"name": "Phishing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Philip Winther",
 		"Ohad Zaidenberg, @ohad_mz",
@@ -98,5 +98,5 @@
 		"Office 365",
 		"Google Workspace"
 	],
-	"x_mitre_version": "2.4"
+	"x_mitre_version": "2.5"
 }

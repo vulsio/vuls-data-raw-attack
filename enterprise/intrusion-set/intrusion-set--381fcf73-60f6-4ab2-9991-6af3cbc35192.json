@@ -9,7 +9,9 @@
 		"BlackEnergy (Group)",
 		"Quedagh",
 		"Voodoo Bear",
-		"IRIDIUM"
+		"IRIDIUM",
+		"Seashell Blizzard",
+		"FROZENBARENTS"
 	],
 	"created": "2017-05-31T21:32:04.588Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -37,8 +39,16 @@
 			"source_name": "Quedagh"
 		},
 		{
+			"description": "(Citation: Leonard TAG 2023)",
+			"source_name": "FROZENBARENTS"
+		},
+		{
 			"description": "(Citation: Microsoft Prestige ransomware October 2022)",
 			"source_name": "IRIDIUM"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Seashell Blizzard"
 		},
 		{
 			"description": "(Citation: NCSC Sandworm Feb 2020)(Citation: UK NCSC Olympic Attacks October 2020)",
@@ -51,6 +61,11 @@
 		{
 			"description": "(Citation: Secureworks IRON VIKING )(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)",
 			"source_name": "IRON VIKING"
+		},
+		{
+			"description": "Billy Leonard. (2023, April 19). Ukraine remains Russia’s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+			"source_name": "Leonard TAG 2023",
+			"url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
 		},
 		{
 			"description": "Brady, S . (2018, October 3). Indictment - United States vs Aleksei Sergeyevich Morenets, et al.. Retrieved October 1, 2020.",
@@ -76,6 +91,11 @@
 			"description": "Meyers, A. (2018, January 19). Meet CrowdStrike’s Adversary of the Month for January: VOODOO BEAR. Retrieved May 22, 2018.",
 			"source_name": "CrowdStrike VOODOO BEAR",
 			"url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-january-voodoo-bear/"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "MSTIC. (2022, October 14). New “Prestige” ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
@@ -113,7 +133,7 @@
 			"url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games"
 		}
 	],
-	"modified": "2023-10-06T14:13:06.011Z",
+	"modified": "2024-04-06T19:05:38.712Z",
 	"name": "Sandworm Team",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -131,5 +151,5 @@
 		"mobile-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.1"
+	"x_mitre_version": "4.0"
 }

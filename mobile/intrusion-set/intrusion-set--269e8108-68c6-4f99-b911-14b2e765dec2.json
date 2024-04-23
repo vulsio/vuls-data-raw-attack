@@ -7,7 +7,9 @@
 		"MERCURY",
 		"Static Kitten",
 		"Seedworm",
-		"TEMP.Zagros"
+		"TEMP.Zagros",
+		"Mango Sandstorm",
+		"TA450"
 	],
 	"created": "2018-04-18T17:59:24.739Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -29,6 +31,14 @@
 		{
 			"description": "(Citation: FireEye MuddyWater Mar 2018)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)",
 			"source_name": "TEMP.Zagros"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Mango Sandstorm"
+		},
+		{
+			"description": "(Citation: Proofpoint TA450 Phishing March 2024)",
+			"source_name": "TA450"
 		},
 		{
 			"description": "(Citation: Symantec MuddyWater Dec 2018)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)",
@@ -78,6 +88,16 @@
 			"url": "https://www.anomali.com/blog/probable-iranian-cyber-actors-static-kitten-conducting-cyberespionage-campaign-targeting-uae-and-kuwait-government-agencies"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
+			"description": "Miller, J. et al. (2024, March 21). Security Brief: TA450 Uses Embedded Links in PDF Attachments in Latest Campaign. Retrieved March 27, 2024.",
+			"source_name": "Proofpoint TA450 Phishing March 2024",
+			"url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-ta450-uses-embedded-links-pdf-attachments-latest-campaign"
+		},
+		{
 			"description": "Peretz, A. and Theck, E. (2021, March 5). Earth Vetala – MuddyWater Continues to Target Organizations in the Middle East. Retrieved March 18, 2021.",
 			"source_name": "Trend Micro Muddy Water March 2021",
 			"url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
@@ -98,14 +118,14 @@
 			"url": "https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group"
 		}
 	],
-	"modified": "2023-03-22T04:59:16.032Z",
+	"modified": "2024-04-17T16:48:06.958Z",
 	"name": "MuddyWater",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Ozer Sarilar, @ozersarilar, STM",
 		"Daniyal Naeem, BT Security"
@@ -115,5 +135,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.1"
+	"x_mitre_version": "5.0"
 }

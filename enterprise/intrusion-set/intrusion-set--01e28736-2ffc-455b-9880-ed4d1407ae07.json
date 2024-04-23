@@ -3,7 +3,9 @@
 	"id": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
 	"aliases": [
 		"Indrik Spider",
-		"Evil Corp"
+		"Evil Corp",
+		"Manatee Tempest",
+		"DEV-0243"
 	],
 	"created": "2021-01-06T17:46:35.134Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -19,9 +21,22 @@
 			"source_name": "Evil Corp"
 		},
 		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Manatee Tempest"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "DEV-0243"
+		},
+		{
 			"description": "Frankoff, S., Hartley, B. (2018, November 14). Big Game Hunting: The Evolution of INDRIK SPIDER From Dridex Wire Fraud to BitPaymer Targeted Ransomware. Retrieved January 6, 2021.",
 			"source_name": "Crowdstrike Indrik November 2018",
 			"url": "https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "Podlosky, A., Feeley, B. (2021, March 17). INDRIK SPIDER Supersedes WastedLocker with Hades Ransomware to Circumvent OFAC Sanctions. Retrieved September 15, 2021.",
@@ -34,14 +49,14 @@
 			"url": "https://home.treasury.gov/news/press-releases/sm845"
 		}
 	],
-	"modified": "2023-08-03T21:39:36.666Z",
+	"modified": "2024-04-17T22:10:56.266Z",
 	"name": "Indrik Spider",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Jennifer Kim Roman, CrowdStrike"
 	],
@@ -50,5 +65,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "4.0"
 }

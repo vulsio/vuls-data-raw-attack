@@ -52,14 +52,14 @@
 			"phase_name": "initial-access"
 		}
 	],
-	"modified": "2023-03-30T21:01:42.446Z",
+	"modified": "2024-02-26T14:23:37.009Z",
 	"name": "Supply Chain Compromise",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Veeral Patel"
 	],
@@ -79,5 +79,5 @@
 		"Windows",
 		"macOS"
 	],
-	"x_mitre_version": "1.5"
+	"x_mitre_version": "1.6"
 }

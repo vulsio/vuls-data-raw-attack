@@ -22,16 +22,18 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2020-03-26T21:25:37.306Z",
+	"modified": "2023-12-26T20:58:19.356Z",
 	"name": "Symmetric Cryptography",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Network Traffic: Network Traffic Content"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "With symmetric encryption, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures.\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.(Citation: University of Birmingham C2)",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -41,7 +43,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"Windows",
-		"macOS"
+		"macOS",
+		"Network"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

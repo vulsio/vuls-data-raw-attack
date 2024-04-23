@@ -6,25 +6,27 @@
 	"description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has encrypted configuration files.(Citation: TrendMicro Tropic Trooper Mar 2018)(Citation: TrendMicro Tropic Trooper May 2020)",
 	"external_references": [
 		{
-			"description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper’s New Strategy. Retrieved November 9, 2018.",
-			"source_name": "TrendMicro Tropic Trooper Mar 2018",
-			"url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/"
-		},
-		{
 			"description": "Chen, J.. (2020, May 12). Tropic Trooper’s Back: USBferry Attack Targets Air gapped Environments. Retrieved May 20, 2020.",
 			"source_name": "TrendMicro Tropic Trooper May 2020",
 			"url": "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf"
+		},
+		{
+			"description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper’s New Strategy. Retrieved November 9, 2018.",
+			"source_name": "TrendMicro Tropic Trooper Mar 2018",
+			"url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/"
 		}
 	],
-	"modified": "2020-05-21T12:59:00.609Z",
+	"modified": "2024-04-10T22:27:20.495Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
 	"spec_version": "",
-	"target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-	"x_mitre_attack_spec_version": "",
+	"target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

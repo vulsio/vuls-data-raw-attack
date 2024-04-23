@@ -32,7 +32,7 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2023-09-29T20:22:37.414Z",
+	"modified": "2024-04-16T12:28:21.234Z",
 	"name": "Web Protocols",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -57,7 +57,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
-		"Windows"
+		"Windows",
+		"Network"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

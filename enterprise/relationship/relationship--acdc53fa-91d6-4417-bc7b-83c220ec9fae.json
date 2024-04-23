@@ -8,18 +8,20 @@
 		{
 			"description": "Mandiant. (n.d.). Appendix C (Digital) - The Malware Arsenal. Retrieved July 18, 2016.",
 			"source_name": "Mandiant APT1 Appendix",
-			"url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report-appendix.zip"
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/mandiant-apt1-report.pdf"
 		}
 	],
-	"modified": "2019-02-12T21:28:19.649Z",
+	"modified": "2023-12-26T19:55:54.859Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "malware--b45747dc-87ca-4597-a245-7e16a61bc491",
 	"spec_version": "",
 	"target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

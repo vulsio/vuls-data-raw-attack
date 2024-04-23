@@ -9,7 +9,8 @@
 		"ITG18",
 		"Phosphorus",
 		"Newscaster",
-		"APT35"
+		"APT35",
+		"Mint Sandstorm"
 	],
 	"created": "2018-01-16T16:13:52.465Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -35,6 +36,10 @@
 		{
 			"description": "(Citation: Microsoft Phosphorus Mar 2019)(Citation: Microsoft Phosphorus Oct 2020)(Citation: US District Court of DC Phosphorus Complaint 2019)(Citation: Certfa Charming Kitten January 2021)(Citation: Proofpoint TA453 March 2021)(Citation: Check Point APT35 CharmPower January 2022)",
 			"source_name": "Phosphorus"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Mint Sandstorm"
 		},
 		{
 			"description": "(Citation: Proofpoint TA453 March 2021)(Citation: Proofpoint TA453 July2021)(Citation: Check Point APT35 CharmPower January 2022)",
@@ -103,6 +108,11 @@
 			"url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Miller, J. et al. (2021, July 13). Operation SpoofedScholars: A Conversation with TA453. Retrieved August 18, 2021.",
 			"source_name": "Proofpoint TA453 July2021",
 			"url": "https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453"
@@ -128,14 +138,14 @@
 			"url": "https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/"
 		}
 	],
-	"modified": "2023-09-11T20:43:14.739Z",
+	"modified": "2024-01-08T21:54:31.501Z",
 	"name": "Magic Hound",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Anastasios Pingios",
 		"Bryan Lee",
@@ -146,5 +156,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "5.2"
+	"x_mitre_version": "6.0"
 }

@@ -3,11 +3,11 @@
 	"id": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
 	"aliases": [
 		"GALLIUM",
-		"Operation Soft Cell"
+		"Granite Typhoon"
 	],
 	"created": "2019-07-18T20:47:50.05Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[GALLIUM](https://attack.mitre.org/groups/G0093) is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, Russia, and Vietnam. Security researchers have identified [GALLIUM](https://attack.mitre.org/groups/G0093) as a likely Chinese state-sponsored group, based in part on tools used and TTPs commonly associated with Chinese threat actors.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)(Citation: Unit 42 PingPull Jun 2022)",
+	"description": "[GALLIUM](https://attack.mitre.org/groups/G0093) is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, Russia, and Vietnam. This group is particularly known for launching Operation Soft Cell, a long-term campaign targeting telecommunications providers.(Citation: Cybereason Soft Cell June 2019) Security researchers have identified [GALLIUM](https://attack.mitre.org/groups/G0093) as a likely Chinese state-sponsored group, based in part on tools used and TTPs commonly associated with Chinese threat actors.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)(Citation: Unit 42 PingPull Jun 2022)",
 	"external_references": [
 		{
 			"external_id": "G0093",
@@ -15,17 +15,22 @@
 			"url": "https://attack.mitre.org/groups/G0093"
 		},
 		{
-			"description": "(Citation: Cybereason Soft Cell June 2019)",
-			"source_name": "Operation Soft Cell"
-		},
-		{
 			"description": "(Citation: Microsoft GALLIUM December 2019)",
 			"source_name": "GALLIUM"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Granite Typhoon"
 		},
 		{
 			"description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
 			"source_name": "Cybereason Soft Cell June 2019",
 			"url": "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "MSTIC. (2019, December 12). GALLIUM: Targeting global telecom. Retrieved January 13, 2021.",
@@ -38,14 +43,14 @@
 			"url": "https://unit42.paloaltonetworks.com/pingpull-gallium/"
 		}
 	],
-	"modified": "2022-08-12T21:26:22.303Z",
+	"modified": "2024-04-17T22:10:27.139Z",
 	"name": "GALLIUM",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Daniyal Naeem, BT Security",
 		"Cybereason Nocturnus, @nocturnus"
@@ -55,5 +60,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "4.0"
 }

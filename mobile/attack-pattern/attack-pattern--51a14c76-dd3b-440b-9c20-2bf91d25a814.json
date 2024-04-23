@@ -11,6 +11,11 @@
 			"url": "https://attack.mitre.org/techniques/T1550"
 		},
 		{
+			"description": "Microsoft. (2016, April 15). Audit Policy Recommendations. Retrieved June 3, 2016.",
+			"source_name": "TechNet Audit Policy",
+			"url": "https://technet.microsoft.com/en-us/library/dn487457.aspx"
+		},
+		{
 			"description": "NIST. (n.d.). Authentication. Retrieved January 30, 2020.",
 			"source_name": "NIST Authentication",
 			"url": "https://csrc.nist.gov/glossary/term/authentication"
@@ -19,11 +24,6 @@
 			"description": "NIST. (n.d.). Multi-Factor Authentication (MFA). Retrieved January 30, 2020.",
 			"source_name": "NIST MFA",
 			"url": "https://csrc.nist.gov/glossary/term/Multi_Factor-Authentication"
-		},
-		{
-			"description": "Microsoft. (2016, April 15). Audit Policy Recommendations. Retrieved June 3, 2016.",
-			"source_name": "TechNet Audit Policy",
-			"url": "https://technet.microsoft.com/en-us/library/dn487457.aspx"
 		}
 	],
 	"kill_chain_phases": [
@@ -36,13 +36,17 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2022-04-01T12:57:34.058Z",
+	"modified": "2024-04-12T21:18:23.798Z",
 	"name": "Use Alternate Authentication Material",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_contributors": [
+		"Blake Strom, Microsoft Threat Intelligence"
+	],
 	"x_mitre_data_sources": [
 		"Application Log: Application Log Content",
 		"Logon Session: Logon Session Creation",
@@ -53,6 +57,7 @@
 	"x_mitre_defense_bypassed": [
 		"System Access Controls"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services.(Citation: TechNet Audit Policy) Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Examples: one account logged into multiple systems simultaneously; multiple accounts logged into the same machine simultaneously; accounts logged in at odd times or outside of business hours. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access).",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -67,5 +72,5 @@
 		"IaaS",
 		"Containers"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

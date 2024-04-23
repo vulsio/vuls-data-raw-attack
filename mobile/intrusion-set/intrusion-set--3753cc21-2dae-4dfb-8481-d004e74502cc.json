@@ -5,7 +5,9 @@
 		"FIN7",
 		"GOLD NIAGARA",
 		"ITG14",
-		"Carbon Spider"
+		"Carbon Spider",
+		"ELBRUS",
+		"Sangria Tempest"
 	],
 	"created": "2017-05-31T21:32:09.46Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -23,6 +25,14 @@
 		{
 			"description": "(Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017) (Citation: Morphisec FIN7 June 2017) (Citation: FireEye FIN7 Shim Databases) (Citation: FireEye FIN7 Aug 2018)",
 			"source_name": "FIN7"
+		},
+		{
+			"description": "(Citation: Microsoft Ransomware as a Service)",
+			"source_name": "ELBRUS"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Sangria Tempest"
 		},
 		{
 			"description": "(Citation: Secureworks GOLD NIAGARA Threat Profile)",
@@ -73,6 +83,16 @@
 			"url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
+			"description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+			"source_name": "Microsoft Ransomware as a Service",
+			"url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+		},
+		{
 			"description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017.",
 			"source_name": "FireEye FIN7 March 2017",
 			"url": "https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html"
@@ -83,7 +103,7 @@
 			"url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/"
 		}
 	],
-	"modified": "2023-10-04T18:10:49.054Z",
+	"modified": "2024-04-17T22:09:41.004Z",
 	"name": "FIN7",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -100,5 +120,5 @@
 		"ics-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "4.0"
 }

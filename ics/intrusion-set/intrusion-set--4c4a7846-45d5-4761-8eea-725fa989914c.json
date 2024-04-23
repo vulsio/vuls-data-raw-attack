@@ -2,7 +2,9 @@
 	"type": "intrusion-set",
 	"id": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
 	"aliases": [
-		"Moses Staff"
+		"Moses Staff",
+		"DEV-0500",
+		"Marigold Sandstorm"
 	],
 	"created": "2022-08-11T22:47:27.686Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -14,6 +16,14 @@
 			"url": "https://attack.mitre.org/groups/G1009"
 		},
 		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "DEV-0500"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Marigold Sandstorm"
+		},
+		{
 			"description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022.",
 			"source_name": "Checkpoint MosesStaff Nov 2021",
 			"url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
@@ -22,16 +32,21 @@
 			"description": "Cybereason Nocturnus. (2022, February 1). StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations. Retrieved August 15, 2022.",
 			"source_name": "Cybereason StrifeWater Feb 2022",
 			"url": "https://www.cybereason.com/blog/research/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		}
 	],
-	"modified": "2022-10-24T18:50:12.653Z",
+	"modified": "2024-04-11T00:39:25.19Z",
 	"name": "Moses Staff",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.0.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Hiroki Nagahama, NEC Corporation",
 		"Pooja Natarajan, NEC Corporation India",
@@ -42,5 +57,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "2.0"
 }

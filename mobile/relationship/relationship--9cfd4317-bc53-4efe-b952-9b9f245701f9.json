@@ -3,15 +3,20 @@
 	"id": "relationship--9cfd4317-bc53-4efe-b952-9b9f245701f9",
 	"created": "2022-07-18T22:59:04.998Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for the enrollment of devices and user accounts with alternative security settings that do not require MFA credentials for successful logon. Monitor for attempts to disable MFA on individual user accounts.(Citation: Mandiant Cloudy Logs 2023)",
+	"description": "Monitor for the enrollment of devices and user accounts with alternative security settings that do not require MFA credentials for successful logon. Monitor for attempts to disable MFA on individual user accounts.(Citation: Mandiant Cloudy Logs 2023) Additionally, monitor for attempts to change or reset users’ MFA factor settings. For example, in Okta environments, the event `user.mfa.factor.reset_all` will trigger when all MFA factors are reset for a user. (Citation: Okta Cross-Tenant Impersonation) ",
 	"external_references": [
+		{
+			"description": "Okta Defensive Cyber Operations. (2023, August 31). Cross-Tenant Impersonation: Prevention and Detection. Retrieved March 4, 2024.",
+			"source_name": "Okta Cross-Tenant Impersonation",
+			"url": "https://sec.okta.com/articles/2023/08/cross-tenant-impersonation-prevention-and-detection"
+		},
 		{
 			"description": "Pany, D. & Hanley, C. (2023, May 3). Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations. Retrieved October 16, 2023.",
 			"source_name": "Mandiant Cloudy Logs 2023",
 			"url": "https://www.mandiant.com/resources/blog/cloud-bad-log-configurations"
 		}
 	],
-	"modified": "2023-10-16T17:20:29.617Z",
+	"modified": "2024-03-04T21:04:44.251Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -32,16 +32,18 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2021-04-20T19:27:46.484Z",
+	"modified": "2023-12-26T20:59:21.941Z",
 	"name": "Asymmetric Cryptography",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Network Traffic: Network Traffic Content"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "SSL/TLS inspection is one way of detecting command and control traffic within some encrypted communication channels.(Citation: SANS Decrypting SSL) SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation.(Citation: SEI SSL Inspection Risks)\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.(Citation: University of Birmingham C2)",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -51,7 +53,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
-		"Windows"
+		"Windows",
+		"Network"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

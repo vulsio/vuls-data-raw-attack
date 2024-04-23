@@ -3,7 +3,7 @@
 	"id": "attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a",
 	"created": "2021-10-05T01:15:06.293Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may reflectively load code into a process in order to conceal the execution of malicious payloads. Reflective loading involves allocating then executing payloads directly within the memory of the process, vice creating a thread or process backed by a file path on disk. Reflectively loaded payloads may be compiled binaries, anonymous files (only present in RAM), or just snubs of fileless executable code (ex: position-independent shellcode).(Citation: Introducing Donut)(Citation: S1 Custom Shellcode Tool)(Citation: Stuart ELF Memory)(Citation: 00sec Droppers)(Citation: Mandiant BYOL)\n\nReflective code injection is very similar to [Process Injection](https://attack.mitre.org/techniques/T1055) except that the “injection” loads code into the processes’ own memory instead of that of a separate process. Reflective loading may evade process-based detections since the execution of the arbitrary code may be masked within a legitimate or otherwise benign process. Reflectively loading payloads directly into memory may also avoid creating files or other artifacts on disk, while also enabling malware to keep these payloads encrypted (or otherwise obfuscated) until execution.(Citation: Stuart ELF Memory)(Citation: 00sec Droppers)(Citation: Intezer ACBackdoor)(Citation: S1 Old Rat New Tricks)",
+	"description": "Adversaries may reflectively load code into a process in order to conceal the execution of malicious payloads. Reflective loading involves allocating then executing payloads directly within the memory of the process, vice creating a thread or process backed by a file path on disk (e.g., [Shared Modules](https://attack.mitre.org/techniques/T1129)).\n\nReflectively loaded payloads may be compiled binaries, anonymous files (only present in RAM), or just snubs of fileless executable code (ex: position-independent shellcode).(Citation: Introducing Donut)(Citation: S1 Custom Shellcode Tool)(Citation: Stuart ELF Memory)(Citation: 00sec Droppers)(Citation: Mandiant BYOL) For example, the `Assembly.Load()` method executed by [PowerShell](https://attack.mitre.org/techniques/T1059/001) may be abused to load raw code into the running process.(Citation: Microsoft AssemblyLoad)\n\nReflective code injection is very similar to [Process Injection](https://attack.mitre.org/techniques/T1055) except that the “injection” loads code into the processes’ own memory instead of that of a separate process. Reflective loading may evade process-based detections since the execution of the arbitrary code may be masked within a legitimate or otherwise benign process. Reflectively loading payloads directly into memory may also avoid creating files or other artifacts on disk, while also enabling malware to keep these payloads encrypted (or otherwise obfuscated) until execution.(Citation: Stuart ELF Memory)(Citation: 00sec Droppers)(Citation: Intezer ACBackdoor)(Citation: S1 Old Rat New Tricks)",
 	"external_references": [
 		{
 			"external_id": "T1620",
@@ -36,6 +36,11 @@
 			"url": "https://www.mdsec.co.uk/2020/06/detecting-and-advancing-in-memory-net-tradecraft/"
 		},
 		{
+			"description": "Microsoft. (n.d.). Assembly.Load Method. Retrieved February 9, 2024.",
+			"source_name": "Microsoft AssemblyLoad",
+			"url": "https://learn.microsoft.com/dotnet/api/system.reflection.assembly.load"
+		},
+		{
 			"description": "Sanmillan, I. (2019, November 18). ACBackdoor: Analysis of a New Multiplatform Backdoor. Retrieved October 4, 2021.",
 			"source_name": "Intezer ACBackdoor",
 			"url": "https://www.intezer.com/blog/research/acbackdoor-analysis-of-a-new-multiplatform-backdoor/"
@@ -57,7 +62,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-09-29T21:09:49.267Z",
+	"modified": "2024-02-09T18:49:08.428Z",
 	"name": "Reflective Code Loading",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -70,7 +75,8 @@
 		"Shlomi Salem, SentinelOne",
 		"Lior Ribak, SentinelOne",
 		"Rex Guo, @Xiaofei_REX, Confluera",
-		"Joas Antonio dos Santos, @C0d3Cr4zy, Inmetrics"
+		"Joas Antonio dos Santos, @C0d3Cr4zy, Inmetrics",
+		"Jiraput Thamsongkrah"
 	],
 	"x_mitre_data_sources": [
 		"Module: Module Load",
@@ -93,5 +99,5 @@
 		"Linux",
 		"Windows"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

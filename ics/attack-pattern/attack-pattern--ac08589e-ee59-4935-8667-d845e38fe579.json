@@ -72,14 +72,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-05-28T16:57:27.185Z",
+	"modified": "2024-04-12T21:13:46.64Z",
 	"name": "Disable or Modify Tools",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Gordon Long, Box, Inc., @ethicalhax",
 		"Ziv Karliner, @ziv_kr, Team Nautilus Aqua Security",

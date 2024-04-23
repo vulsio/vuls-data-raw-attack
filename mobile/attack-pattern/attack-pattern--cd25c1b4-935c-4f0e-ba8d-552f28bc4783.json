@@ -18,7 +18,7 @@
 		{
 			"description": "CloudSploit. (2019, June 8). The Danger of Unused AWS Regions. Retrieved October 8, 2019.",
 			"source_name": "CloudSploit - Unused AWS Regions",
-			"url": "https://blog.cloudsploit.com/the-danger-of-unused-aws-regions-af0bf1b878fc"
+			"url": "https://medium.com/cloudsploit/the-danger-of-unused-aws-regions-af0bf1b878fc"
 		},
 		{
 			"description": "Crystal Morin. (2023, April 4). Proxyjacking has Entered the Chat. Retrieved July 6, 2023.",
@@ -52,7 +52,7 @@
 			"phase_name": "impact"
 		}
 	],
-	"modified": "2023-10-02T01:11:32.822Z",
+	"modified": "2024-02-14T21:00:00.467Z",
 	"name": "Resource Hijacking",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -70,6 +70,7 @@
 		"Goldstein Menachem"
 	],
 	"x_mitre_data_sources": [
+		"Network Traffic: Network Traffic Content",
 		"Network Traffic: Network Traffic Flow",
 		"File: File Creation",
 		"Network Traffic: Network Connection Creation",
@@ -94,5 +95,5 @@
 		"macOS",
 		"Containers"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

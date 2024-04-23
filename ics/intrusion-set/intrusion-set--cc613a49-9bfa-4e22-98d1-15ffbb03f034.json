@@ -3,7 +3,10 @@
 	"id": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
 	"aliases": [
 		"Earth Lusca",
-		"TAG-22"
+		"TAG-22",
+		"Charcoal Typhoon",
+		"CHROMIUM",
+		"ControlX"
 	],
 	"created": "2022-07-01T20:12:30.184Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -13,6 +16,18 @@
 			"external_id": "G1006",
 			"source_name": "mitre-attack",
 			"url": "https://attack.mitre.org/groups/G1006"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Charcoal Typhoon"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "ControlX"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023) (Citation: Recorded Future RedHotel August 2023)",
+			"source_name": "CHROMIUM"
 		},
 		{
 			"description": "(Citation: Recorded Future TAG-22 July 2021)",
@@ -27,21 +42,31 @@
 			"description": "INSIKT GROUP. (2021, July 8). Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling. Retrieved September 2, 2022.",
 			"source_name": "Recorded Future TAG-22 July 2021",
 			"url": "https://www.recordedfuture.com/chinese-group-tag-22-targets-nepal-philippines-taiwan"
+		},
+		{
+			"description": "Insikt Group. (2023, August 8). RedHotel: A Prolific, Chinese State-Sponsored Group Operating at a Global Scale. Retrieved March 11, 2024.",
+			"source_name": "Recorded Future RedHotel August 2023",
+			"url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0808.pdf"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		}
 	],
-	"modified": "2022-10-17T19:51:56.531Z",
+	"modified": "2024-04-10T21:38:24.226Z",
 	"name": "Earth Lusca",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack",
 		"mobile-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "2.0"
 }

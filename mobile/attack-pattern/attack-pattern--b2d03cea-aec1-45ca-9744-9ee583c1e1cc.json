@@ -22,7 +22,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-10-16T16:53:12.789Z",
+	"modified": "2024-03-07T14:28:02.91Z",
 	"name": "Credential Stuffing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -54,7 +54,8 @@
 		"Linux",
 		"macOS",
 		"Google Workspace",
-		"Containers"
+		"Containers",
+		"Network"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

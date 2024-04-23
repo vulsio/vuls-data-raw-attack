@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--e7b1f1f9-feba-45be-b48e-b8acae13a841",
+	"created": "2024-04-05T18:11:16.714Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Samurai](https://attack.mitre.org/software/S1099) can encrypt API name strings with an XOR-based algorithm.(Citation: Kaspersky ToddyCat June 2022)",
+	"external_references": [
+		{
+			"description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+			"source_name": "Kaspersky ToddyCat June 2022",
+			"url": "https://securelist.com/toddycat/106799/"
+		}
+	],
+	"modified": "2024-04-05T18:11:16.714Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",
+	"spec_version": "",
+	"target_ref": "attack-pattern--ea4c2f9c-9df1-477c-8c42-6da1118f2ac4",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

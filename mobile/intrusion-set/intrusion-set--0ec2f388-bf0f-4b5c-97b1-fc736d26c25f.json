@@ -3,10 +3,10 @@
 	"id": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
 	"aliases": [
 		"Kimsuky",
-		"STOLEN PENCIL",
-		"Thallium",
 		"Black Banshee",
-		"Velvet Chollima"
+		"Velvet Chollima",
+		"Emerald Sleet",
+		"THALLIUM"
 	],
 	"created": "2019-08-26T15:03:02.577Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -19,15 +19,15 @@
 		},
 		{
 			"description": "(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)",
-			"source_name": "Thallium"
-		},
-		{
-			"description": "(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)",
 			"source_name": "Black Banshee"
 		},
 		{
-			"description": "(Citation: Netscout Stolen Pencil Dec 2018)",
-			"source_name": "STOLEN PENCIL"
+			"description": "(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)",
+			"source_name": "THALLIUM"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Emerald Sleet"
 		},
 		{
 			"description": "(Citation: Securelist Kimsuky Sept 2013)(Citation: Malwarebytes Kimsuky June 2021)",
@@ -83,6 +83,11 @@
 			"url": "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Tarakanov , D.. (2013, September 11). The “Kimsuky” Operation: A North Korean APT?. Retrieved August 13, 2019.",
 			"source_name": "Securelist Kimsuky Sept 2013",
 			"url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
@@ -93,7 +98,7 @@
 			"url": "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/"
 		}
 	],
-	"modified": "2023-09-27T20:08:25.814Z",
+	"modified": "2024-04-17T22:11:50.321Z",
 	"name": "Kimsuky",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -110,5 +115,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.1"
+	"x_mitre_version": "4.0"
 }

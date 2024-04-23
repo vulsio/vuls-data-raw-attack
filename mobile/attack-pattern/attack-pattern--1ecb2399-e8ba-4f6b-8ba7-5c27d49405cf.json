@@ -51,14 +51,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-03-30T21:01:42.099Z",
+	"modified": "2024-04-16T12:26:07.945Z",
 	"name": "Boot or Logon Autostart Execution",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Process: OS API Execution",
 		"Module: Module Load",
@@ -86,7 +86,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
-		"Windows"
+		"Windows",
+		"Network"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

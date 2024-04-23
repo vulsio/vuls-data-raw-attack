@@ -3,8 +3,13 @@
 	"id": "relationship--a3567e77-aa1c-45dd-8217-e24df76e5def",
 	"created": "2020-11-06T18:40:38.332Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use a custom command and control protocol that can be encapsulated in HTTP or HTTPS. All protocols use their standard assigned ports.(Citation: cobaltstrike manual)(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)(Citation: Securelist APT10 March 2021)",
+	"description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use a custom command and control protocol that can be encapsulated in HTTP or HTTPS. All protocols use their standard assigned ports.(Citation: cobaltstrike manual)(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)(Citation: Securelist APT10 March 2021)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
 	"external_references": [
+		{
+			"description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+			"source_name": "Kaspersky ToddyCat Check Logs October 2023",
+			"url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+		},
 		{
 			"description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021.",
 			"source_name": "Securelist APT10 March 2021",
@@ -26,7 +31,7 @@
 			"url": "https://web.archive.org/web/20210708035426/https://www.cobaltstrike.com/downloads/csmanual43.pdf"
 		}
 	],
-	"modified": "2022-11-30T22:37:12.384Z",
+	"modified": "2024-01-22T21:51:15.701Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -35,7 +40,7 @@
 	"source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
 	"spec_version": "",
 	"target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

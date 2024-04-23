@@ -3,7 +3,8 @@
 	"id": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
 	"aliases": [
 		"LAPSUS$",
-		"DEV-0537"
+		"DEV-0537",
+		"Strawberry Tempest"
 	],
 	"created": "2022-06-09T19:14:31.327Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -15,6 +16,10 @@
 			"url": "https://attack.mitre.org/groups/G1004"
 		},
 		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Strawberry Tempest"
+		},
+		{
 			"description": "(Citation: MSTIC DEV-0537 Mar 2022)",
 			"source_name": "DEV-0537"
 		},
@@ -22,6 +27,11 @@
 			"description": "BBC. (2022, April 1). LAPSUS: Two UK Teenagers Charged with Hacking for Gang. Retrieved June 9, 2022.",
 			"source_name": "BBC LAPSUS Apr 2022",
 			"url": "https://www.bbc.com/news/technology-60953527"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022.",
@@ -34,7 +44,7 @@
 			"url": "https://unit42.paloaltonetworks.com/lapsus-group/"
 		}
 	],
-	"modified": "2023-10-20T17:06:10.335Z",
+	"modified": "2024-01-11T21:51:11.405Z",
 	"name": "LAPSUS$",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -53,5 +63,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "2.0"
 }

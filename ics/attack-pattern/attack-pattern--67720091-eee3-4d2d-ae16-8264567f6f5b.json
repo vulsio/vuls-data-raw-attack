@@ -3,12 +3,32 @@
 	"id": "attack-pattern--67720091-eee3-4d2d-ae16-8264567f6f5b",
 	"created": "2020-01-30T13:58:14.373Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may circumvent mechanisms designed to control elevate privileges to gain higher-level permissions. Most modern systems contain native elevation control mechanisms that are intended to limit privileges that a user can perform on a machine. Authorization has to be granted to specific users in order to perform tasks that can be considered of higher risk. An adversary can perform several methods to take advantage of built-in control mechanisms in order to escalate privileges on a system.",
+	"description": "Adversaries may circumvent mechanisms designed to control elevate privileges to gain higher-level permissions. Most modern systems contain native elevation control mechanisms that are intended to limit privileges that a user can perform on a machine. Authorization has to be granted to specific users in order to perform tasks that can be considered of higher risk.(Citation: TechNet How UAC Works)(Citation: sudo man page 2018) An adversary can perform several methods to take advantage of built-in control mechanisms in order to escalate privileges on a system.(Citation: OSX Keydnap malware)(Citation: Fortinet Fareit)",
 	"external_references": [
 		{
 			"external_id": "T1548",
 			"source_name": "mitre-attack",
 			"url": "https://attack.mitre.org/techniques/T1548"
+		},
+		{
+			"description": "Lich, B. (2016, May 31). How User Account Control Works. Retrieved June 3, 2016.",
+			"source_name": "TechNet How UAC Works",
+			"url": "https://technet.microsoft.com/en-us/itpro/windows/keep-secure/how-user-account-control-works"
+		},
+		{
+			"description": "Marc-Etienne M.Leveille. (2016, July 6). New OSX/Keydnap malware is hungry for credentials. Retrieved July 3, 2017.",
+			"source_name": "OSX Keydnap malware",
+			"url": "https://www.welivesecurity.com/2016/07/06/new-osxkeydnap-malware-hungry-credentials/"
+		},
+		{
+			"description": "Salvio, J., Joven, R. (2016, December 16). Malicious Macro Bypasses UAC to Elevate Privilege for Fareit Malware. Retrieved December 27, 2016.",
+			"source_name": "Fortinet Fareit",
+			"url": "https://blog.fortinet.com/2016/12/16/malicious-macro-bypasses-uac-to-elevate-privilege-for-fareit-malware"
+		},
+		{
+			"description": "Todd C. Miller. (2018). Sudo Man Page. Retrieved March 19, 2018.",
+			"source_name": "sudo man page 2018",
+			"url": "https://www.sudo.ws/"
 		}
 	],
 	"kill_chain_phases": [
@@ -21,7 +41,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-10-02T00:47:11.369Z",
+	"modified": "2024-04-15T20:52:09.908Z",
 	"name": "Abuse Elevation Control Mechanism",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -59,5 +79,5 @@
 		"Google Workspace",
 		"Azure AD"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

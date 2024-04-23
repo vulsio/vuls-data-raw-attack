@@ -9,7 +9,8 @@
 		"BRONZE MOHAWK",
 		"TEMP.Jumper",
 		"APT40",
-		"TEMP.Periscope"
+		"TEMP.Periscope",
+		"Gingham Typhoon"
 	],
 	"created": "2018-04-18T17:59:24.739Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -35,6 +36,10 @@
 		{
 			"description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: SecureWorks BRONZE MOHAWK n.d.)",
 			"source_name": "BRONZE MOHAWK"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Gingham Typhoon"
 		},
 		{
 			"description": "(Citation: Proofpoint Leviathan Oct 2017)",
@@ -83,6 +88,11 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Plan, F., et al. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019.",
 			"source_name": "FireEye APT40 March 2019",
 			"url": "https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html"
@@ -93,14 +103,14 @@
 			"url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk"
 		}
 	],
-	"modified": "2022-04-15T15:15:51.198Z",
+	"modified": "2024-01-08T20:33:16.46Z",
 	"name": "Leviathan",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Valerii Marchuk, Cybersecurity Help s.r.o."
 	],
@@ -109,5 +119,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "4.0"
 }

@@ -36,7 +36,7 @@
 			"url": "https://unit42.paloaltonetworks.com/darkside-ransomware/"
 		}
 	],
-	"modified": "2023-04-13T13:14:41.257Z",
+	"modified": "2024-04-04T03:50:32.975Z",
 	"name": "Rclone",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -46,7 +46,7 @@
 	"x_mitre_aliases": [
 		"Rclone"
 	],
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Edward Millington",
 		"Ian McKay"
@@ -61,5 +61,5 @@
 		"Windows",
 		"macOS"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

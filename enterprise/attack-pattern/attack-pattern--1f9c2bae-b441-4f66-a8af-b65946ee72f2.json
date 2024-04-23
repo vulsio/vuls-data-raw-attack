@@ -42,14 +42,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-09-19T21:25:46.568Z",
+	"modified": "2024-03-01T17:55:56.116Z",
 	"name": "SAML Tokens",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Blake Strom, Microsoft 365 Defender",
 		"Oleg Kolesnikov, Securonix",
@@ -60,7 +60,8 @@
 		"Web Credential: Web Credential Creation",
 		"Logon Session: Logon Session Creation",
 		"User Account: User Account Authentication",
-		"Logon Session: Logon Session Metadata"
+		"Logon Session: Logon Session Metadata",
+		"Process: Process Creation"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_detection": "This technique may be difficult to detect as SAML tokens are signed by a trusted certificate. The forging process may not be detectable since it is likely to happen outside of a defender's visibility, but subsequent usage of the forged token may be seen. Monitor for anomalous logins using SAML tokens created by a compromised or adversary generated token-signing certificate. These logins may occur on any on-premises resources as well as from any cloud environment that trusts the certificate.(Citation: Microsoft SolarWinds Customer Guidance) Search for logins to service providers using SAML SSO which do not have corresponding 4769, 1200, and 1202 events in the Domain.(Citation: Sygnia Golden SAML)\n\nConsider modifying SAML responses to include custom elements for each service provider. Monitor these custom elements in service provider access logs to detect any anomalous requests.(Citation: Sygnia Golden SAML)",
@@ -77,5 +78,5 @@
 		"Google Workspace",
 		"IaaS"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

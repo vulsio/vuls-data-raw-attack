@@ -3,7 +3,7 @@
 	"id": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
 	"created": "2017-12-14T16:46:06.044Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may create an account to maintain access to victim systems. With a sufficient level of access, creating such accounts may be used to establish secondary credentialed access that do not require persistent remote access tools to be deployed on the system.\n\nAccounts may be created on the local system or within a domain or cloud tenant. In cloud environments, adversaries may create accounts that only have access to specific services, which can reduce the chance of detection.",
+	"description": "Adversaries may create an account to maintain access to victim systems.(Citation: Symantec WastedLocker June 2020) With a sufficient level of access, creating such accounts may be used to establish secondary credentialed access that do not require persistent remote access tools to be deployed on the system.\n\nAccounts may be created on the local system or within a domain or cloud tenant. In cloud environments, adversaries may create accounts that only have access to specific services, which can reduce the chance of detection.",
 	"external_references": [
 		{
 			"external_id": "T1136",
@@ -14,6 +14,11 @@
 			"description": "Lich, B., Miroshnikov, A. (2017, April 5). 4720(S): A user account was created. Retrieved June 30, 2017.",
 			"source_name": "Microsoft User Creation Event",
 			"url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720"
+		},
+		{
+			"description": "Symantec Threat Intelligence. (2020, June 25). WastedLocker: Symantec Identifies Wave of Attacks Against U.S. Organizations. Retrieved May 20, 2021.",
+			"source_name": "Symantec WastedLocker June 2020",
+			"url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/wastedlocker-ransomware-us"
 		}
 	],
 	"kill_chain_phases": [
@@ -22,7 +27,7 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2023-10-16T17:42:28.207Z",
+	"modified": "2024-01-31T20:46:43.215Z",
 	"name": "Create Account",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

@@ -65,14 +65,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-08-11T21:13:52.767Z",
+	"modified": "2023-11-15T14:38:10.876Z",
 	"name": "At",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Command: Command Execution",
 		"Scheduled Job: Scheduled Job Creation",
@@ -97,5 +97,5 @@
 		"macOS"
 	],
 	"x_mitre_remote_support": true,
-	"x_mitre_version": "2.1"
+	"x_mitre_version": "2.2"
 }

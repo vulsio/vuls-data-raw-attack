@@ -3,7 +3,7 @@
 	"id": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
 	"created": "2017-05-31T21:30:18.931Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may obfuscate command and control traffic to make it more difficult to detect. Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating legitimate protocols. ",
+	"description": "Adversaries may obfuscate command and control traffic to make it more difficult to detect.(Citation: Bitdefender FunnyDream Campaign November 2020) Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating legitimate protocols. ",
 	"external_references": [
 		{
 			"external_id": "T1001",
@@ -14,6 +14,11 @@
 			"description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
 			"source_name": "University of Birmingham C2",
 			"url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+		},
+		{
+			"description": "Vrabie, V. (2020, November). Dissecting a Chinese APT Targeting South Eastern Asian Government Institutions. Retrieved September 19, 2022.",
+			"source_name": "Bitdefender FunnyDream Campaign November 2020",
+			"url": "https://www.bitdefender.com/files/News/CaseStudies/study/379/Bitdefender-Whitepaper-Chinese-APT.pdf"
 		}
 	],
 	"kill_chain_phases": [
@@ -22,16 +27,18 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2020-03-15T00:40:27.67Z",
+	"modified": "2024-02-02T19:04:35.389Z",
 	"name": "Data Obfuscation",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Network Traffic: Network Traffic Content"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
 	"x_mitre_domains": [
 		"enterprise-attack"

@@ -3,7 +3,9 @@
 	"id": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
 	"aliases": [
 		"Andariel",
-		"Silent Chollima"
+		"Silent Chollima",
+		"PLUTONIUM",
+		"Onyx Sleet"
 	],
 	"created": "2021-09-29T15:10:19.236Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -21,6 +23,14 @@
 		{
 			"description": "(Citation: FSI Andariel Campaign Rifle July 2017)",
 			"source_name": "Andariel"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "PLUTONIUM"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Onyx Sleet"
 		},
 		{
 			"description": "AhnLab. (2018, June 23). Targeted attacks by Andariel Threat Group,  a subgroup of the Lazarus. Retrieved September 29, 2021.",
@@ -48,19 +58,24 @@
 			"url": "http://www.issuemakerslab.com/research3/"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "US Treasury . (2019, September 13). Treasury Sanctions North Korean State-Sponsored Malicious Cyber Groups. Retrieved September 29, 2021.",
 			"source_name": "Treasury North Korean Cyber Groups September 2019",
 			"url": "https://home.treasury.gov/news/press-releases/sm774"
 		}
 	],
-	"modified": "2022-11-30T22:51:40.27Z",
+	"modified": "2024-01-08T21:55:29.57Z",
 	"name": "Andariel",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Kyoung-ju Kwak (S2W)"
 	],
@@ -69,5 +84,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "2.0"
 }

@@ -11,14 +11,14 @@
 			"url": "https://attack.mitre.org/techniques/T1059/004"
 		},
 		{
-			"description": "die.net. (n.d.). bash(1) - Linux man page. Retrieved June 12, 2020.",
-			"source_name": "DieNet Bash",
-			"url": "https://linux.die.net/man/1/bash"
-		},
-		{
 			"description": "Apple. (2020, January 28). Use zsh as the default shell on your Mac. Retrieved June 12, 2020.",
 			"source_name": "Apple ZShell",
 			"url": "https://support.apple.com/HT208050"
+		},
+		{
+			"description": "die.net. (n.d.). bash(1) - Linux man page. Retrieved June 12, 2020.",
+			"source_name": "DieNet Bash",
+			"url": "https://linux.die.net/man/1/bash"
 		}
 	],
 	"kill_chain_phases": [
@@ -27,31 +27,30 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2021-07-26T22:34:43.261Z",
+	"modified": "2024-04-16T12:24:40.163Z",
 	"name": "Unix Shell",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Process: Process Creation",
 		"Command: Command Execution"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Unix shell usage may be common on administrator, developer, or power user systems, depending on job function. If scripting is restricted for normal users, then any attempt to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent.\n\nScripts are likely to perform actions with various effects on a system that may generate events, depending on the types of monitoring used. Monitor processes and command-line arguments for script execution and subsequent behavior. Actions may be related to network and system information discovery, collection, or other scriptable post-compromise behaviors and could be used as indicators of detection leading back to the source script. ",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User",
-		"root"
-	],
 	"x_mitre_platforms": [
 		"macOS",
-		"Linux"
+		"Linux",
+		"Network"
 	],
 	"x_mitre_remote_support": true,
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

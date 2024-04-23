@@ -40,7 +40,7 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2023-10-16T16:47:26.119Z",
+	"modified": "2024-04-16T00:20:21.488Z",
 	"name": "Multi-Factor Authentication",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -54,6 +54,7 @@
 	],
 	"x_mitre_data_sources": [
 		"Logon Session: Logon Session Creation",
+		"Application Log: Application Log Content",
 		"Active Directory: Active Directory Object Modification",
 		"User Account: User Account Authentication",
 		"User Account: User Account Modification"
@@ -78,5 +79,5 @@
 		"Linux",
 		"macOS"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

@@ -3,7 +3,7 @@
 	"id": "attack-pattern--960c3c86-1480-4d72-b4e0-8c242e84a5c5",
 	"created": "2020-02-11T18:18:34.279Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may modify client software binaries to establish persistent access to systems. Client software enables users to access services provided by a server. Common client software types are SSH clients, FTP clients, email clients, and web browsers.\n\nAdversaries may make modifications to client software binaries to carry out malicious tasks when those applications are in use. For example, an adversary may copy source code for the client software, add a backdoor, compile for the target, and replace the legitimate application binary (or support files) with the backdoored one. An adversary may also modify an existing binary by patching in malicious functionality (e.g., IAT Hooking/Entry point patching)(Citation: Unit42 Banking Trojans Hooking 2022) prior to the binary’s legitimate execution. For example, an adversary may modify the entry point of a binary to point to malicious code patched in by the adversary before resuming normal execution flow.(Citation: ESET FontOnLake Analysis 2021)\n\nSince these applications may be routinely executed by the user, the adversary can leverage this for persistent access to the host.",
+	"description": "Adversaries may modify host software binaries to establish persistent access to systems. Software binaries/executables provide a wide range of system commands or services, programs, and libraries. Common software binaries are SSH clients, FTP clients, email clients, web browsers, and many other user or server applications.\n\nAdversaries may establish persistence though modifications to host software binaries. For example, an adversary may replace or otherwise infect a legitimate application binary (or support files) with a backdoor. Since these binaries may be routinely executed by applications or the user, the adversary can leverage this for persistent access to the host.\n\nAn adversary may also modify an existing binary by patching in malicious functionality (e.g., IAT Hooking/Entry point patching)(Citation: Unit42 Banking Trojans Hooking 2022) prior to the binary’s legitimate execution. For example, an adversary may modify the entry point of a binary to point to malicious code patched in by the adversary before resuming normal execution flow.(Citation: ESET FontOnLake Analysis 2021)",
 	"external_references": [
 		{
 			"external_id": "T1554",
@@ -27,8 +27,8 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2023-10-03T04:18:40.956Z",
-	"name": "Compromise Client Software Binary",
+	"modified": "2024-04-16T13:03:40.824Z",
+	"name": "Compromise Host Software Binary",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -56,5 +56,5 @@
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "2.0"
 }

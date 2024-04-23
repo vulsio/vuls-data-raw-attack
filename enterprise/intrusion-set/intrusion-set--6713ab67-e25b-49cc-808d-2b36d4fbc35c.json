@@ -9,7 +9,8 @@
 		"GREF",
 		"Playful Dragon",
 		"RoyalAPT",
-		"NICKEL"
+		"NICKEL",
+		"Nylon Typhoon"
 	],
 	"created": "2017-05-31T21:31:47.177Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -27,6 +28,10 @@
 		{
 			"description": "(Citation: Microsoft NICKEL December 2021)",
 			"source_name": "NICKEL"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Nylon Typhoon"
 		},
 		{
 			"description": "(Citation: NCC Group APT15 Alive and Strong)",
@@ -51,6 +56,11 @@
 		{
 			"description": "(Citation: Villeneuve et al 2014) (Citation: NCC Group APT15 Alive and Strong) (Citation: APT15 Intezer June 2018)",
 			"source_name": "Ke3chang"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022.",
@@ -78,14 +88,14 @@
 			"url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf"
 		}
 	],
-	"modified": "2022-07-22T18:52:32.762Z",
+	"modified": "2024-01-08T21:47:14.257Z",
 	"name": "Ke3chang",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Pooja Natarajan, NEC Corporation India",
 		"Manikantan Srinivasan, NEC Corporation India",
@@ -96,5 +106,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "3.0"
 }

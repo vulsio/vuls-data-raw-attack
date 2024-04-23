@@ -3,7 +3,7 @@
 	"id": "attack-pattern--8cdeb020-e31e-4f88-a582-f53dcfbda819",
 	"created": "2020-02-18T18:03:37.481Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may make new tokens and impersonate users to escalate privileges and bypass access controls. For example, if an adversary has a username and password but the user is not logged onto the system the adversary can then create a logon session for the user using the `LogonUser` function. The function will return a copy of the new session's access token and the adversary can use `SetThreadToken` to assign the token to a thread.\n\nThis behavior is distinct from [Token Impersonation/Theft](https://attack.mitre.org/techniques/T1134/001) in that this refers to creating a new user token instead of stealing or duplicating an existing one.",
+	"description": "Adversaries may make new tokens and impersonate users to escalate privileges and bypass access controls. For example, if an adversary has a username and password but the user is not logged onto the system the adversary can then create a logon session for the user using the `LogonUser` function.(Citation: LogonUserW function) The function will return a copy of the new session's access token and the adversary can use `SetThreadToken` to assign the token to a thread.\n\nThis behavior is distinct from [Token Impersonation/Theft](https://attack.mitre.org/techniques/T1134/001) in that this refers to creating a new user token instead of stealing or duplicating an existing one.",
 	"external_references": [
 		{
 			"external_id": "T1134.003",
@@ -14,6 +14,11 @@
 			"description": "Mathers, B. (2017, March 7). Command line process auditing. Retrieved April 21, 2017.",
 			"source_name": "Microsoft Command-line Logging",
 			"url": "https://technet.microsoft.com/en-us/windows-server-docs/identity/ad-ds/manage/component-updates/command-line-process-auditing"
+		},
+		{
+			"description": "Microsoft. (2023, March 10). LogonUserW function (winbase.h). Retrieved January 8, 2024.",
+			"source_name": "LogonUserW function",
+			"url": "https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonuserw"
 		}
 	],
 	"kill_chain_phases": [
@@ -26,14 +31,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-04-11T21:22:17.257Z",
+	"modified": "2024-01-10T17:55:46.905Z",
 	"name": "Make and Impersonate Token",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Jonny Johnson"
 	],

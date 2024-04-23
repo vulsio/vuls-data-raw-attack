@@ -3,7 +3,7 @@
 	"id": "relationship--c191afcc-515a-4f0c-85cc-15af0fd3674a",
 	"created": "2021-09-28T15:46:27.09Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[QakBot](https://attack.mitre.org/software/S0650) has spread through emails with malicious attachments.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: ATT QakBot April 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Deep Instinct Black Basta August 2022)",
+	"description": "[QakBot](https://attack.mitre.org/software/S0650) has spread through emails with malicious attachments.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: ATT QakBot April 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Deep Instinct Black Basta August 2022)(Citation: Microsoft Ransomware as a Service)",
 	"external_references": [
 		{
 			"description": "Cyberint. (2021, May 25). Qakbot Banking Trojan. Retrieved September 27, 2021.",
@@ -26,6 +26,11 @@
 			"url": "https://www.trendmicro.com/vinfo/ph/security/news/cybercrime-and-digital-threats/qakbot-resurges-spreads-through-vbs-files"
 		},
 		{
+			"description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+			"source_name": "Microsoft Ransomware as a Service",
+			"url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+		},
+		{
 			"description": "Morrow, D. (2021, April 15). The rise of QakBot. Retrieved September 27, 2021.",
 			"source_name": "ATT QakBot April 2021",
 			"url": "https://cybersecurity.att.com/blogs/labs-research/the-rise-of-qakbot"
@@ -46,7 +51,7 @@
 			"url": "https://www.deepinstinct.com/blog/black-basta-ransomware-threat-emergence"
 		}
 	],
-	"modified": "2023-03-10T20:38:56.321Z",
+	"modified": "2023-12-05T20:19:14.316Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -55,7 +60,7 @@
 	"source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
 	"spec_version": "",
 	"target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

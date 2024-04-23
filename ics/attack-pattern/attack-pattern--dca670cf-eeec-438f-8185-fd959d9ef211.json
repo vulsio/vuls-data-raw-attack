@@ -11,21 +11,6 @@
 			"url": "https://attack.mitre.org/techniques/T1037/004"
 		},
 		{
-			"description": "Iran Threats . (2017, December 5). Flying Kitten to Rocket Kitten, A Case of Ambiguity and Shared Code. Retrieved May 28, 2020.",
-			"source_name": "IranThreats Kittens Dec 2017",
-			"url": "https://iranthreats.github.io/resources/attribution-flying-rocket-kitten/"
-		},
-		{
-			"description": "Sanmillan, I. (2019, May 29). HiddenWasp Malware Stings Targeted Linux Systems. Retrieved June 24, 2019.",
-			"source_name": "Intezer HiddenWasp Map 2019",
-			"url": "https://www.intezer.com/blog-hiddenwasp-malware-targeting-linux-systems/"
-		},
-		{
-			"description": "Paul Litvak. (2020, May 4). Kaiji: New Chinese Linux malware turning to Golang. Retrieved December 17, 2020.",
-			"source_name": "intezer-kaiji-malware",
-			"url": "https://www.intezer.com/blog/research/kaiji-new-chinese-linux-malware-turning-to-golang/"
-		},
-		{
 			"description": "Apple. (2016, September 13). Daemons and Services Programming Guide - Creating Launch Daemons and Agents. Retrieved February 24, 2021.",
 			"source_name": "Apple Developer Doco Archive Launchd",
 			"url": "https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html"
@@ -36,14 +21,29 @@
 			"url": "https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/StartupItems.html"
 		},
 		{
+			"description": "Canonical Ltd.. (n.d.). systemd-rc-local-generator - Compatibility generator for starting /etc/rc.local and        /usr/sbin/halt.local during boot and shutdown. Retrieved February 23, 2021.",
+			"source_name": "Ubuntu Manpage systemd rc",
+			"url": "http://manpages.ubuntu.com/manpages/bionic/man8/systemd-rc-local-generator.8.html"
+		},
+		{
+			"description": "Iran Threats . (2017, December 5). Flying Kitten to Rocket Kitten, A Case of Ambiguity and Shared Code. Retrieved May 28, 2020.",
+			"source_name": "IranThreats Kittens Dec 2017",
+			"url": "https://iranthreats.github.io/resources/attribution-flying-rocket-kitten/"
+		},
+		{
 			"description": "Patrick Wardle. (2014, September). Methods of Malware Persistence on Mac OS X. Retrieved July 5, 2017.",
 			"source_name": "Methods of Mac Malware Persistence",
 			"url": "https://www.virusbulletin.com/uploads/pdf/conference/vb2014/VB2014-Wardle.pdf"
 		},
 		{
-			"description": "Canonical Ltd.. (n.d.). systemd-rc-local-generator - Compatibility generator for starting /etc/rc.local and        /usr/sbin/halt.local during boot and shutdown. Retrieved February 23, 2021.",
-			"source_name": "Ubuntu Manpage systemd rc",
-			"url": "http://manpages.ubuntu.com/manpages/bionic/man8/systemd-rc-local-generator.8.html"
+			"description": "Paul Litvak. (2020, May 4). Kaiji: New Chinese Linux malware turning to Golang. Retrieved December 17, 2020.",
+			"source_name": "intezer-kaiji-malware",
+			"url": "https://www.intezer.com/blog/research/kaiji-new-chinese-linux-malware-turning-to-golang/"
+		},
+		{
+			"description": "Sanmillan, I. (2019, May 29). HiddenWasp Malware Stings Targeted Linux Systems. Retrieved June 24, 2019.",
+			"source_name": "Intezer HiddenWasp Map 2019",
+			"url": "https://www.intezer.com/blog-hiddenwasp-malware-targeting-linux-systems/"
 		}
 	],
 	"kill_chain_phases": [
@@ -56,19 +56,21 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2021-04-27T19:58:01.927Z",
+	"modified": "2024-04-16T12:22:29.15Z",
 	"name": "RC Scripts",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"File: File Creation",
 		"Process: Process Creation",
 		"File: File Modification",
 		"Command: Command Execution"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor for unexpected changes to RC scripts in the <code>/etc/</code> directory. Monitor process execution resulting from RC scripts for unusual or unknown applications or behavior.\n\nMonitor for <code>/etc/rc.local</code> file creation. Although types of RC scripts vary for each Unix-like distribution, several execute <code>/etc/rc.local</code> if present. ",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -80,7 +82,8 @@
 	],
 	"x_mitre_platforms": [
 		"macOS",
-		"Linux"
+		"Linux",
+		"Network"
 	],
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "2.1"
 }

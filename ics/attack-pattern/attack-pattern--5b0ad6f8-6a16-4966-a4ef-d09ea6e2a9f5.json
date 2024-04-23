@@ -27,13 +27,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2020-03-23T23:35:58.129Z",
+	"modified": "2024-02-26T14:21:37.818Z",
 	"name": "Remote Service Session Hijacking",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Network Traffic: Network Traffic Flow",
 		"Network Traffic: Network Traffic Content",
@@ -41,20 +42,17 @@
 		"Process: Process Creation",
 		"Logon Session: Logon Session Creation"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Use of these services may be legitimate, depending upon the network environment and how it is used. Other factors, such as access patterns and activity that occurs after a remote login, may indicate suspicious or malicious behavior with that service. Monitor for user accounts logged into systems they would not normally access or access patterns to multiple systems over a relatively short period of time.\n\nMonitor for processes and command-line arguments associated with hijacking service sessions.",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"SYSTEM",
-		"root"
-	],
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

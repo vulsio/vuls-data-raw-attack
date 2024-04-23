@@ -3,23 +3,25 @@
 	"id": "relationship--dbbef446-8cc0-43cc-bfae-6fc6d7310e67",
 	"created": "2022-03-15T20:02:43.786Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has renamed malware to legitimate names such as <code>ESTCommon.dll</code> or <code>patch.dll</code>.(Citation: KISA Operation Muzabi)",
+	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has renamed malware to legitimate names such as <code>ESTCommon.dll</code> or <code>patch.dll</code>.(Citation: Kimsuky Malwarebytes)",
 	"external_references": [
 		{
-			"description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022.",
-			"source_name": "KISA Operation Muzabi",
-			"url": "https://www.boho.or.kr/krcert/publicationView.do?bulletin_writing_sequence=35936"
+			"description": "Hossein Jazi. (2021, June 1). Kimsuky APT continues to target South Korean government using AppleSeed backdoor. Retrieved January 10, 2024.",
+			"source_name": "Kimsuky Malwarebytes",
+			"url": "https://www.malwarebytes.com/blog/threat-intelligence/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor"
 		}
 	],
-	"modified": "2022-03-15T20:02:43.786Z",
+	"modified": "2024-01-10T14:42:22.196Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
 	"spec_version": "",
 	"target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

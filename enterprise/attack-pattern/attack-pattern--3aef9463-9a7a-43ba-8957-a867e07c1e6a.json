@@ -37,20 +37,21 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-04-07T17:20:44.77Z",
+	"modified": "2024-02-14T20:07:44.756Z",
 	"name": "Clear Command History",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Vikas Singh, Sophos",
 		"Emile Kenning, Sophos",
 		"Austin Clark, @c2defense"
 	],
 	"x_mitre_data_sources": [
+		"Process: Process Creation",
 		"File: File Deletion",
 		"File: File Modification",
 		"Command: Command Execution",
@@ -73,5 +74,5 @@
 		"Windows",
 		"Network"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

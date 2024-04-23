@@ -8,18 +8,20 @@
 		{
 			"description": "CloudSploit. (2019, June 8). The Danger of Unused AWS Regions. Retrieved October 8, 2019.",
 			"source_name": "CloudSploit - Unused AWS Regions",
-			"url": "https://blog.cloudsploit.com/the-danger-of-unused-aws-regions-af0bf1b878fc"
+			"url": "https://medium.com/cloudsploit/the-danger-of-unused-aws-regions-af0bf1b878fc"
 		}
 	],
-	"modified": "2021-04-22T16:46:43.986Z",
+	"modified": "2023-12-14T16:28:24.681Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "mitigates",
+	"revoked": false,
 	"source_ref": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
 	"spec_version": "",
 	"target_ref": "attack-pattern--59bd0dec-f8b2-4b9a-9141-37a1e6899761",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

@@ -13,7 +13,7 @@
 		{
 			"description": "CloudSploit. (2019, June 8). The Danger of Unused AWS Regions. Retrieved October 8, 2019.",
 			"source_name": "CloudSploit - Unused AWS Regions",
-			"url": "https://blog.cloudsploit.com/the-danger-of-unused-aws-regions-af0bf1b878fc"
+			"url": "https://medium.com/cloudsploit/the-danger-of-unused-aws-regions-af0bf1b878fc"
 		}
 	],
 	"kill_chain_phases": [
@@ -22,13 +22,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2021-04-22T16:46:43.876Z",
+	"modified": "2023-12-14T16:28:24.68Z",
 	"name": "Unused/Unsupported Cloud Regions",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Netskope"
 	],
@@ -36,15 +37,13 @@
 		"Instance: Instance Creation",
 		"Instance: Instance Metadata"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor system logs to review activities occurring across all cloud environments and regions. Configure alerting to notify of activity in normally unused regions or if the number of instances active in a region goes above a certain threshold.(Citation: CloudSploit - Unused AWS Regions)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"IaaS"
 	],

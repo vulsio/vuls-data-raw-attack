@@ -5,12 +5,13 @@
 		"Turla",
 		"IRON HUNTER",
 		"Group 88",
-		"Belugasturgeon",
 		"Waterbug",
 		"WhiteBear",
 		"Snake",
 		"Krypton",
-		"Venomous Bear"
+		"Venomous Bear",
+		"Secret Blizzard",
+		"BELUGASTURGEON"
 	],
 	"created": "2017-05-31T21:31:49.816Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -23,7 +24,7 @@
 		},
 		{
 			"description": "(Citation: Accenture HyperStack October 2020)",
-			"source_name": "Belugasturgeon"
+			"source_name": "BELUGASTURGEON"
 		},
 		{
 			"description": "(Citation: CrowdStrike VENOMOUS BEAR)",
@@ -44,6 +45,10 @@
 		{
 			"description": "(Citation: Leonardo Turla Penquin May 2020)",
 			"source_name": "Group 88"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Secret Blizzard"
 		},
 		{
 			"description": "(Citation: Secureworks IRON HUNTER Profile)",
@@ -104,6 +109,11 @@
 			"url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Secureworks CTU. (n.d.). IRON HUNTER. Retrieved February 22, 2022.",
 			"source_name": "Secureworks IRON HUNTER Profile",
 			"url": "http://www.secureworks.com/research/threat-profiles/iron-hunter"
@@ -118,14 +128,14 @@
 			"source_name": "WhiteBear"
 		}
 	],
-	"modified": "2023-08-02T19:48:08.774Z",
+	"modified": "2024-04-17T22:12:21.483Z",
 	"name": "Turla",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Matthieu Faou, ESET",
 		"Edward Millington"
@@ -135,5 +145,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.0"
+	"x_mitre_version": "5.0"
 }

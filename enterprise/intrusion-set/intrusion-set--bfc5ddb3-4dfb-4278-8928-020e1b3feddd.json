@@ -19,14 +19,14 @@
 			"url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
 		}
 	],
-	"modified": "2023-04-14T12:25:35.434Z",
+	"modified": "2024-04-11T00:46:59.526Z",
 	"name": "Metador",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Massimiliano Romano, BT Security",
 		"Sittikorn Sangrattanapitak"
@@ -36,5 +36,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

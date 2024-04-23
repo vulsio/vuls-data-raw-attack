@@ -3,8 +3,13 @@
 	"id": "relationship--7a38509d-5468-4b8f-831e-a4233a36a845",
 	"created": "2021-06-15T14:11:27.407Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+	"description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
 	"external_references": [
+		{
+			"description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+			"source_name": "Microsoft Ransomware as a Service",
+			"url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+		},
 		{
 			"description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
 			"source_name": "CrowdStrike Wizard Spider October 2020",
@@ -16,7 +21,7 @@
 			"url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
 		}
 	],
-	"modified": "2023-09-12T14:30:20.656Z",
+	"modified": "2023-12-04T20:04:58.7Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -25,7 +30,7 @@
 	"source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
 	"spec_version": "",
 	"target_ref": "malware--4dea7d8e-af94-4bfb-afe4-7ff54f59308b",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

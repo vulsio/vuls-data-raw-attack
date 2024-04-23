@@ -24,7 +24,7 @@
 			"url": "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
 		}
 	],
-	"modified": "2023-10-10T17:19:36.48Z",
+	"modified": "2024-04-10T22:38:45.199Z",
 	"name": "TA2541",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -41,5 +41,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

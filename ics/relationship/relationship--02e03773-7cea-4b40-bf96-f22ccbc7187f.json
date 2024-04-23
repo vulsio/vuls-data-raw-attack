@@ -3,7 +3,7 @@
 	"id": "relationship--02e03773-7cea-4b40-bf96-f22ccbc7187f",
 	"created": "2020-05-12T18:25:44.515Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+	"description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
 	"external_references": [
 		{
 			"description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
@@ -14,6 +14,11 @@
 			"description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
 			"source_name": "CrowdStrike Grim Spider May 2019",
 			"url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+		},
+		{
+			"description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+			"source_name": "Microsoft Ransomware as a Service",
+			"url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
 		},
 		{
 			"description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
@@ -31,7 +36,7 @@
 			"url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
 		}
 	],
-	"modified": "2023-09-12T14:30:20.643Z",
+	"modified": "2023-12-04T19:43:45.857Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -40,7 +45,7 @@
 	"source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
 	"spec_version": "",
 	"target_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

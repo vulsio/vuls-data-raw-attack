@@ -16,7 +16,8 @@
 		"CozyDuke",
 		"SolarStorm",
 		"Blue Kitsune",
-		"UNC3524"
+		"UNC3524",
+		"Midnight Blizzard"
 	],
 	"created": "2017-05-31T21:31:52.748Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -54,6 +55,10 @@
 		{
 			"description": "(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
 			"source_name": "UNC3524"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Midnight Blizzard"
 		},
 		{
 			"description": "(Citation: Microsoft Unidentified Dec 2018)",
@@ -143,6 +148,11 @@
 			"url": "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Microsoft Defender Research Team. (2018, December 3). Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers. Retrieved April 15, 2019.",
 			"source_name": "Microsoft Unidentified Dec 2018",
 			"url": "https://www.microsoft.com/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/"
@@ -228,7 +238,7 @@
 			"url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/"
 		}
 	],
-	"modified": "2023-10-02T21:33:07.807Z",
+	"modified": "2024-04-12T21:15:41.833Z",
 	"name": "APT29",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -240,12 +250,13 @@
 		"Daniyal Naeem, BT Security",
 		"Matt Brenton, Zurich Insurance Group",
 		"Katie Nickels, Red Canary",
-		"Joe Gumke, U.S. Bank"
+		"Joe Gumke, U.S. Bank",
+		"Liran Ravich, CardinalOps"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "5.0"
+	"x_mitre_version": "6.0"
 }

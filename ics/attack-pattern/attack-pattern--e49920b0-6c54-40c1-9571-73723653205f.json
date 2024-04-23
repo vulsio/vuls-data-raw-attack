@@ -27,7 +27,7 @@
 			"phase_name": "discovery"
 		}
 	],
-	"modified": "2023-10-16T16:51:02.852Z",
+	"modified": "2024-04-19T04:25:33.3Z",
 	"name": "Cloud Service Dashboard",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -36,7 +36,8 @@
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Praetorian"
+		"Praetorian",
+		"Obsidian Security"
 	],
 	"x_mitre_data_sources": [
 		"Logon Session: Logon Session Creation",
@@ -53,7 +54,8 @@
 		"Azure AD",
 		"Office 365",
 		"IaaS",
-		"Google Workspace"
+		"Google Workspace",
+		"SaaS"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

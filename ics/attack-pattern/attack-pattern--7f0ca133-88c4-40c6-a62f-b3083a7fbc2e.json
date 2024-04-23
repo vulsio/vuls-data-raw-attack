@@ -31,14 +31,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2022-04-19T02:50:42.074Z",
+	"modified": "2024-02-26T14:26:14.364Z",
 	"name": "Pre-OS Boot",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Drive: Drive Modification",
 		"Network Traffic: Network Connection Creation",
@@ -65,5 +65,5 @@
 		"Network",
 		"macOS"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

@@ -8,18 +8,20 @@
 		{
 			"description": "Mandiant. (2021, January 19). Remediation and Hardening Strategies for Microsoft 365 to Defend Against UNC2452. Retrieved January 22, 2021.",
 			"source_name": "Mandiant Defend UNC2452 White Paper",
-			"url": "https://www.fireeye.com/content/dam/collateral/en/wp-m-unc2452.pdf"
+			"url": "https://www.mandiant.com/resources/blog/remediation-and-hardening-strategies-for-microsoft-365-to-defend-against-unc2452"
 		}
 	],
-	"modified": "2021-09-20T16:47:19.586Z",
+	"modified": "2024-01-03T15:44:09.18Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "mitigates",
+	"revoked": false,
 	"source_ref": "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462",
 	"spec_version": "",
 	"target_ref": "attack-pattern--1f9c2bae-b441-4f66-a8af-b65946ee72f2",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

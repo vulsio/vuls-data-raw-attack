@@ -19,15 +19,6 @@
 			"source_name": "PROMETHIUM"
 		},
 		{
-			"description": "The name StrongPity has also been used to describe the group and the malware used by the group.(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)",
-			"source_name": "StrongPity"
-		},
-		{
-			"description": "Microsoft. (2016, December 14). Twin zero-day attacks: PROMETHIUM and NEODYMIUM target individuals in Europe. Retrieved November 27, 2017.",
-			"source_name": "Microsoft NEODYMIUM Dec 2016",
-			"url": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/"
-		},
-		{
 			"description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.",
 			"source_name": "Microsoft SIR Vol 21",
 			"url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf"
@@ -38,21 +29,32 @@
 			"url": "https://blog.talosintelligence.com/2020/06/promethium-extends-with-strongpity3.html"
 		},
 		{
+			"description": "Microsoft. (2016, December 14). Twin zero-day attacks: PROMETHIUM and NEODYMIUM target individuals in Europe. Retrieved November 27, 2017.",
+			"source_name": "Microsoft NEODYMIUM Dec 2016",
+			"url": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/"
+		},
+		{
+			"description": "The name StrongPity has also been used to describe the group and the malware used by the group.(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)",
+			"source_name": "StrongPity"
+		},
+		{
 			"description": "Tudorica, R. et al. (2020, June 30). StrongPity APT - Revealing Trojanized Tools, Working Hours and Infrastructure. Retrieved July 20, 2020.",
 			"source_name": "Bitdefender StrongPity June 2020",
 			"url": "https://www.bitdefender.com/files/News/CaseStudies/study/353/Bitdefender-Whitepaper-StrongPity-APT.pdf"
 		}
 	],
-	"modified": "2020-10-22T18:12:48.893Z",
+	"modified": "2024-04-19T19:35:15.637Z",
 	"name": "PROMETHIUM",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "2.1"
 }

@@ -21,7 +21,7 @@
 			"url": "https://adsecurity.org/?page_id=1821"
 		}
 	],
-	"modified": "2023-07-27T15:33:07.594Z",
+	"modified": "2024-02-09T21:31:30.227Z",
 	"name": "Mimikatz",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -31,7 +31,7 @@
 	"x_mitre_aliases": [
 		"Mimikatz"
 	],
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Vincent Le Toux"
 	],
@@ -43,5 +43,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.8"
+	"x_mitre_version": "1.9"
 }

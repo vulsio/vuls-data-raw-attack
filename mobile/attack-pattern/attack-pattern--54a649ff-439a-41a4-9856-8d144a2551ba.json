@@ -57,14 +57,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2023-06-02T15:31:40.498Z",
+	"modified": "2024-03-01T15:35:38.299Z",
 	"name": "Remote Services",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Dan Borges, @1njection"
 	],
@@ -94,5 +94,5 @@
 	"x_mitre_system_requirements": [
 		"Active remote service accepting connections and valid credentials"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

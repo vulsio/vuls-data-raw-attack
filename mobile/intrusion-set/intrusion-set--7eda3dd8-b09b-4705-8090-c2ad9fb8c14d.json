@@ -3,7 +3,9 @@
 	"id": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
 	"aliases": [
 		"TA505",
-		"Hive0065"
+		"Hive0065",
+		"Spandex Tempest",
+		"CHIMBORAZO"
 	],
 	"created": "2019-05-28T15:54:17.213Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -19,6 +21,14 @@
 			"source_name": "Hive0065"
 		},
 		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Spandex Tempest"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "CHIMBORAZO"
+		},
+		{
 			"description": "Financial Security Institute. (2020, February 28). Profiling of TA505 Threat Group That Continues to Attack the Financial Sector. Retrieved July 14, 2022.",
 			"source_name": "Korean FSI TA505 2020",
 			"url": "https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory="
@@ -27,6 +37,11 @@
 			"description": "Frydrych, M. (2020, April 14). TA505 Continues to Infect Networks With SDBbot RAT. Retrieved May 29, 2020.",
 			"source_name": "IBM TA505 April 2020",
 			"url": "https://securityintelligence.com/posts/ta505-continues-to-infect-networks-with-sdbbot-rat/"
+		},
+		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		},
 		{
 			"description": "Proofpoint Staff. (2017, September 27). Threat Actor Profile: TA505, From Dridex to GlobeImposter. Retrieved May 28, 2019.",
@@ -49,18 +64,18 @@
 			"url": "https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/"
 		}
 	],
-	"modified": "2023-03-22T05:38:20.381Z",
+	"modified": "2024-04-10T22:37:02.592Z",
 	"name": "TA505",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "2.1"
+	"x_mitre_version": "3.0"
 }

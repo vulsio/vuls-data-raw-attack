@@ -3,12 +3,17 @@
 	"id": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
 	"created": "2020-02-11T18:48:28.456Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may search for common password storage locations to obtain user credentials. Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications and services that store passwords to make them easier for users to manage and maintain, such as password managers and cloud secrets vaults. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
+	"description": "Adversaries may search for common password storage locations to obtain user credentials.(Citation: F-Secure The Dukes) Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications and services that store passwords to make them easier for users to manage and maintain, such as password managers and cloud secrets vaults. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
 	"external_references": [
 		{
 			"external_id": "T1555",
 			"source_name": "mitre-attack",
 			"url": "https://attack.mitre.org/techniques/T1555"
+		},
+		{
+			"description": "F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015.",
+			"source_name": "F-Secure The Dukes",
+			"url": "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf"
 		}
 	],
 	"kill_chain_phases": [
@@ -17,7 +22,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-09-30T20:16:41.759Z",
+	"modified": "2024-02-26T14:19:09.417Z",
 	"name": "Credentials from Password Stores",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -46,5 +51,5 @@
 		"Windows",
 		"IaaS"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

@@ -31,20 +31,21 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-08-14T15:11:30.22Z",
+	"modified": "2024-02-14T21:24:37.78Z",
 	"name": "Winlogon Helper DLL",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Praetorian"
 	],
 	"x_mitre_data_sources": [
 		"Command: Command Execution",
 		"Module: Module Load",
+		"Process: Process Creation",
 		"Windows Registry: Windows Registry Key Modification"
 	],
 	"x_mitre_deprecated": false,
@@ -61,5 +62,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

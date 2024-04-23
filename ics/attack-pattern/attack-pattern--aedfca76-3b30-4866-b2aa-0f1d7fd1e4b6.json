@@ -30,14 +30,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2022-05-05T04:07:01.191Z",
+	"modified": "2023-11-21T20:02:33.404Z",
 	"name": "Hijack Execution Flow",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Windows Registry: Windows Registry Key Modification",
 		"File: File Creation",

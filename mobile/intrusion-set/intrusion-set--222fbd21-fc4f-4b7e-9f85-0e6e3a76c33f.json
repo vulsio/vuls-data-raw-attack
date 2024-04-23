@@ -9,7 +9,8 @@
 		"APT10",
 		"Red Apollo",
 		"CVNX",
-		"HOGFISH"
+		"HOGFISH",
+		"BRONZE RIVERSIDE"
 	],
 	"created": "2017-05-31T21:32:09.054Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -49,6 +50,10 @@
 			"source_name": "CVNX"
 		},
 		{
+			"description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
+			"source_name": "BRONZE RIVERSIDE"
+		},
+		{
 			"description": "(Citation: Symantec Cicada November 2020)",
 			"source_name": "Cicada"
 		},
@@ -56,6 +61,11 @@
 			"description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
 			"source_name": "Accenture Hogfish April 2018",
 			"url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+		},
+		{
+			"description": "Counter Threat Unit Research Team . (2022, June 23). BRONZE STARLIGHT RANSOMWARE OPERATIONS USE HUI LOADER. Retrieved December 7, 2023.",
+			"source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
+			"url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
 		},
 		{
 			"description": "Crowdstrike. (2013, October 16). CrowdCasts Monthly: You Have an Adversary Problem. Retrieved March 1, 2017.",
@@ -103,14 +113,14 @@
 			"url": "https://www.justice.gov/opa/page/file/1122671/download"
 		}
 	],
-	"modified": "2023-03-23T15:06:31.019Z",
+	"modified": "2024-04-11T00:47:44.925Z",
 	"name": "menuPass",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Edward Millington",
 		"Michael Cox"
@@ -120,5 +130,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "2.1"
+	"x_mitre_version": "3.0"
 }

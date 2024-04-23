@@ -32,14 +32,14 @@
 			"phase_name": "collection"
 		}
 	],
-	"modified": "2022-04-11T22:28:36.395Z",
+	"modified": "2024-03-01T16:27:47.391Z",
 	"name": "Data from Information Repositories",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Naveen Vijayaraghavan, Nilesh Dherange (Gurucul)",
 		"Regina Elwell",
@@ -67,5 +67,5 @@
 		"Google Workspace",
 		"IaaS"
 	],
-	"x_mitre_version": "3.2"
+	"x_mitre_version": "3.3"
 }

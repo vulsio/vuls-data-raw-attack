@@ -6,30 +6,27 @@
 	"description": "The [Grandoreiro](https://attack.mitre.org/software/S0531) payload has been delivered encrypted with a custom XOR-based algorithm and also as a base64-encoded ZIP file.(Citation: Securelist Brazilian Banking Malware July 2020)(Citation: ESET Grandoreiro April 2020)(Citation: ESET Grandoreiro April 2020)",
 	"external_references": [
 		{
+			"description": "ESET. (2020, April 28). Grandoreiro: How engorged can an EXE get?. Retrieved November 13, 2020.",
+			"source_name": "ESET Grandoreiro April 2020",
+			"url": "https://www.welivesecurity.com/2020/04/28/grandoreiro-how-engorged-can-exe-get/"
+		},
+		{
 			"description": "GReAT. (2020, July 14). The Tetrade: Brazilian banking malware goes global. Retrieved November 9, 2020.",
 			"source_name": "Securelist Brazilian Banking Malware July 2020",
 			"url": "https://securelist.com/the-tetrade-brazilian-banking-malware/97779/"
-		},
-		{
-			"description": "ESET. (2020, April 28). Grandoreiro: How engorged can an EXE get?. Retrieved November 13, 2020.",
-			"source_name": "ESET Grandoreiro April 2020",
-			"url": "https://www.welivesecurity.com/2020/04/28/grandoreiro-how-engorged-can-exe-get/"
-		},
-		{
-			"description": "ESET. (2020, April 28). Grandoreiro: How engorged can an EXE get?. Retrieved November 13, 2020.",
-			"source_name": "ESET Grandoreiro April 2020",
-			"url": "https://www.welivesecurity.com/2020/04/28/grandoreiro-how-engorged-can-exe-get/"
 		}
 	],
-	"modified": "2020-11-13T21:28:40.905Z",
+	"modified": "2024-04-11T02:26:28.446Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",
 	"spec_version": "",
-	"target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-	"x_mitre_attack_spec_version": "",
+	"target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

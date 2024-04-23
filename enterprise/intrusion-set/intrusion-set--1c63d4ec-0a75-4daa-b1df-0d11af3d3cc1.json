@@ -9,7 +9,9 @@
 		"TG-4192",
 		"Crouching Yeti",
 		"IRON LIBERTY",
-		"Energetic Bear"
+		"Energetic Bear",
+		"Ghost Blizzard",
+		"BROMINE"
 	],
 	"created": "2017-05-31T21:32:05.217Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -31,6 +33,14 @@
 		{
 			"description": "(Citation: Mandiant Ukraine Cyber Threats January 2022)(Citation: Gigamon Berserk Bear October 2021)",
 			"source_name": "TEMP.Isotope"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Ghost Blizzard"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "BROMINE"
 		},
 		{
 			"description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Gigamon Berserk Bear October 2021)(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022)",
@@ -78,6 +88,11 @@
 			"url": "https://www.mandiant.com/resources/ukraine-crisis-cyber-threats"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Secureworks. (2019, July 24). MCMD Malware Analysis. Retrieved August 13, 2020.",
 			"source_name": "Secureworks MCMD July 2019",
 			"url": "https://www.secureworks.com/research/mcmd-malware-analysis"
@@ -118,7 +133,7 @@
 			"url": "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet"
 		}
 	],
-	"modified": "2023-10-01T02:45:48.973Z",
+	"modified": "2024-01-08T20:40:31.822Z",
 	"name": "Dragonfly",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -135,5 +150,5 @@
 		"ics-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.2"
+	"x_mitre_version": "4.0"
 }

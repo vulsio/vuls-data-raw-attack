@@ -37,14 +37,14 @@
 			"phase_name": "impact"
 		}
 	],
-	"modified": "2023-04-12T23:42:59.868Z",
+	"modified": "2024-04-16T13:00:33.303Z",
 	"name": "Disk Content Wipe",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Drive: Drive Modification",
 		"Drive: Drive Access",
@@ -65,7 +65,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
-		"Windows"
+		"Windows",
+		"Network"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

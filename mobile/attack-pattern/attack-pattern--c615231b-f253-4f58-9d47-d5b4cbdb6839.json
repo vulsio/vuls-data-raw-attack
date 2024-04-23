@@ -11,6 +11,11 @@
 			"url": "https://attack.mitre.org/techniques/T1553/004"
 		},
 		{
+			"description": "botconf eu. (2014, December 31). David Sancho - Finding Holes in Banking 2FA: Operation Emmental. Retrieved January 4, 2024.",
+			"source_name": "Operation Emmental",
+			"url": "https://www.youtube.com/watch?v=gchKFumYHWc"
+		},
+		{
 			"description": "Graeber, M. (2017, December 22). Code Signing Certificate Cloning Attacks and Defenses. Retrieved April 3, 2018.",
 			"source_name": "SpectorOps Code Signing Dec 2017",
 			"url": "https://posts.specterops.io/code-signing-certificate-cloning-attacks-and-defenses-6f98657fc6ec"
@@ -31,11 +36,6 @@
 			"url": "https://docs.microsoft.com/sysinternals/downloads/sigcheck"
 		},
 		{
-			"description": "Sancho, D., Hacquebord, F., Link, R. (2014, July 22). Finding Holes Operation Emmental. Retrieved February 9, 2016.",
-			"source_name": "Operation Emmental",
-			"url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-finding-holes-operation-emmental.pdf"
-		},
-		{
 			"description": "Smith, T. (2016, October 27). AppUNBlocker: Bypassing AppLocker. Retrieved December 19, 2017.",
 			"source_name": "Tripwire AppUNBlocker",
 			"url": "https://www.tripwire.com/state-of-security/off-topic/appunblocker-bypassing-applocker/"
@@ -52,14 +52,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-09-15T17:26:02.203Z",
+	"modified": "2024-01-04T20:01:27.662Z",
 	"name": "Install Root Certificate",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Matt Graeber, @mattifestation, SpecterOps",
 		"Red Canary",

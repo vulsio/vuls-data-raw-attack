@@ -52,7 +52,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-10-15T10:47:17.305Z",
+	"modified": "2024-04-12T21:13:56.431Z",
 	"name": "Disable or Modify Cloud Logs",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

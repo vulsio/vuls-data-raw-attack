@@ -5,7 +5,9 @@
 		"FIN6",
 		"Magecart Group 6",
 		"ITG08",
-		"Skeleton Spider"
+		"Skeleton Spider",
+		"TAAL",
+		"Camouflage Tempest"
 	],
 	"created": "2017-05-31T21:32:06.015Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -23,6 +25,14 @@
 		{
 			"description": "(Citation: FireEye FIN6 April 2016)",
 			"source_name": "FIN6"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "TAAL"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"source_name": "Camouflage Tempest"
 		},
 		{
 			"description": "(Citation: Security Intelligence ITG08 April 2020)",
@@ -48,6 +58,11 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html"
 		},
 		{
+			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+			"source_name": "Microsoft Threat Actor Naming July 2023",
+			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+		},
+		{
 			"description": "Villadsen, O. (2020, April 7). ITG08 (aka FIN6) Partners With TrickBot Gang, Uses Anchor Framework. Retrieved October 8, 2020.",
 			"source_name": "Security Intelligence ITG08 April 2020",
 			"url": "https://securityintelligence.com/posts/itg08-aka-fin6-partners-with-trickbot-gang-uses-anchor-framework/"
@@ -58,14 +73,14 @@
 			"url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/"
 		}
 	],
-	"modified": "2023-03-22T03:50:17.471Z",
+	"modified": "2024-01-08T22:13:27.588Z",
 	"name": "FIN6",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Center for Threat-Informed Defense (CTID)",
 		"Drew Church, Splunk"
@@ -76,5 +91,5 @@
 		"ics-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "3.3"
+	"x_mitre_version": "4.0"
 }

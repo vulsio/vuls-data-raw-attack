@@ -3,7 +3,7 @@
 	"id": "attack-pattern--6add2ab5-2711-4e9d-87c8-7a0be8531530",
 	"created": "2020-02-21T15:42:25.991Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may attempt to access cached domain credentials used to allow authentication to occur in the event a domain controller is unavailable.(Citation: Microsoft - Cached Creds)\n\nOn Windows Vista and newer, the hash format is DCC2 (Domain Cached Credentials version 2) hash, also known as MS-Cache v2 hash.(Citation: PassLib mscache) The number of default cached credentials varies and can be altered per system. This hash does not allow pass-the-hash style attacks, and instead requires [Password Cracking](https://attack.mitre.org/techniques/T1110/002) to recover the plaintext password.(Citation: ired mscache)\n\nWith SYSTEM access, the tools/utilities such as [Mimikatz](https://attack.mitre.org/software/S0002), [Reg](https://attack.mitre.org/software/S0075), and secretsdump.py can be used to extract the cached credentials.\n\nNote: Cached credentials for Windows Vista are derived using PBKDF2.(Citation: PassLib mscache)",
+	"description": "Adversaries may attempt to access cached domain credentials used to allow authentication to occur in the event a domain controller is unavailable.(Citation: Microsoft - Cached Creds)\n\nOn Windows Vista and newer, the hash format is DCC2 (Domain Cached Credentials version 2) hash, also known as MS-Cache v2 hash.(Citation: PassLib mscache) The number of default cached credentials varies and can be altered per system. This hash does not allow pass-the-hash style attacks, and instead requires [Password Cracking](https://attack.mitre.org/techniques/T1110/002) to recover the plaintext password.(Citation: ired mscache)\n\nOn Linux systems, Active Directory credentials can be accessed through caches maintained by software like System Security Services Daemon (SSSD) or Quest Authentication Services (formerly VAS). Cached credential hashes are typically located at `/var/lib/sss/db/cache.[domain].ldb` for SSSD or `/var/opt/quest/vas/authcache/vas_auth.vdb` for Quest. Adversaries can use utilities, such as `tdbdump`, on these database files to dump the cached hashes and use [Password Cracking](https://attack.mitre.org/techniques/T1110/002) to obtain the plaintext password.(Citation: Brining MimiKatz to Unix) \n\nWith SYSTEM or sudo access, the tools/utilities such as [Mimikatz](https://attack.mitre.org/software/S0002), [Reg](https://attack.mitre.org/software/S0075), and secretsdump.py for Windows or Linikatz for Linux can be used to extract the cached credentials.(Citation: Brining MimiKatz to Unix)\n\nNote: Cached credentials for Windows Vista are derived using PBKDF2.(Citation: PassLib mscache)",
 	"external_references": [
 		{
 			"external_id": "T1003.005",
@@ -29,6 +29,11 @@
 			"description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
 			"source_name": "Powersploit",
 			"url": "https://github.com/mattifestation/PowerSploit"
+		},
+		{
+			"description": "Tim Wadhwa-Brown. (2018, November). Where 2 worlds collide Bringing Mimikatz et al to UNIX. Retrieved October 13, 2021.",
+			"source_name": "Brining MimiKatz to Unix",
+			"url": "https://labs.portcullis.co.uk/download/eu-18-Wadhwa-Brown-Where-2-worlds-collide-Bringing-Mimikatz-et-al-to-UNIX.pdf"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,7 +42,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-10-19T18:37:57.025Z",
+	"modified": "2024-04-18T23:47:54.553Z",
 	"name": "Cached Domain Credentials",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -46,7 +51,9 @@
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Ed Williams, Trustwave, SpiderLabs"
+		"Ed Williams, Trustwave, SpiderLabs",
+		"Tim (Wadhwa-)Brown",
+		"Yves Yonan"
 	],
 	"x_mitre_data_sources": [
 		"Command: Command Execution"
@@ -59,7 +66,8 @@
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
-		"Windows"
+		"Windows",
+		"Linux"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

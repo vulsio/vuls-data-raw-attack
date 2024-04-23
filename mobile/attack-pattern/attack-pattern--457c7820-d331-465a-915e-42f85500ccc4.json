@@ -32,14 +32,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2022-04-18T14:52:08.678Z",
+	"modified": "2024-03-01T16:25:43.15Z",
 	"name": "System Binary Proxy Execution",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Nishan Maharjan, @loki248",
 		"Hans Christoffer Gaardløs",
@@ -72,5 +72,5 @@
 		"Linux",
 		"macOS"
 	],
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "3.1"
 }

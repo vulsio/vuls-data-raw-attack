@@ -47,21 +47,22 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2022-10-24T15:21:55.001Z",
+	"modified": "2024-03-05T16:13:38.643Z",
 	"name": "Serverless Execution",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Shailesh Tiwary (Indian Army)",
 		"Praetorian",
 		"Oleg Kolesnikov, Securonix",
 		"Cisco",
 		"Varonis Threat Labs",
-		"Alex Soler, AttackIQ"
+		"Alex Soler, AttackIQ",
+		"Vectra AI"
 	],
 	"x_mitre_data_sources": [
 		"Cloud Service: Cloud Service Modification",

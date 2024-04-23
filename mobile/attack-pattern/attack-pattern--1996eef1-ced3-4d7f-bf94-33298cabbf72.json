@@ -32,14 +32,14 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2022-06-17T13:52:03.232Z",
+	"modified": "2023-12-26T20:54:38.721Z",
 	"name": "DNS",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Jan Petrov, Citi",
 		"Chris Heald"
@@ -58,7 +58,8 @@
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
-		"Windows"
+		"Windows",
+		"Network"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }
