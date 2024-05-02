@@ -3,7 +3,7 @@
 	"id": "relationship--09585362-e286-4854-b987-69490dfac965",
 	"created": "2024-03-29T04:33:47.36Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor DLL/PE file events, specifically creation of these binary files as well as the loading of .NET assemblies into processes. Look for image loads that are not recognized or not normally loaded into a process.(Citation: PenTestLabs AppDomainManagerInject)(Citation: Rapid7 AppDomain Manager Injection)",
+	"description": "Monitor DLL/PE file events, specifically creation of these binary files as well as the loading of .NET assemblies into processes (which may not always create standard image load events).\n\nLook for image loads that are not recognized or not normally loaded into a process.(Citation: PenTestLabs AppDomainManagerInject)(Citation: Rapid7 AppDomain Manager Injection)",
 	"external_references": [
 		{
 			"description": "Administrator. (2020, May 26). APPDOMAINMANAGER INJECTION AND DETECTION. Retrieved March 28, 2024.",
@@ -16,7 +16,7 @@
 			"url": "https://www.rapid7.com/blog/post/2023/05/05/appdomain-manager-injection-new-techniques-for-red-teams/"
 		}
 	],
-	"modified": "2024-03-29T04:39:02.895Z",
+	"modified": "2024-04-28T15:50:35.14Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

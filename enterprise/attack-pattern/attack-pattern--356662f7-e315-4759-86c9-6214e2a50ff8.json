@@ -45,7 +45,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2024-04-18T15:03:32.158Z",
+	"modified": "2024-04-28T15:44:25.342Z",
 	"name": "AppDomainManager",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -55,7 +55,7 @@
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Thomas B",
-		"Ivy Bostock"
+		"Ivy Drexel"
 	],
 	"x_mitre_data_sources": [
 		"Module: Module Load",

@@ -71,7 +71,7 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2024-04-12T21:18:28.848Z",
+	"modified": "2024-04-28T15:43:18.08Z",
 	"name": "Application Access Token",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -87,7 +87,8 @@
 		"Ian Davila, Tidal Cyber",
 		"Dylan Silva, AWS Security",
 		"Jack Burns, HubSpot",
-		"Blake Strom, Microsoft Threat Intelligence"
+		"Blake Strom, Microsoft Threat Intelligence",
+		"Pawel Partyka, Microsoft Threat Intelligence"
 	],
 	"x_mitre_data_sources": [
 		"Web Credential: Web Credential Usage"

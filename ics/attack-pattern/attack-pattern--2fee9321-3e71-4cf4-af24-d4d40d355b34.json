@@ -70,7 +70,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2024-04-18T22:54:54.668Z",
+	"modified": "2024-04-28T15:51:58.945Z",
 	"name": "DLL Search Order Hijacking",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -82,8 +82,8 @@
 		"Travis Smith, Tripwire",
 		"Stefan Kanthak",
 		"Marina Liang",
-		"Will Alexander",
-		"Ami Holeston"
+		"Ami Holeston, CrowdStrike",
+		"Will Alexander, CrowdStrike"
 	],
 	"x_mitre_data_sources": [
 		"File: File Modification",
