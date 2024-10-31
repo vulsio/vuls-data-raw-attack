@@ -11,14 +11,14 @@
 			"url": "https://attack.mitre.org/techniques/T1588/002"
 		},
 		{
-			"description": "Recorded Future. (2019, June 20). Out of the Blue: How Recorded Future Identified Rogue Cobalt Strike Servers. Retrieved October 16, 2020.",
-			"source_name": "Recorded Future Beacon 2019",
-			"url": "https://www.recordedfuture.com/identifying-cobalt-strike-servers/"
-		},
-		{
 			"description": "Maynier, E. (2020, December 20). Analyzing Cobalt Strike for Fun and Profit. Retrieved October 12, 2021.",
 			"source_name": "Analyzing CS Dec 2020",
 			"url": "https://www.randhome.io/blog/2020/12/20/analyzing-cobalt-strike-for-fun-and-profit/"
+		},
+		{
+			"description": "Recorded Future. (2019, June 20). Out of the Blue: How Recorded Future Identified Rogue Cobalt Strike Servers. Retrieved September 16, 2024.",
+			"source_name": "Recorded Future Beacon 2019",
+			"url": "https://www.recordedfuture.com/blog/identifying-cobalt-strike-servers"
 		}
 	],
 	"kill_chain_phases": [
@@ -27,13 +27,14 @@
 			"phase_name": "resource-development"
 		}
 	],
-	"modified": "2021-10-17T16:17:55.499Z",
+	"modified": "2024-09-16T16:20:16.431Z",
 	"name": "Tool",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"SOCCRATES",
 		"Mnemonic AS"
@@ -41,6 +42,7 @@
 	"x_mitre_data_sources": [
 		"Malware Repository: Malware Metadata"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "In some cases, malware repositories can also be used to identify features of tool use associated with an adversary, such as watermarks in [Cobalt Strike](https://attack.mitre.org/software/S0154) payloads.(Citation: Analyzing CS Dec 2020)\n\nMuch of this activity will take place outside the visibility of the target organization, making detection of this behavior difficult. Detection efforts may be focused on post-compromise phases of the adversary lifecycle.",
 	"x_mitre_domains": [
 		"enterprise-attack"

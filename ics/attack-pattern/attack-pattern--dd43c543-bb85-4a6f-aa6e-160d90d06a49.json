@@ -32,14 +32,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-04-14T23:26:24.262Z",
+	"modified": "2024-10-15T16:37:20.612Z",
 	"name": "Multi-Factor Authentication Interception",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"John Lambert, Microsoft Threat Intelligence Center"
 	],

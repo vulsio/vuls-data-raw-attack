@@ -26,7 +26,7 @@
 			"url": "https://github.com/BloodHoundAD/BloodHound"
 		}
 	],
-	"modified": "2023-08-09T18:00:13.178Z",
+	"modified": "2024-09-25T20:33:37.892Z",
 	"name": "BloodHound",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -36,7 +36,7 @@
 	"x_mitre_aliases": [
 		"BloodHound"
 	],
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -45,5 +45,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.5"
+	"x_mitre_version": "1.6"
 }

@@ -74,6 +74,7 @@
 		"Script: Script Execution",
 		"File: File Creation",
 		"Module: Module Load",
+		"Application Log: Application Log Content",
 		"Command: Command Execution",
 		"File: File Metadata",
 		"Process: OS API Execution",

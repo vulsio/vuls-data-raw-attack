@@ -54,12 +54,12 @@
 			"url": "https://unit42.paloaltonetworks.com/black-t-cryptojacking-variant/"
 		},
 		{
-			"description": "Stroud, J. (2021, May 25). Taking TeamTNT's Docker Images Offline. Retrieved September 22, 2021.",
+			"description": "Stroud, J. (2021, May 25). Taking TeamTNT's Docker Images Offline. Retrieved September 16, 2024.",
 			"source_name": "Lacework TeamTNT May 2021",
-			"url": "https://www.lacework.com/blog/taking-teamtnt-docker-images-offline/"
+			"url": "https://www.lacework.com/blog/taking-teamtnt-docker-images-offline"
 		}
 	],
-	"modified": "2024-04-10T22:34:04.07Z",
+	"modified": "2024-09-16T16:23:56.908Z",
 	"name": "TeamTNT",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

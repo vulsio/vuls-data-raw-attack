@@ -39,9 +39,9 @@
 			"url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
 		},
 		{
-			"description": "INSIKT GROUP. (2021, July 8). Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling. Retrieved September 2, 2022.",
+			"description": "INSIKT GROUP. (2021, July 8). Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling. Retrieved September 16, 2024.",
 			"source_name": "Recorded Future TAG-22 July 2021",
-			"url": "https://www.recordedfuture.com/chinese-group-tag-22-targets-nepal-philippines-taiwan"
+			"url": "https://www.recordedfuture.com/research/chinese-group-tag-22-targets-nepal-philippines-taiwan"
 		},
 		{
 			"description": "Insikt Group. (2023, August 8). RedHotel: A Prolific, Chinese State-Sponsored Group Operating at a Global Scale. Retrieved March 11, 2024.",
@@ -54,7 +54,7 @@
 			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
 		}
 	],
-	"modified": "2024-04-10T21:38:24.226Z",
+	"modified": "2024-09-16T16:18:00.876Z",
 	"name": "Earth Lusca",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

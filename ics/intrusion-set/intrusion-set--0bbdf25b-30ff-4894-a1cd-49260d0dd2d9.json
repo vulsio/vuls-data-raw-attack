@@ -53,9 +53,9 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
 		},
 		{
-			"description": "Insikt Group (Recorded Future). (2017, May 17). Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3. Retrieved June 18, 2017.",
+			"description": "Insikt Group (Recorded Future). (2017, May 17). Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3. Retrieved September 16, 2024.",
 			"source_name": "Recorded Future APT3 May 2017",
-			"url": "https://www.recordedfuture.com/chinese-mss-behind-apt3/"
+			"url": "https://www.recordedfuture.com/research/chinese-mss-behind-apt3"
 		},
 		{
 			"description": "Lancaster, T. (2015, July 25). A tale of Pirpi, Scanbox & CVE-2015-3113. Retrieved March 30, 2016.",
@@ -73,7 +73,7 @@
 			"url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
 		}
 	],
-	"modified": "2024-02-06T17:49:35.261Z",
+	"modified": "2024-09-16T16:18:53.978Z",
 	"name": "APT3",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

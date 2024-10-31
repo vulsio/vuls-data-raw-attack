@@ -118,7 +118,7 @@
 			"url": "https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group"
 		}
 	],
-	"modified": "2024-04-17T16:48:06.958Z",
+	"modified": "2024-08-29T14:59:08.071Z",
 	"name": "MuddyWater",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -128,12 +128,13 @@
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Ozer Sarilar, @ozersarilar, STM",
-		"Daniyal Naeem, BT Security"
+		"Daniyal Naeem, BT Security",
+		"Marco Pedrinazzi, @pedrinazziM"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "5.0"
+	"x_mitre_version": "5.1"
 }

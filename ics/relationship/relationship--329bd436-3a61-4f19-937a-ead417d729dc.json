@@ -1,0 +1,32 @@
+{
+	"type": "relationship",
+	"id": "relationship--329bd436-3a61-4f19-937a-ead417d729dc",
+	"created": "2024-06-20T19:28:08.022Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "Monitor for API calls that may delete or alter generated artifacts on a host system. APIs (e.g., `SetFileTime`, `NtSetInformationFile`, `NtQueryInformationFile`) can be utilized to manipulate timestamps.(Citation: API)(Citation: Inversecos Timestomping 2022)",
+	"external_references": [
+		{
+			"description": "Lina Lau. (2022, April 28). Defence Evasion Technique: Timestomping Detection – NTFS Forensics. Retrieved September 30, 2024.",
+			"source_name": "Inversecos Timestomping 2022",
+			"url": "https://www.inversecos.com/2022/04/defence-evasion-technique-timestomping.html"
+		},
+		{
+			"description": "Vishavjit Singh. (2023, June 22). TIMESTOMPING EXPLAINED ON API LEVEL. Retrieved June 20, 2024.",
+			"source_name": "API",
+			"url": "https://medium.com/@vishavjitsingh.csi/timestomping-explained-on-api-level-f0c219cf3dc9"
+		}
+	],
+	"modified": "2024-09-30T14:44:23.331Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "detects",
+	"revoked": false,
+	"source_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+	"spec_version": "",
+	"target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

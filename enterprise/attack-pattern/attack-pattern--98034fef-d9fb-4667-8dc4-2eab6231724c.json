@@ -16,9 +16,9 @@
 			"url": "https://support.microsoft.com/en-us/help/18539/windows-7-change-default-programs"
 		},
 		{
-			"description": "Microsoft. (n.d.). Specifying File Handlers for File Name Extensions. Retrieved November 13, 2014.",
+			"description": "Microsoft. (n.d.). Specifying File Handlers for File Name Extensions. Retrieved September 12, 2024.",
 			"source_name": "Microsoft File Handlers",
-			"url": "http://msdn.microsoft.com/en-us/library/bb166549.aspx"
+			"url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/extensibility/specifying-file-handlers-for-file-name-extensions?view=vs-2015"
 		},
 		{
 			"description": "Plett, C. et al.. (2017, October 15). assoc. Retrieved August 7, 2018.",
@@ -41,14 +41,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2023-03-30T21:01:40.699Z",
+	"modified": "2024-09-12T15:27:11.065Z",
 	"name": "Change Default File Association",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Travis Smith, Tripwire",
 		"Stefan Kanthak"

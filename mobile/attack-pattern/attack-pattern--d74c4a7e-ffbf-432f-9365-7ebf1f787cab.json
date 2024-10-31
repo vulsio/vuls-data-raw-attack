@@ -11,24 +11,24 @@
 			"url": "https://attack.mitre.org/techniques/T1498"
 		},
 		{
+			"description": "Cisco. (n.d.). Detecting and Analyzing Network Threats With NetFlow. Retrieved April 25, 2019.",
+			"source_name": "Cisco DoSdetectNetflow",
+			"url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/netflow/configuration/15-mt/nf-15-mt-book/nf-detct-analy-thrts.pdf"
+		},
+		{
+			"description": "FS-ISAC. (2012, September 17). Fraud Alert – Cyber Criminals Targeting Financial Institution Employee Credentials to Conduct Wire Transfer Fraud. Retrieved September 23, 2024.",
+			"source_name": "FSISAC FraudNetDoS September 2012",
+			"url": "https://www.ic3.gov/Media/PDF/Y2012/FraudAlertFinancialInstitutionEmployeeCredentialsTargeted.pdf"
+		},
+		{
 			"description": "Ned Moran, Mike Scott, Mike Oppenheim of FireEye. (2014, November 3). Operation Poisoned Handover: Unveiling Ties Between APT Activity in Hong Kong’s Pro-Democracy Movement. Retrieved April 18, 2019.",
 			"source_name": "FireEye OpPoisonedHandover February 2016",
 			"url": "https://www.fireeye.com/blog/threat-research/2014/11/operation-poisoned-handover-unveiling-ties-between-apt-activity-in-hong-kongs-pro-democracy-movement.html"
 		},
 		{
-			"description": "FS-ISAC. (2012, September 17). Fraud Alert – Cyber Criminals Targeting Financial Institution Employee Credentials to Conduct Wire Transfer Fraud. Retrieved April 18, 2019.",
-			"source_name": "FSISAC FraudNetDoS September 2012",
-			"url": "https://www.ic3.gov/media/2012/FraudAlertFinancialInstitutionEmployeeCredentialsTargeted.pdf"
-		},
-		{
 			"description": "Wueest, C.. (2014, October 21). The continued rise of DDoS attacks. Retrieved April 24, 2019.",
 			"source_name": "Symantec DDoS October 2014",
 			"url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-continued-rise-of-ddos-attacks.pdf"
-		},
-		{
-			"description": "Cisco. (n.d.). Detecting and Analyzing Network Threats With NetFlow. Retrieved April 25, 2019.",
-			"source_name": "Cisco DoSdetectNetflow",
-			"url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/netflow/configuration/15-mt/nf-15-mt-book/nf-detct-analy-thrts.pdf"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,13 +37,14 @@
 			"phase_name": "impact"
 		}
 	],
-	"modified": "2022-03-25T20:05:40.122Z",
+	"modified": "2024-10-15T16:01:00.51Z",
 	"name": "Network Denial of Service",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Yossi Weizman, Azure Defender Research Team",
 		"Vishwas Manral, McAfee"
@@ -52,6 +53,7 @@
 		"Network Traffic: Network Traffic Flow",
 		"Sensor Health: Host Status"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Detection of Network DoS can sometimes be achieved before the traffic volume is sufficient to cause impact to the availability of the service, but such response time typically requires very aggressive monitoring and responsiveness or services provided by an upstream network service provider. Typical network throughput monitoring tools such as netflow(Citation: Cisco DoSdetectNetflow), SNMP, and custom scripts can be used to detect sudden increases in network or service utilization. Real-time, automated, and qualitative study of the network traffic can identify a sudden surge in one type of protocol can be used to detect an Network DoS event as it starts. Often, the lead time may be small and the indicator of an event availability of the network or service drops. The analysis tools mentioned can then be used to determine the type of DoS causing the outage and help with remediation.",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -63,14 +65,10 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Azure AD",
-		"Office 365",
-		"SaaS",
 		"IaaS",
 		"Linux",
 		"macOS",
-		"Google Workspace",
 		"Containers"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

@@ -17,31 +17,31 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2020-03-11T14:43:31.706Z",
+	"modified": "2024-09-10T16:40:03.786Z",
 	"name": "Malicious Link",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"File: File Creation",
 		"Network Traffic: Network Traffic Content",
 		"Network Traffic: Network Connection Creation"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Inspect network traffic for indications that a user visited a malicious site, such as links included in phishing campaigns directed at your organization.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded from a link and executed on the user's computer.",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_remote_support": false,
+	"x_mitre_version": "1.1"
 }

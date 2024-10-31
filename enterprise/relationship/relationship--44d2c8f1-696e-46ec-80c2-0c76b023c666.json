@@ -3,8 +3,8 @@
 	"id": "relationship--44d2c8f1-696e-46ec-80c2-0c76b023c666",
 	"created": "2024-03-21T21:25:29.856Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for changes to files associated with TCC settings, such as `/Library/Application Support/com.apple.TCC/TCC.db`.",
-	"modified": "2024-04-15T21:19:43.957Z",
+	"description": "Monitor for changes to files associated with TCC settings, such as `/Library/Application Support/com.apple.TCC/TCC.db` and the overwrites file.",
+	"modified": "2024-10-16T22:40:12.648Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -3,7 +3,7 @@
 	"id": "relationship--102733a2-3df3-4b80-babf-89653b5357f4",
 	"created": "2022-03-30T14:26:51.837Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor the activity of cloud accounts to detect abnormal or malicious behavior, such as accessing information outside of the normal function of the account, account usage at atypical hours, or account authentication from unexpected locations or IP addresses. Service accounts should only be accessible from IP addresses from within the cloud environment.(Citation: Palo Alto Unit 42 Compromised Cloud Compute Credentials 2022) For example, in Azure AD environments, consider using Identity Protection to flag risky sign-ins based on location, device compliance, and other factors. In Okta environments, configure Suspicious Activity Reporting to allow users to report suspicious logins and other behavior they do not recognize.(Citation: Okta Cross-Tenant Impersonation)",
+	"description": "Monitor the activity of cloud accounts to detect abnormal or malicious behavior, such as accessing information outside of the normal function of the account, account usage at atypical hours, or account authentication from unexpected locations or IP addresses. Service accounts should only be accessible from IP addresses from within the cloud environment.(Citation: Palo Alto Unit 42 Compromised Cloud Compute Credentials 2022) For example, in Azure AD environments, consider using Identity Protection to flag risky sign-ins based on location, device compliance, and other factors. In Okta environments, configure Suspicious Activity Reporting to allow users to report suspicious logins and other behavior they do not recognize.(Citation: Okta Cross-Tenant Impersonation)\n\nAnalytic 1 - Anomalous IP addresses, unmanaged devices, unusual User Agents indicating automation tools or scripts\n\nNote: To detect suspicious logins to cloud accounts using valid credentials from unusual sources.\n\n<code> \"`index=\"\"m365_audit_logs\"\" Operation=\"\"UserLoggedIn\"\" ResultStatus=\"\"Success\"\"\n| stats count by ClientIP, UserId, DeviceProperties\n| where ClientIP!=\"\"expected_ip\"\" OR DeviceProperties!=\"\"expected_properties\"\"\"</code>",
 	"external_references": [
 		{
 			"description": "Dror Alon. (2022, December 8). Compromised Cloud Compute Credentials: Case Studies From the Wild. Retrieved March 9, 2023.",
@@ -16,7 +16,7 @@
 			"url": "https://sec.okta.com/articles/2023/08/cross-tenant-impersonation-prevention-and-detection"
 		}
 	],
-	"modified": "2024-03-04T21:07:02.807Z",
+	"modified": "2024-08-19T17:02:12.152Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

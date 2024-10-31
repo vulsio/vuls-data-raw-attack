@@ -6,16 +6,6 @@
 	"description": "(Citation: FireEye APT38 Oct 2018)(Citation: LogRhythm WannaCry)(Citation: FireEye WannaCry 2017)(Citation: SecureWorks WannaCry Analysis)",
 	"external_references": [
 		{
-			"description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.",
-			"source_name": "FireEye APT38 Oct 2018",
-			"url": "https://content.fireeye.com/apt/rpt-apt38"
-		},
-		{
-			"description": "Noerenberg, E., Costis, A., and Quist, N. (2017, May 16). A Technical Analysis of WannaCry Ransomware. Retrieved March 25, 2019.",
-			"source_name": "LogRhythm WannaCry",
-			"url": "https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/"
-		},
-		{
 			"description": "Berry, A., Homan, J., and Eitzman, R. (2017, May 23). WannaCry Malware Profile. Retrieved March 15, 2019.",
 			"source_name": "FireEye WannaCry 2017",
 			"url": "https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html"
@@ -24,17 +14,29 @@
 			"description": "Counter Threat Unit Research Team. (2017, May 18). WCry Ransomware Analysis. Retrieved March 26, 2019.",
 			"source_name": "SecureWorks WannaCry Analysis",
 			"url": "https://www.secureworks.com/research/wcry-ransomware-analysis"
+		},
+		{
+			"description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.",
+			"source_name": "FireEye APT38 Oct 2018",
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-apt38-2018-web_v5-1.pdf"
+		},
+		{
+			"description": "Noerenberg, E., Costis, A., and Quist, N. (2017, May 16). A Technical Analysis of WannaCry Ransomware. Retrieved March 25, 2019.",
+			"source_name": "LogRhythm WannaCry",
+			"url": "https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/"
 		}
 	],
-	"modified": "2019-09-09T19:15:45.677Z",
+	"modified": "2024-08-26T16:33:33.986Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
 	"spec_version": "",
 	"target_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

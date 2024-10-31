@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1505/005"
 		},
 		{
-			"description": "James. (2019, July 14). @James_inthe_box. Retrieved March 28, 2022.",
+			"description": "James. (2019, July 14). @James_inthe_box. Retrieved September 12, 2024.",
 			"source_name": "James TermServ DLL",
-			"url": "https://twitter.com/james_inthe_box/status/1150495335812177920"
+			"url": "https://x.com/james_inthe_box/status/1150495335812177920"
 		},
 		{
 			"description": "Microsoft. (2018, February 17). Windows System Services Fundamentals. Retrieved March 28, 2022.",
@@ -42,14 +42,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2022-04-18T20:22:44.971Z",
+	"modified": "2024-09-12T19:40:42.81Z",
 	"name": "Terminal Services DLL",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Module: Module Load",
 		"Command: Command Execution",

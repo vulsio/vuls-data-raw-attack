@@ -26,13 +26,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-03-30T21:01:41.752Z",
+	"modified": "2024-08-13T17:33:45.244Z",
 	"name": "Input Capture",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"John Lambert, Microsoft Threat Intelligence Center"
 	],
@@ -44,23 +45,18 @@
 		"Process: OS API Execution",
 		"Driver: Driver Load"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Detection may vary depending on how input is captured but may include monitoring for certain Windows API calls (e.g. `SetWindowsHook`, `GetKeyState`, and `GetAsyncKeyState`)(Citation: Adventures of a Keystroke), monitoring for malicious instances of [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), and ensuring no unauthorized drivers or kernel modules that could indicate keylogging or API hooking are present.",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"Administrator",
-		"SYSTEM",
-		"root",
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows",
 		"Network"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

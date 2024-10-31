@@ -78,9 +78,9 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
 		},
 		{
-			"description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014.",
+			"description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved September 19, 2024.",
 			"source_name": "FireEye Poison Ivy",
-			"url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf"
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
 		},
 		{
 			"description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
@@ -113,7 +113,7 @@
 			"url": "https://www.justice.gov/opa/page/file/1122671/download"
 		}
 	],
-	"modified": "2024-04-11T00:47:44.925Z",
+	"modified": "2024-09-19T14:30:03.922Z",
 	"name": "menuPass",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

@@ -3,8 +3,8 @@
 	"id": "relationship--ad13d567-26ad-46bf-86ba-e2b050d31820",
 	"created": "2023-12-27T18:00:47.678Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for the unexpected creation of memory dump files (e.g., `lsass{*}.dmp`) for processes that may contain credentials, such as LSASS.",
-	"modified": "2023-12-27T18:00:47.678Z",
+	"description": "Monitor for the unexpected creation of memory dump files for processes that may contain credentials.\n\nAnalytic 1 - Unexpected memory dump file creation.\n\n<code>(index=security sourcetype=\"WinEventLog:Security\" EventCode=4663 ObjectName IN (\"*lsass*.dmp\", \"*\\\\config\\\\SAM\", \"*\\\\ntds.dit\", \"*\\\\policy\\\\secrets\", \"*\\\\cache\"))\nOR \n(index=security sourcetype=\"linux_secure\" (key=\"path\" value IN (\"/etc/passwd\", \"/etc/shadow\")))\nOR \n(index=security sourcetype=\"macOS:UnifiedLog\" message IN (\"/var/db/shadow/hash/*\", \"/private/etc/master.passwd\"))</code>",
+	"modified": "2024-08-12T18:59:02.509Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

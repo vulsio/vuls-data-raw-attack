@@ -25,12 +25,12 @@
 			"url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/"
 		},
 		{
-			"description": "Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.",
+			"description": "Magius, J., et al. (2017, July 19). Koadic. Retrieved September 27, 2024.",
 			"source_name": "Github Koadic",
-			"url": "https://github.com/zerosum0x0/koadic"
+			"url": "https://github.com/offsecginger/koadic"
 		}
 	],
-	"modified": "2022-04-06T19:32:33.511Z",
+	"modified": "2024-09-27T18:36:30.831Z",
 	"name": "Koadic",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -40,7 +40,7 @@
 	"x_mitre_aliases": [
 		"Koadic"
 	],
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"

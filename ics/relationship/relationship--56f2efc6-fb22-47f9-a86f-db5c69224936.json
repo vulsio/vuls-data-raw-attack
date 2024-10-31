@@ -3,7 +3,7 @@
 	"id": "relationship--56f2efc6-fb22-47f9-a86f-db5c69224936",
 	"created": "2022-03-04T18:30:39.092Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Require multi-factor authentication to register devices in Azure AD.(Citation: Microsoft - Device Registration) Configure multi-factor authentication systems to disallow enrolling new devices for inactive accounts.(Citation: CISA MFA PrintNightmare) When first enrolling MFA, use conditional access policies to restrict device enrollment to trusted locations or devices, and consider using temporary access passes as an initial MFA solution to enroll a device.(Citation: Mandiant APT29 Microsoft 365 2022)",
+	"description": "Require multi-factor authentication to register devices in Entra ID.(Citation: Microsoft - Device Registration) Configure multi-factor authentication systems to disallow enrolling new devices for inactive accounts.(Citation: CISA MFA PrintNightmare) When first enrolling MFA, use conditional access policies to restrict device enrollment to trusted locations or devices, and consider using temporary access passes as an initial MFA solution to enroll a device.(Citation: Mandiant APT29 Microsoft 365 2022)",
 	"external_references": [
 		{
 			"description": "Cybersecurity and Infrastructure Security Agency. (2022, March 15). Russian State-Sponsored Cyber Actors Gain Network Access by Exploiting Default Multifactor Authentication Protocols and “PrintNightmare” Vulnerability. Retrieved March 16, 2022.",
@@ -21,7 +21,7 @@
 			"url": "https://www.microsoft.com/security/blog/2022/01/26/evolved-phishing-device-registration-trick-adds-to-phishers-toolbox-for-victims-without-mfa"
 		}
 	],
-	"modified": "2023-02-23T22:20:13.237Z",
+	"modified": "2024-07-22T13:25:46.124Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -30,7 +30,7 @@
 	"source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
 	"spec_version": "",
 	"target_ref": "attack-pattern--7decb26c-715c-40cf-b7e0-026f7d7cc215",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

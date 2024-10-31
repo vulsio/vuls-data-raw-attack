@@ -6,12 +6,12 @@
 	"description": "[Carberp](https://attack.mitre.org/software/S0484) has used XOR-based encryption to mask C2 server locations within the trojan.(Citation: Prevx Carberp March 2011)",
 	"external_references": [
 		{
-			"description": "Giuliani, M., Allievi, A. (2011, February 28). Carberp - a modular information stealing trojan. Retrieved July 15, 2020.",
+			"description": "Giuliani, M., Allievi, A. (2011, February 28). Carberp - a modular information stealing trojan. Retrieved September 12, 2024.",
 			"source_name": "Prevx Carberp March 2011",
-			"url": "http://pxnow.prevx.com/content/blog/carberp-a_modular_information_stealing_trojan.pdf"
+			"url": "https://web.archive.org/web/20231227000328/http://pxnow.prevx.com/content/blog/carberp-a_modular_information_stealing_trojan.pdf"
 		}
 	],
-	"modified": "2024-04-11T02:48:15.815Z",
+	"modified": "2024-09-12T15:17:52.257Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

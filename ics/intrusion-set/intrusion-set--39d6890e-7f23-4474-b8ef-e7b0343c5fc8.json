@@ -35,7 +35,7 @@
 		{
 			"description": "AhnLab. (2018, June 23). Targeted attacks by Andariel Threat Group,  a subgroup of the Lazarus. Retrieved September 29, 2021.",
 			"source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
-			"url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
+			"url": "https://web.archive.org/web/20230213154832/http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
 		},
 		{
 			"description": "Chen, Joseph. (2018, July 16). New Andariel Reconnaissance Tactics Uncovered. Retrieved September 29, 2021.",
@@ -48,12 +48,12 @@
 			"url": "https://adversary.crowdstrike.com/en-US/adversary/silent-chollima/"
 		},
 		{
-			"description": "FSI. (2017, July 27). Campaign Rifle - Andariel, the Maiden of Anguish. Retrieved September 29, 2021.",
+			"description": "FSI. (2017, July 27). Campaign Rifle - Andariel, the Maiden of Anguish. Retrieved September 12, 2024.",
 			"source_name": "FSI Andariel Campaign Rifle July 2017",
-			"url": "https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1680.do"
+			"url": "https://fsiceat.tistory.com/2"
 		},
 		{
-			"description": "IssueMakersLab. (2017, May 1). Operation GoldenAxe. Retrieved September 29, 2021.",
+			"description": "IssueMakersLab. (2017, May 1). Operation GoldenAxe. Retrieved September 12, 2024.",
 			"source_name": "IssueMakersLab Andariel GoldenAxe May 2017",
 			"url": "http://www.issuemakerslab.com/research3/"
 		},
@@ -68,7 +68,7 @@
 			"url": "https://home.treasury.gov/news/press-releases/sm774"
 		}
 	],
-	"modified": "2024-01-08T21:55:29.57Z",
+	"modified": "2024-09-12T18:36:06.078Z",
 	"name": "Andariel",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

@@ -36,9 +36,9 @@
 			"url": "https://volatility-labs.blogspot.com/2012/10/phalanx-2-revealed-using-volatility-to.html"
 		},
 		{
-			"description": "Chuvakin, A. (2003, February). An Overview of Rootkits. Retrieved April 6, 2018.",
+			"description": "Chuvakin, A. (2003, February). An Overview of Rootkits. Retrieved September 12, 2024.",
 			"source_name": "iDefense Rootkit Overview",
-			"url": "http://www.megasecurity.org/papers/Rootkits.pdf"
+			"url": "https://www.megasecurity.org/papers/Rootkits.pdf"
 		},
 		{
 			"description": "Henderson, B. (2006, September 24). How To Insert And Remove LKMs. Retrieved April 9, 2018.",
@@ -111,14 +111,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2022-04-20T18:53:39.406Z",
+	"modified": "2024-09-12T17:30:54.17Z",
 	"name": "Kernel Modules and Extensions",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Wayne Silva, F-Secure Countercept",
 		"Anastasios Pingios",

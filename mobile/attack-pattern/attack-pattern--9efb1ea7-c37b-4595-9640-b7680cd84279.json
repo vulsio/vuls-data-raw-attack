@@ -21,9 +21,9 @@
 			"url": "https://docs.microsoft.com/en-us/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry"
 		},
 		{
-			"description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved November 12, 2014.",
+			"description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved September 12, 2024.",
 			"source_name": "Microsoft Run Key",
-			"url": "http://msdn.microsoft.com/en-us/library/aa376977"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys"
 		},
 		{
 			"description": "Moe, O. (2018, March 21). Persistence using RunOnceEx - Hidden from Autoruns.exe. Retrieved June 29, 2018.",
@@ -46,7 +46,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-10-16T09:08:22.319Z",
+	"modified": "2024-09-12T15:27:58.051Z",
 	"name": "Registry Run Keys / Startup Folder",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

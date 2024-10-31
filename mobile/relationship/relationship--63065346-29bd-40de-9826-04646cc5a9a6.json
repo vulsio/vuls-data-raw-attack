@@ -1,0 +1,37 @@
+{
+	"type": "relationship",
+	"id": "relationship--63065346-29bd-40de-9826-04646cc5a9a6",
+	"created": "2024-07-29T22:25:41.4Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Winter Vivern](https://attack.mitre.org/groups/G1035) leverages malicious attachments delivered via email for initial access activity.(Citation: DomainTools WinterVivern 2021)(Citation: SentinelOne WinterVivern 2023)(Citation: CERT-UA WinterVivern 2023)",
+	"external_references": [
+		{
+			"description": "CERT-UA. (2023, February 1). UAC-0114 aka Winter Vivern to target Ukrainian and Polish GOV entities (CERT-UA#5909). Retrieved July 29, 2024.",
+			"source_name": "CERT-UA WinterVivern 2023",
+			"url": "https://cert.gov.ua/article/3761104"
+		},
+		{
+			"description": "Chad Anderson. (2021, April 27). Winter Vivern: A Look At Re-Crafted Government MalDocs Targeting Multiple Languages. Retrieved July 29, 2024.",
+			"source_name": "DomainTools WinterVivern 2021",
+			"url": "https://www.domaintools.com/resources/blog/winter-vivern-a-look-at-re-crafted-government-maldocs/"
+		},
+		{
+			"description": "Tom Hegel. (2023, March 16). Winter Vivern | Uncovering a Wave of Global Espionage. Retrieved July 29, 2024.",
+			"source_name": "SentinelOne WinterVivern 2023",
+			"url": "https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/"
+		}
+	],
+	"modified": "2024-07-29T22:25:41.4Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "intrusion-set--75a07184-a7e5-4222-95a1-a04dbc96a29c",
+	"spec_version": "",
+	"target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

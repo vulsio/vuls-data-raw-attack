@@ -6,9 +6,9 @@
 	"description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can conduct peer-to-peer communication over Windows named pipes encapsulated in the SMB protocol. All protocols use their standard assigned ports.(Citation: cobaltstrike manual)(Citation: Talos Cobalt Strike September 2020)",
 	"external_references": [
 		{
-			"description": "Mavis, N. (2020, September 21). The Art and Science of Detecting Cobalt Strike. Retrieved April 6, 2021.",
+			"description": "Mavis, N. (2020, September 21). The Art and Science of Detecting Cobalt Strike. Retrieved September 12, 2024.",
 			"source_name": "Talos Cobalt Strike September 2020",
-			"url": "https://talos-intelligence-site.s3.amazonaws.com/production/document_files/files/000/095/031/original/Talos_Cobalt_Strike.pdf"
+			"url": "https://web.archive.org/web/20210219195905/https://talos-intelligence-site.s3.amazonaws.com/production/document_files/files/000/095/031/original/Talos_Cobalt_Strike.pdf"
 		},
 		{
 			"description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
@@ -16,7 +16,7 @@
 			"url": "https://web.archive.org/web/20210825130434/https://cobaltstrike.com/downloads/csmanual38.pdf"
 		}
 	],
-	"modified": "2023-10-01T02:45:01.932Z",
+	"modified": "2024-09-12T19:23:54.844Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

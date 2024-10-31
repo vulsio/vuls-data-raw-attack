@@ -3,8 +3,8 @@
 	"id": "relationship--a01f1d05-a3e6-4ff4-8c8d-6482e582822b",
 	"created": "2024-03-21T21:24:21.943Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for newly executed processes that may circumvent TCC mechanisms designed to control access to elevated privileges. macOS system logs may also indicate when `AuthorizationExecuteWithPrivileges` is being called.",
-	"modified": "2024-04-17T00:04:27.226Z",
+	"description": "Monitor for abnormal processes executing under applications with elevated access.",
+	"modified": "2024-10-16T22:42:35.016Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

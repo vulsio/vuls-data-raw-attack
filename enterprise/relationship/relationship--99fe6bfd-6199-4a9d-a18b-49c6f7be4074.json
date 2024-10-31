@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--99fe6bfd-6199-4a9d-a18b-49c6f7be4074",
+	"created": "2024-09-23T16:34:34.295Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[BPFDoor](https://attack.mitre.org/software/S1161) uses the `utimes()` function to change the executable's timestamp.(Citation: Sandfly BPFDoor 2022) ",
+	"external_references": [
+		{
+			"description": "The Sandfly Security Team. (2022, May 11). BPFDoor - An Evasive Linux Backdoor Technical Analysis. Retrieved September 29, 2023.",
+			"source_name": "Sandfly BPFDoor 2022",
+			"url": "https://sandflysecurity.com/blog/bpfdoor-an-evasive-linux-backdoor-technical-analysis/"
+		}
+	],
+	"modified": "2024-09-23T16:34:56.694Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--8d1f89fd-4dde-40ab-80e0-a7b80249162e",
+	"spec_version": "",
+	"target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

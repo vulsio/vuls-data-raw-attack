@@ -3,8 +3,8 @@
 	"id": "relationship--fa9d123e-eef1-4b83-acd6-6483325cf0b5",
 	"created": "2023-12-27T17:59:18.681Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for the unexpected creation of memory dump files for the LSASS process (e.g., `lsass{*}.dmp`).",
-	"modified": "2023-12-27T17:59:18.681Z",
+	"description": "Monitor for the unexpected creation of memory dump files for the LSASS process (e.g., `lsass{*}.dmp`).\n\nAnalytic 1 - Unexpected creation of LSASS dump files.\n\n<code> index=security sourcetype=\"WinEventLog:Security\" EventCode=4663 ObjectName=\"*\\\\lsass*.dmp\" | where ProcessName IN (\"procdump.exe\", \"rundll32.exe\", \"taskmgr.exe\", \"powershell.exe\", \"wmic.exe\", \"schtasks.exe\", \"cmd.exe\", \"comsvcs.dll\") </code>",
+	"modified": "2024-08-13T13:45:00.906Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

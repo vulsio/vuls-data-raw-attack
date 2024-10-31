@@ -32,14 +32,14 @@
 			"phase_name": "exfiltration"
 		}
 	],
-	"modified": "2023-04-15T00:58:36.287Z",
+	"modified": "2024-10-15T15:57:26.415Z",
 	"name": "Exfiltration Over Alternative Protocol",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"William Cain",
 		"Alfredo Abarca"
@@ -60,16 +60,14 @@
 	],
 	"x_mitre_is_subtechnique": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_network_requirements": false,
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows",
-		"Office 365",
 		"SaaS",
 		"IaaS",
-		"Google Workspace",
-		"Network"
+		"Network",
+		"Office Suite"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

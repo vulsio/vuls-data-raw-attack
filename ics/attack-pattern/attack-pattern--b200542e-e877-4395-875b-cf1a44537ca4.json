@@ -21,9 +21,9 @@
 			"url": "https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process"
 		},
 		{
-			"description": "Leitch, J. (n.d.). Process Hollowing. Retrieved November 12, 2014.",
+			"description": "Leitch, J. (n.d.). Process Hollowing. Retrieved September 12, 2024.",
 			"source_name": "Leitch Hollowing",
-			"url": "http://www.autosectools.com/process-hollowing.pdf"
+			"url": "https://new.dc414.org/wp-content/uploads/2011/01/Process-Hollowing.pdf"
 		},
 		{
 			"description": "Pena, E., Erikson, C. (2019, October 10). Staying Hidden on the Endpoint: Evading Detection with Shellcode. Retrieved November 29, 2021.",
@@ -41,14 +41,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-08-11T21:37:00.009Z",
+	"modified": "2024-09-12T15:11:45.602Z",
 	"name": "Process Hollowing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Process: Process Creation",
 		"Process: Process Modification",

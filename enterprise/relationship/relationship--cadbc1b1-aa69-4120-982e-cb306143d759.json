@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--cadbc1b1-aa69-4120-982e-cb306143d759",
+	"created": "2024-05-20T20:35:59.765Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) used remote scheduled tasks to install malicious software on victim systems during lateral movement actions.(Citation: Crowdstrike HuntReport 2022)",
+	"external_references": [
+		{
+			"description": "CrowdStrike. (2023). 2022 Falcon OverWatch Threat Hunting Report. Retrieved May 20, 2024.",
+			"source_name": "Crowdstrike HuntReport 2022",
+			"url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/2022OverWatchThreatHuntingReport.pdf"
+		}
+	],
+	"modified": "2024-05-20T20:35:59.765Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
+	"spec_version": "",
+	"target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

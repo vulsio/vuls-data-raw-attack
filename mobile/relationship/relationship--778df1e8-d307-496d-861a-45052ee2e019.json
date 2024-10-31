@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--778df1e8-d307-496d-861a-45052ee2e019",
+	"created": "2024-08-14T22:21:05.689Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[IMAPLoader](https://attack.mitre.org/software/S1152) uses WMI queries to gather information about the victim machine.(Citation: PWC Yellow Liderc 2023)",
+	"external_references": [
+		{
+			"description": "PwC Threat Intelligence. (2023, October 25). Yellow Liderc ships its scripts and delivers IMAPLoader malware. Retrieved August 14, 2024.",
+			"source_name": "PWC Yellow Liderc 2023",
+			"url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/yellow-liderc-ships-its-scripts-delivers-imaploader-malware.html"
+		}
+	],
+	"modified": "2024-08-14T22:21:05.689Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",
+	"spec_version": "",
+	"target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

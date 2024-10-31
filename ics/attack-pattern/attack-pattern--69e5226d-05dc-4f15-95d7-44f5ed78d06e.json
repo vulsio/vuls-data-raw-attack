@@ -26,16 +26,18 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-03-30T21:01:46.711Z",
+	"modified": "2024-10-15T16:43:43.849Z",
 	"name": "Web Portal Capture",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"File: File Modification"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "File monitoring may be used to detect changes to files in the Web directory for organization login pages that do not match with authorized updates to the Web server's content.",
 	"x_mitre_domains": [
 		"enterprise-attack"

@@ -37,7 +37,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2024-04-19T04:26:29.365Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Multi-Factor Authentication Request Generation",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -49,7 +49,8 @@
 		"Jon Sternstein, Stern Security",
 		"Pawel Partyka, Microsoft 365 Defender",
 		"Shanief Webb",
-		"Obsidian Security"
+		"Obsidian Security",
+		"Arun Seelagan, CISA"
 	],
 	"x_mitre_data_sources": [
 		"User Account: User Account Authentication",
@@ -66,13 +67,12 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Office 365",
 		"Linux",
 		"macOS",
 		"IaaS",
 		"SaaS",
-		"Azure AD",
-		"Google Workspace"
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

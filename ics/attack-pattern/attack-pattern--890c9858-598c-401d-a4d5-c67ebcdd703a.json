@@ -67,7 +67,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2024-03-24T19:41:54.832Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Steal Application Access Token",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -82,7 +82,8 @@
 		"Jeff Sakowicz, Microsoft Identity Developer Platform Services (IDPM Services)",
 		"Saisha Agrawal, Microsoft Threat Intelligent Center (MSTIC)",
 		"Ram Pliskin, Microsoft Azure Security Center",
-		"Jack Burns, HubSpot"
+		"Jack Burns, HubSpot",
+		"Arun Seelagan, CISA"
 	],
 	"x_mitre_data_sources": [
 		"Active Directory: Active Directory Object Modification",
@@ -97,10 +98,10 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"SaaS",
-		"Office 365",
-		"Azure AD",
-		"Google Workspace",
-		"Containers"
+		"Containers",
+		"IaaS",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.3"
+	"x_mitre_version": "1.4"
 }

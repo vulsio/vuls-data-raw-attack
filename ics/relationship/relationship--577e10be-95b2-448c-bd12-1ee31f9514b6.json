@@ -3,7 +3,7 @@
 	"id": "relationship--577e10be-95b2-448c-bd12-1ee31f9514b6",
 	"created": "2022-03-30T14:26:51.848Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection strings or known payloads. For example, monitor for successively chained functions that adversaries commonly abuse (i.e. gadget chaining) through unsafe deserialization to exploit publicly facing applications for initial access.(Citation: Now You Serial) ",
+	"description": "Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection strings or known payloads. For example, monitor for successively chained functions that adversaries commonly abuse (i.e. gadget chaining) through unsafe deserialization to exploit publicly facing applications for initial access.(Citation: Now You Serial) In AWS environments, monitor VPC flow logs and/or Elastic Load Balancer (ELB) logs going to and from instances hosting externally accessible applications.",
 	"external_references": [
 		{
 			"description": "Rahman, Alyssa. (2021, December 13). Now You Serial, Now You Don’t — Systematically Hunting for Deserialization Exploits. Retrieved November 28, 2023.",
@@ -11,7 +11,7 @@
 			"url": "https://www.mandiant.com/resources/blog/hunting-deserialization-exploits"
 		}
 	],
-	"modified": "2023-11-28T21:28:09.056Z",
+	"modified": "2024-09-24T14:31:32.078Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -26,9 +26,9 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html"
 		},
 		{
-			"description": "Haight, J. (2016, April 21). PS>Attack. Retrieved June 1, 2016.",
+			"description": "Haight, J. (2016, April 21). PS>Attack. Retrieved September 27, 2024.",
 			"source_name": "Github PSAttack",
-			"url": "https://github.com/jaredhaight/PSAttack"
+			"url": "https://github.com/Exploit-install/PSAttack-1"
 		},
 		{
 			"description": "Hastings, M. (2014, July 16). Investigating PowerShell Attacks. Retrieved December 1, 2021.",
@@ -57,7 +57,7 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2024-03-01T18:01:37.575Z",
+	"modified": "2024-10-15T16:39:13.228Z",
 	"name": "PowerShell",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

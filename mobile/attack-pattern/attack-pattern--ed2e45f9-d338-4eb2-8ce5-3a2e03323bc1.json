@@ -11,19 +11,14 @@
 			"url": "https://attack.mitre.org/techniques/T1578/001"
 		},
 		{
-			"description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020.",
-			"source_name": "Mandiant M-Trends 2020",
-			"url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020"
-		},
-		{
 			"description": "Amazon. (2020). Logging AWS Backup API Calls with AWS CloudTrail. Retrieved April 27, 2020.",
 			"source_name": "AWS Cloud Trail Backup API",
 			"url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/logging-using-cloudtrail.html"
 		},
 		{
-			"description": "Microsoft. (2019, June 4). Monitor at scale by using Azure Monitor. Retrieved May 1, 2020.",
-			"source_name": "Azure - Monitor Logs",
-			"url": "https://docs.microsoft.com/en-us/azure/backup/backup-azure-monitoring-use-azuremonitor"
+			"description": "Google. (2020, April 23). Creating and Starting a VM instance. Retrieved May 1, 2020.",
+			"source_name": "GCP - Creating and Starting a VM",
+			"url": "https://cloud.google.com/compute/docs/instances/create-start-instance#api_2"
 		},
 		{
 			"description": "Google. (n.d.). Audit Logs. Retrieved June 1, 2020.",
@@ -31,9 +26,14 @@
 			"url": "https://cloud.google.com/logging/docs/audit#admin-activity"
 		},
 		{
-			"description": "Google. (2020, April 23). Creating and Starting a VM instance. Retrieved May 1, 2020.",
-			"source_name": "GCP - Creating and Starting a VM",
-			"url": "https://cloud.google.com/compute/docs/instances/create-start-instance#api_2"
+			"description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020.",
+			"source_name": "Mandiant M-Trends 2020",
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/mtrends-2020.pdf"
+		},
+		{
+			"description": "Microsoft. (2019, June 4). Monitor at scale by using Azure Monitor. Retrieved May 1, 2020.",
+			"source_name": "Azure - Monitor Logs",
+			"url": "https://docs.microsoft.com/en-us/azure/backup/backup-azure-monitoring-use-azuremonitor"
 		}
 	],
 	"kill_chain_phases": [
@@ -42,13 +42,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2021-03-08T10:33:02.06Z",
+	"modified": "2024-10-15T15:53:44.87Z",
 	"name": "Create Snapshot",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Praetorian"
 	],
@@ -56,17 +57,15 @@
 		"Snapshot: Snapshot Creation",
 		"Snapshot: Snapshot Metadata"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "The creation of a snapshot is a common part of operations within many cloud environments. Events should then not be viewed in isolation, but as part of a chain of behavior that could lead to other activities such as the creation of one or more snapshots and the restoration of these snapshots by a new user account.\n\nIn AWS, CloudTrail logs capture the creation of snapshots and all API calls for AWS Backup as events. Using the information collected by CloudTrail, you can determine the request that was made, the IP address from which the request was made, which user made the request, when it was made, and additional details.(Citation: AWS Cloud Trail Backup API).\n\nIn Azure, the creation of a snapshot may be captured in Azure activity logs. Backup restoration events can also be detected through Azure Monitor Log Data by creating a custom alert for completed restore jobs.(Citation: Azure - Monitor Logs)\n\nGoogle's Admin Activity audit logs within their Cloud Audit logs can be used to detect the usage of the <code>gcloud compute instances create</code> command to create a new VM disk from a snapshot.(Citation: Cloud Audit Logs) It is also possible to detect the usage of the GCP API with the <code>\"sourceSnapshot\":</code> parameter pointed to <code>\"global/snapshots/[BOOT_SNAPSHOT_NAME]</code>.(Citation: GCP - Creating and Starting a VM)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"IaaS"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

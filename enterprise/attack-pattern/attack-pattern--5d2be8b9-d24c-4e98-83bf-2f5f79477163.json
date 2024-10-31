@@ -31,14 +31,14 @@
 			"url": "https://wald0.com/?p=179"
 		},
 		{
-			"description": "Schroeder, W. (2016, March 17). Abusing GPO Permissions. Retrieved March 5, 2019.",
+			"description": "Schroeder, W. (2016, March 17). Abusing GPO Permissions. Retrieved September 23, 2024.",
 			"source_name": "Harmj0y Abusing GPO Permissions",
-			"url": "http://www.harmj0y.net/blog/redteaming/abusing-gpo-permissions/"
+			"url": "https://blog.harmj0y.net/redteaming/abusing-gpo-permissions/"
 		},
 		{
-			"description": "Schroeder, W. (2017, January 10). The Most Dangerous User Right You (Probably) Have Never Heard Of. Retrieved March 5, 2019.",
+			"description": "Schroeder, W. (2017, January 10). The Most Dangerous User Right You (Probably) Have Never Heard Of. Retrieved September 23, 2024.",
 			"source_name": "Harmj0y SeEnableDelegationPrivilege Right",
-			"url": "http://www.harmj0y.net/blog/activedirectory/the-most-dangerous-user-right-you-probably-have-never-heard-of/"
+			"url": "https://blog.harmj0y.net/activedirectory/the-most-dangerous-user-right-you-probably-have-never-heard-of/"
 		},
 		{
 			"description": "srachui. (2012, February 13). Group Policy Basics – Part 1: Understanding the Structure of a Group Policy Object. Retrieved March 5, 2019.",
@@ -56,14 +56,14 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-01-06T12:44:15.707Z",
+	"modified": "2024-09-23T22:11:01.884Z",
 	"name": "Group Policy Modification",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Itamar Mizrahi, Cymptom",
 		"Tristan Bennett, Seamless Intelligence"

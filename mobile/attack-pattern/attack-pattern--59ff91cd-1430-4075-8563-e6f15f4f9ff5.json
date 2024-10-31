@@ -31,9 +31,9 @@
 			"url": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn800668(v=ws.11)"
 		},
 		{
-			"description": "Shoemaker, E. (2015, December 31). Solution: Monitor DHCP Scopes and Detect Man-in-the-Middle Attacks with PRTG and PowerShell. Retrieved March 7, 2022.",
+			"description": "Shoemaker, E. (2015, December 31). Solution: Monitor DHCP Scopes and Detect Man-in-the-Middle Attacks with PRTG and PowerShell. Retrieved September 12, 2024.",
 			"source_name": "solution_monitor_dhcp_scopes",
-			"url": "https://lockstepgroup.com/blog/monitor-dhcp-scopes-and-detect-man-in-the-middle-attacks/"
+			"url": "https://web.archive.org/web/20231202025258/https://lockstepgroup.com/blog/monitor-dhcp-scopes-and-detect-man-in-the-middle-attacks/"
 		},
 		{
 			"description": "Symantec. (2009, March 22). W32.Tidserv.G. Retrieved January 14, 2022.",
@@ -51,14 +51,14 @@
 			"phase_name": "collection"
 		}
 	],
-	"modified": "2022-10-21T15:18:16.023Z",
+	"modified": "2024-09-12T19:46:04.759Z",
 	"name": "DHCP Spoofing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Alex Spivakovsky, Pentera",
 		"Andrew Allen, @whitehat_zero"

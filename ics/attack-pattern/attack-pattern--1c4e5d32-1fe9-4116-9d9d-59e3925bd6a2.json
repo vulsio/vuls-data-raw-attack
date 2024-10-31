@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1036/005"
 		},
 		{
-			"description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019.",
+			"description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved September 12, 2024.",
 			"source_name": "Twitter ItsReallyNick Masquerading Update",
-			"url": "https://twitter.com/ItsReallyNick/status/1055321652777619457"
+			"url": "https://x.com/ItsReallyNick/status/1055321652777619457"
 		},
 		{
 			"description": "Docker. (n.d.). Docker Images. Retrieved April 6, 2021.",
@@ -32,14 +32,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-09-14T21:12:48.409Z",
+	"modified": "2024-09-12T19:30:45.064Z",
 	"name": "Match Legitimate Name or Location",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Yossi Weizman, Azure Defender Research Team",
 		"Vishwas Manral, McAfee"

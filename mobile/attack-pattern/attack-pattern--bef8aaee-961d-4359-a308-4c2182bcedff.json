@@ -22,16 +22,16 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-04-12T22:46:33.995Z",
+	"modified": "2024-10-16T20:12:44.962Z",
 	"name": "Spoof Security Alerting",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Goldstein Menachem"
+		"Menachem Goldstein"
 	],
 	"x_mitre_data_sources": [
 		"Process: Process Creation",

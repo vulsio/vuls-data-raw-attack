@@ -57,7 +57,7 @@
 			"phase_name": "resource-development"
 		}
 	],
-	"modified": "2024-02-28T21:13:02.648Z",
+	"modified": "2024-10-16T20:03:59.884Z",
 	"name": "Acquire Infrastructure",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -67,7 +67,7 @@
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Shailesh Tiwary (Indian Army)",
-		"Goldstein Menachem"
+		"Menachem Goldstein"
 	],
 	"x_mitre_data_sources": [
 		"Internet Scan: Response Metadata",

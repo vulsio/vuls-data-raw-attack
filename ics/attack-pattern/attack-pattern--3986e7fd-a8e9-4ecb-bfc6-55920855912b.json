@@ -11,14 +11,14 @@
 			"url": "https://attack.mitre.org/techniques/T1558/004"
 		},
 		{
-			"description": "HarmJ0y. (2017, January 17). Roasting AS-REPs. Retrieved August 24, 2020.",
-			"source_name": "Harmj0y Roasting AS-REPs Jan 2017",
-			"url": "http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/"
+			"description": "Bani, M. (2018, February 23). Detecting Kerberoasting activity using Azure Security Center. Retrieved March 23, 2018.",
+			"source_name": "Microsoft Detecting Kerberoasting Feb 2018",
+			"url": "https://blogs.technet.microsoft.com/motiba/2018/02/23/detecting-kerberoasting-activity-using-azure-security-center/"
 		},
 		{
-			"description": "Sanyal, M.. (2014, March 18). Kerberos Pre-Authentication: Why It Should Not Be Disabled. Retrieved August 25, 2020.",
-			"source_name": "Microsoft Kerberos Preauth 2014",
-			"url": "https://social.technet.microsoft.com/wiki/contents/articles/23559.kerberos-pre-authentication-why-it-should-not-be-disabled.aspx"
+			"description": "HarmJ0y. (2017, January 17). Roasting AS-REPs. Retrieved September 23, 2024.",
+			"source_name": "Harmj0y Roasting AS-REPs Jan 2017",
+			"url": "https://blog.harmj0y.net/activedirectory/roasting-as-reps/"
 		},
 		{
 			"description": "Jeff Warren. (2019, June 27). Cracking Active Directory Passwords with AS-REP Roasting. Retrieved August 24, 2020.",
@@ -36,14 +36,14 @@
 			"url": "https://adsecurity.org/?p=2293"
 		},
 		{
-			"description": "Bani, M. (2018, February 23). Detecting Kerberoasting activity using Azure Security Center. Retrieved March 23, 2018.",
-			"source_name": "Microsoft Detecting Kerberoasting Feb 2018",
-			"url": "https://blogs.technet.microsoft.com/motiba/2018/02/23/detecting-kerberoasting-activity-using-azure-security-center/"
-		},
-		{
 			"description": "Microsoft. (2017, April 19). 4768(S, F): A Kerberos authentication ticket (TGT) was requested. Retrieved August 24, 2020.",
 			"source_name": "Microsoft 4768 TGT 2017",
 			"url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768"
+		},
+		{
+			"description": "Sanyal, M.. (2014, March 18). Kerberos Pre-Authentication: Why It Should Not Be Disabled. Retrieved August 25, 2020.",
+			"source_name": "Microsoft Kerberos Preauth 2014",
+			"url": "https://social.technet.microsoft.com/wiki/contents/articles/23559.kerberos-pre-authentication-why-it-should-not-be-disabled.aspx"
 		}
 	],
 	"kill_chain_phases": [
@@ -52,13 +52,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2021-06-07T19:23:33.039Z",
+	"modified": "2024-10-15T15:32:07.85Z",
 	"name": "AS-REP Roasting",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Yossi Nisani, Cymptom",
 		"James Dunn, @jamdunnDFW, EY",
@@ -69,20 +70,18 @@
 	"x_mitre_data_sources": [
 		"Active Directory: Active Directory Credential Request"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Enable Audit Kerberos Service Ticket Operations to log Kerberos TGS service ticket requests. Particularly investigate irregular patterns of activity (ex: accounts making numerous requests, Event ID 4768 and 4769, within a small time frame, especially if they also request RC4 encryption [Type 0x17], pre-authentication not required [Type: 0x0]).(Citation: AdSecurity Cracking Kerberos Dec 2015)(Citation: Microsoft Detecting Kerberoasting Feb 2018)(Citation: Microsoft 4768 TGT 2017)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Windows"
 	],
 	"x_mitre_system_requirements": [
 		"Valid domain account"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

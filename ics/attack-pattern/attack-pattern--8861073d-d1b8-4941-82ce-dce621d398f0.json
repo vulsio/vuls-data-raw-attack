@@ -17,14 +17,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2023-04-14T22:27:04.095Z",
+	"modified": "2024-10-15T15:52:47.255Z",
 	"name": "Cloud Services",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Logon Session: Logon Session Creation"
 	],
@@ -36,11 +36,10 @@
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
-		"Office 365",
-		"Azure AD",
 		"SaaS",
 		"IaaS",
-		"Google Workspace"
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

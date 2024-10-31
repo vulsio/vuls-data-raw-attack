@@ -3,7 +3,7 @@
 	"id": "attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0",
 	"created": "2019-11-27T13:52:45.853Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Adversaries may abuse the [at](https://attack.mitre.org/software/S0110) utility to perform task scheduling for initial or recurring execution of malicious code. The [at](https://attack.mitre.org/software/S0110) utility exists as an executable within Windows, Linux, and macOS for scheduling tasks at a specified time and date. Although deprecated in favor of [Scheduled Task](https://attack.mitre.org/techniques/T1053/005)'s [schtasks](https://attack.mitre.org/software/S0111) in Windows environments, using [at](https://attack.mitre.org/software/S0110) requires that the Task Scheduler service be running, and the user to be logged on as a member of the local Administrators group.\n\nOn Linux and macOS, [at](https://attack.mitre.org/software/S0110) may be invoked by the superuser as well as any users added to the <code>at.allow</code> file. If the <code>at.allow</code> file does not exist, the <code>at.deny</code> file is checked. Every username not listed in <code>at.deny</code> is allowed to invoke [at](https://attack.mitre.org/software/S0110). If the <code>at.deny</code> exists and is empty, global use of [at](https://attack.mitre.org/software/S0110) is permitted. If neither file exists (which is often the baseline) only the superuser is allowed to use [at](https://attack.mitre.org/software/S0110).(Citation: Linux at)\n\nAdversaries may use [at](https://attack.mitre.org/software/S0110) to execute programs at system startup or on a scheduled basis for [Persistence](https://attack.mitre.org/tactics/TA0003). [at](https://attack.mitre.org/software/S0110) can also be abused to conduct remote [Execution](https://attack.mitre.org/tactics/TA0002) as part of [Lateral Movement](https://attack.mitre.org/tactics/TA0008) and/or to run a process under the context of a specified account (such as SYSTEM).\n\nIn Linux environments, adversaries may also abuse [at](https://attack.mitre.org/software/S0110) to break out of restricted environments by using a task to spawn an interactive system shell or to run system commands. Similarly, [at](https://attack.mitre.org/software/S0110) may also be used for [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) if the binary is allowed to run as superuser via <code>sudo</code>.(Citation: GTFObins at)",
+	"description": "Adversaries may abuse the [at](https://attack.mitre.org/software/S0110) utility to perform task scheduling for initial or recurring execution of malicious code. The [at](https://attack.mitre.org/software/S0110) utility exists as an executable within Windows, Linux, and macOS for scheduling tasks at a specified time and date. Although deprecated in favor of [Scheduled Task](https://attack.mitre.org/techniques/T1053/005)'s [schtasks](https://attack.mitre.org/software/S0111) in Windows environments, using [at](https://attack.mitre.org/software/S0110) requires that the Task Scheduler service be running, and the user to be logged on as a member of the local Administrators group. In addition to explicitly running the `at` command, adversaries may also schedule a task with [at](https://attack.mitre.org/software/S0110) by directly leveraging the [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) `Win32_ScheduledJob` WMI class.(Citation: Malicious Life by Cybereason)\n\nOn Linux and macOS, [at](https://attack.mitre.org/software/S0110) may be invoked by the superuser as well as any users added to the <code>at.allow</code> file. If the <code>at.allow</code> file does not exist, the <code>at.deny</code> file is checked. Every username not listed in <code>at.deny</code> is allowed to invoke [at](https://attack.mitre.org/software/S0110). If the <code>at.deny</code> exists and is empty, global use of [at](https://attack.mitre.org/software/S0110) is permitted. If neither file exists (which is often the baseline) only the superuser is allowed to use [at](https://attack.mitre.org/software/S0110).(Citation: Linux at)\n\nAdversaries may use [at](https://attack.mitre.org/software/S0110) to execute programs at system startup or on a scheduled basis for [Persistence](https://attack.mitre.org/tactics/TA0003). [at](https://attack.mitre.org/software/S0110) can also be abused to conduct remote [Execution](https://attack.mitre.org/tactics/TA0002) as part of [Lateral Movement](https://attack.mitre.org/tactics/TA0008) and/or to run a process under the context of a specified account (such as SYSTEM).\n\nIn Linux environments, adversaries may also abuse [at](https://attack.mitre.org/software/S0110) to break out of restricted environments by using a task to spawn an interactive system shell or to run system commands. Similarly, [at](https://attack.mitre.org/software/S0110) may also be used for [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) if the binary is allowed to run as superuser via <code>sudo</code>.(Citation: GTFObins at)",
 	"external_references": [
 		{
 			"external_id": "T1053.002",
@@ -26,9 +26,9 @@
 			"url": "https://man7.org/linux/man-pages/man1/at.1p.html"
 		},
 		{
-			"description": "Loobeek, L. (2017, December 8). leoloobeek Status. Retrieved December 12, 2017.",
+			"description": "Loobeek, L. (2017, December 8). leoloobeek Status. Retrieved September 12, 2024.",
 			"source_name": "Twitter Leoloobeek Scheduled Task",
-			"url": "https://twitter.com/leoloobeek/status/939248813465853953"
+			"url": "https://x.com/leoloobeek/status/939248813465853953"
 		},
 		{
 			"description": "Microsoft. (2017, May 28). Audit Other Object Access Events. Retrieved June 27, 2019.",
@@ -39,6 +39,11 @@
 			"description": "Microsoft. (n.d.). General Task Registration. Retrieved December 12, 2017.",
 			"source_name": "TechNet Scheduled Task Events",
 			"url": "https://technet.microsoft.com/library/dd315590.aspx"
+		},
+		{
+			"description": "Philip Tsukerman. (n.d.). No Win32 Process Needed | Expanding the WMI Lateral Movement Arsenal. Retrieved June 19, 2024.",
+			"source_name": "Malicious Life by Cybereason",
+			"url": "https://www.cybereason.com/blog/wmi-lateral-movement-win32#blog-subscribe"
 		},
 		{
 			"description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
@@ -65,7 +70,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2023-11-15T14:38:10.876Z",
+	"modified": "2024-10-12T15:53:12.333Z",
 	"name": "At",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -97,5 +102,5 @@
 		"macOS"
 	],
 	"x_mitre_remote_support": true,
-	"x_mitre_version": "2.2"
+	"x_mitre_version": "2.3"
 }

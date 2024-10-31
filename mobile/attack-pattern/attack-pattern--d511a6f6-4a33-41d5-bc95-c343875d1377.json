@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1027/010"
 		},
 		{
-			"description": "Ackroyd, R. (2023, March 24). Twitter. Retrieved March 24, 2023.",
+			"description": "Ackroyd, R. (2023, March 24). Twitter. Retrieved September 12, 2024.",
 			"source_name": "Twitter Richard WMIC",
-			"url": "https://twitter.com/rfackroyd/status/1639136000755765254"
+			"url": "https://x.com/rfackroyd/status/1639136000755765254"
 		},
 		{
 			"description": "Bohannon, D. (2016, September 24). Invoke-Obfuscation. Retrieved March 17, 2023.",
@@ -62,14 +62,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-03-24T15:01:21.117Z",
+	"modified": "2024-09-12T19:43:18.873Z",
 	"name": "Command Obfuscation",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"TruKno",
 		"Tim Peck",

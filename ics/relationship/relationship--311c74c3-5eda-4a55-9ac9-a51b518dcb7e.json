@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--311c74c3-5eda-4a55-9ac9-a51b518dcb7e",
+	"created": "2024-05-29T20:41:57.004Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Gootloader](https://attack.mitre.org/software/S1138) can determine if a targeted system is part of an Active Directory domain by  expanding the %USERDNSDOMAIN%  environment variable.(Citation: SentinelOne Gootloader June 2021)",
+	"external_references": [
+		{
+			"description": "Pirozzi, A. (2021, June 16). Gootloader: ‘Initial Access as a Service’ Platform Expands Its Search for High Value Targets. Retrieved May 28, 2024.",
+			"source_name": "SentinelOne Gootloader June 2021",
+			"url": "https://www.sentinelone.com/labs/gootloader-initial-access-as-a-service-platform-expands-its-search-for-high-value-targets/"
+		}
+	],
+	"modified": "2024-05-29T20:41:57.004Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",
+	"spec_version": "",
+	"target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

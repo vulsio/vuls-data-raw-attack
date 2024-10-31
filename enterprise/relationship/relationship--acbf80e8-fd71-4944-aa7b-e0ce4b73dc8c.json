@@ -3,8 +3,8 @@
 	"id": "relationship--acbf80e8-fd71-4944-aa7b-e0ce4b73dc8c",
 	"created": "2022-03-30T14:26:51.876Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for new constructed windows registry keys that may create or modify Windows services to repeatedly execute malicious payloads as part of persistence.\n\nAnalytic 1 - Creation of the HKLM\\System\\CurrentControlSet\\Services Registry key\n\n<code> source=\"*WinEventLog:Microsoft-Windows-Sysmon/Operational\" EventCode=\"12\" TargetObject=\"HKLM\\System\\CurrentControlSet\\Services\\*\"</code>",
-	"modified": "2024-03-28T13:47:22.462Z",
+	"description": "Monitor for new constructed windows registry keys that may create or modify Windows services to repeatedly execute malicious payloads as part of persistence.\n\nAnalytic 1 - Creation of the HKLM\\System\\CurrentControlSet\\Services Registry key\n\n<code> sourcetype=WinEventLog:Microsoft-Windows-Sysmon/Operational EventCode=\"12\" TargetObject=\"HKLM\\System\\CurrentControlSet\\Services\\*\"</code>",
+	"modified": "2024-10-04T14:39:26.35Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1555/001"
 		},
 		{
-			"description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
+			"description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved September 12, 2024.",
 			"source_name": "External to DA, the OS X Way",
-			"url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way"
+			"url": "https://www.slideshare.net/slideshow/external-to-da-the-os-x-way/62021418"
 		},
 		{
 			"description": "Apple. (n.d.). Keychain Services. Retrieved April 11, 2022.",
@@ -42,14 +42,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2022-04-18T20:32:22.122Z",
+	"modified": "2024-10-15T16:35:39.985Z",
 	"name": "Keychain",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Command: Command Execution",
 		"Process: Process Creation",

@@ -66,9 +66,9 @@
 			"url": "https://www.mdsec.co.uk/2020/12/bypassing-user-mode-hooks-and-direct-invocation-of-system-calls-for-red-teams/"
 		},
 		{
-			"description": "Microsoft. (n.d.). CreateProcess function. Retrieved December 5, 2014.",
+			"description": "Microsoft. (n.d.). CreateProcess function. Retrieved September 12, 2024.",
 			"source_name": "Microsoft CreateProcess",
-			"url": "http://msdn.microsoft.com/en-us/library/ms682425"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa"
 		},
 		{
 			"description": "Microsoft. (n.d.). Programming reference for the Win32 API. Retrieved March 15, 2020.",
@@ -92,7 +92,7 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2023-10-13T16:01:07.538Z",
+	"modified": "2024-09-12T15:25:57.058Z",
 	"name": "Native API",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

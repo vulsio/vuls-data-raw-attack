@@ -3,7 +3,7 @@
 	"id": "relationship--f3ea1672-9401-41cf-9bad-44ee75763cda",
 	"created": "2022-03-30T14:26:51.858Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor domain controller logs for replication requests and other unscheduled activity possibly associated with DCSync. (Citation: Microsoft DRSR Dec 2017) (Citation: Microsoft GetNCCChanges) (Citation: Samba DRSUAPI) Note: Domain controllers may not log replication requests originating from the default domain controller account. (Citation: Harmj0y DCSync Sept 2015). Monitor for replication requests (Citation: Microsoft SAMR) from IPs not associated with known domain controllers. (Citation: AdSecurity DCSync Sept 2015)\n\n<h4> Analytic 1 - Suspicious AD </h4>\n<code> source=\"*WinEventLog:Security\" EventCode=\"4662\" AND AccessMask= \"0x100\" AND (guid= “1131f6ad-9c07-11d1-f79f-00c04fc2dcd2” OR guid= “1131f6aa-9c07-11d1-f79f-00c04fc2dcd2” OR guid= “9923a32a-3607-11d2-b9be-0000f87a36b2” OR guid= “89e95b76-444d-4c62-991a-0facbeda640c“) </code>",
+	"description": "Monitor domain controller logs for replication requests and other unscheduled activity possibly associated with DCSync. (Citation: Microsoft DRSR Dec 2017) (Citation: Microsoft GetNCCChanges) (Citation: Samba DRSUAPI) Note: Domain controllers may not log replication requests originating from the default domain controller account. (Citation: Harmj0y DCSync Sept 2015). Monitor for replication requests (Citation: Microsoft SAMR) from IPs not associated with known domain controllers. (Citation: AdSecurity DCSync Sept 2015)\n\nAnalytic 1 - Suspicious Replication Requests\n\n<code> sourcetype=WinEventLog:Security EventCode=\"4662\" AND AccessMask= \"0x100\" AND (guid= “1131f6ad-9c07-11d1-f79f-00c04fc2dcd2” OR guid= “1131f6aa-9c07-11d1-f79f-00c04fc2dcd2” OR guid= “9923a32a-3607-11d2-b9be-0000f87a36b2” OR guid= “89e95b76-444d-4c62-991a-0facbeda640c“) </code>",
 	"external_references": [
 		{
 			"description": "Metcalf, S. (2015, September 25). Mimikatz DCSync Usage, Exploitation, and Detection. Retrieved December 4, 2017.",
@@ -36,7 +36,7 @@
 			"url": "http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/"
 		}
 	],
-	"modified": "2024-03-28T18:11:17.138Z",
+	"modified": "2024-10-04T14:47:55.821Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

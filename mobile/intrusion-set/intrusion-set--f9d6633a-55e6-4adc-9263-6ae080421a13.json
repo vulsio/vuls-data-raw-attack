@@ -138,7 +138,7 @@
 			"url": "https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/"
 		}
 	],
-	"modified": "2024-01-08T21:54:31.501Z",
+	"modified": "2024-07-10T18:56:00.833Z",
 	"name": "Magic Hound",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -156,5 +156,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "6.0"
+	"x_mitre_version": "6.1"
 }

@@ -21,9 +21,9 @@
 			"url": "https://csrc.nist.gov/glossary/term/authentication"
 		},
 		{
-			"description": "NIST. (n.d.). Multi-Factor Authentication (MFA). Retrieved January 30, 2020.",
+			"description": "NIST. (n.d.). Multi-Factor Authentication (MFA). Retrieved September 25, 2024.",
 			"source_name": "NIST MFA",
-			"url": "https://csrc.nist.gov/glossary/term/Multi_Factor-Authentication"
+			"url": "https://csrc.nist.gov/glossary/term/multi_factor_authentication"
 		}
 	],
 	"kill_chain_phases": [
@@ -36,7 +36,7 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2024-04-28T15:43:30.271Z",
+	"modified": "2024-10-15T16:09:19.001Z",
 	"name": "Use Alternate Authentication Material",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -67,11 +67,11 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Office 365",
 		"SaaS",
-		"Google Workspace",
 		"IaaS",
-		"Containers"
+		"Containers",
+		"Identity Provider",
+		"Office Suite"
 	],
-	"x_mitre_version": "1.3"
+	"x_mitre_version": "1.4"
 }

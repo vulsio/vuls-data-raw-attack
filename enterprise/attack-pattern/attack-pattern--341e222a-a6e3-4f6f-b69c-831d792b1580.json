@@ -22,14 +22,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-07-28T18:29:56.525Z",
+	"modified": "2024-10-15T16:26:46.873Z",
 	"name": "Credentials in Registry",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Sudhanshu Chauhan, @Sudhanshu_C"
 	],

@@ -29,14 +29,14 @@
 			"phase_name": "initial-access"
 		}
 	],
-	"modified": "2023-07-14T13:04:04.591Z",
+	"modified": "2024-10-15T16:36:36.681Z",
 	"name": "Local Accounts",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Logon Session: Logon Session Creation",
 		"Logon Session: Logon Session Metadata",

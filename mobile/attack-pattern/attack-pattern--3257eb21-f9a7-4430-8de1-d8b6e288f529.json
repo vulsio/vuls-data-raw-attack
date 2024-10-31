@@ -56,7 +56,7 @@
 			"phase_name": "discovery"
 		}
 	],
-	"modified": "2024-04-19T12:32:44.37Z",
+	"modified": "2024-10-15T15:11:55.217Z",
 	"name": "Network Sniffing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

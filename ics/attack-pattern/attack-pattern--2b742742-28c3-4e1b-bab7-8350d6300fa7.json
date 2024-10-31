@@ -13,7 +13,7 @@
 		{
 			"description": "Australian Cyber Security Centre. (2012, December). Mitigating Spoofed Emails Using Sender Policy Framework. Retrieved October 19, 2020.",
 			"source_name": "ACSC Email Spoofing",
-			"url": "https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf"
+			"url": "https://web.archive.org/web/20210708014107/https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf"
 		},
 		{
 			"description": "CISA. (2019, September 27). Security Tip (ST05-016): Understanding Internationalized Domain Names. Retrieved October 20, 2020.",
@@ -62,7 +62,7 @@
 			"phase_name": "initial-access"
 		}
 	],
-	"modified": "2024-04-15T23:51:25.037Z",
+	"modified": "2024-10-15T16:06:32.591Z",
 	"name": "Spearphishing Link",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -95,9 +95,9 @@
 		"Linux",
 		"macOS",
 		"Windows",
-		"Office 365",
 		"SaaS",
-		"Google Workspace"
+		"Identity Provider",
+		"Office Suite"
 	],
-	"x_mitre_version": "2.6"
+	"x_mitre_version": "2.7"
 }

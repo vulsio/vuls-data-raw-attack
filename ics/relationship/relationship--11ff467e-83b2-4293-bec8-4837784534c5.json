@@ -3,8 +3,8 @@
 	"id": "relationship--11ff467e-83b2-4293-bec8-4837784534c5",
 	"created": "2022-03-30T14:26:51.84Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for changes made to files for unexpected modifications to access permissions and attributes.\n\nAnalytic 1 -  Modified Files in Linux Cron Directories\n\n<code> source=\"*Linux:*\"\n (Path LIKE \"/etc/cron.allow.d\"\n   OR Path LIKE \"/etc/cron.d/\"\n   OR Path LIKE \"/etc/cron.hourly\"\n   OR Path LIKE \"/etc/cron.daily\"\n   OR Path LIKE \"/etc/cron.weeky\"\n   OR Path LIKE \"/etc/cron.monthly\")</code>",
-	"modified": "2024-03-28T18:27:59.047Z",
+	"description": "Monitor modifications to crontab files or system-wide cron directories. Monitor for changes made to files for unexpected modifications to access permissions and attributes.\n\nAnalytic 1 -  Modified Files in Linux Cron Directories\n\n<code> index=linux sourcetype:cron_logs:scheduled_tasks\" | search \"modification\" AND (file_path=\"/etc/crontab\" OR file_path=\"/var/spool/cron/crontabs/*\" OR file_path=\"/etc/cron.d/*\")</code>",
+	"modified": "2024-10-04T14:09:29.138Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

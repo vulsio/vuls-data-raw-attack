@@ -52,7 +52,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-12-27T17:57:20.003Z",
+	"modified": "2024-08-13T13:52:45.379Z",
 	"name": "LSASS Memory",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -63,7 +63,8 @@
 	"x_mitre_contributors": [
 		"Edward Millington",
 		"Ed Williams, Trustwave, SpiderLabs",
-		"Olaf Hartong, Falcon Force"
+		"Olaf Hartong, Falcon Force",
+		"Michael Forret, Quorum Cyber"
 	],
 	"x_mitre_data_sources": [
 		"Process: Process Access",
@@ -84,5 +85,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

@@ -3,7 +3,7 @@
 	"id": "relationship--8afca8e1-320a-4eed-b865-995a9b6b3920",
 	"created": "2022-03-30T14:26:51.84Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": " Monitor for many failed authentication attempts across various accounts that may result from credential stuffing attempts.(Citation: Mandiant Cloudy Logs 2023)",
+	"description": " Monitor for many failed authentication attempts across various accounts that may result from credential stuffing attempts.(Citation: Mandiant Cloudy Logs 2023)\n\nAnalytic 1 - Multiple failed logon attempts across different accounts, especially using commonly used passwords.\n\n<code> (index=security sourcetype=\"WinEventLog:Security\" EventCode IN (4625, 5379)) OR\n(index=os sourcetype=\"linux_secure\" message=\"Failed password\") OR\n(index=os sourcetype=\"macos_secure\" message=\"Failed to authenticate user\") | where match(Password, \"(?i)(Password123|Password1|123456|12345678|qwerty|abc123|letmein|welcome|monkey|admin|login|pass|guest|root)\")</code>",
 	"external_references": [
 		{
 			"description": "Pany, D. & Hanley, C. (2023, May 3). Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations. Retrieved October 16, 2023.",
@@ -11,7 +11,7 @@
 			"url": "https://www.mandiant.com/resources/blog/cloud-bad-log-configurations"
 		}
 	],
-	"modified": "2023-10-16T17:15:42.878Z",
+	"modified": "2024-08-13T18:01:51.455Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

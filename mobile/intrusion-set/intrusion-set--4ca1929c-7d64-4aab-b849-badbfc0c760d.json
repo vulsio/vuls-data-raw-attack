@@ -9,7 +9,8 @@
 		"Helix Kitten",
 		"Evasive Serpens",
 		"Hazel Sandstorm",
-		"EUROPIUM"
+		"EUROPIUM",
+		"ITG13"
 	],
 	"created": "2017-12-14T16:46:06.044Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -23,6 +24,10 @@
 		{
 			"description": "(Citation: Crowdstrike Helix Kitten Nov 2018)",
 			"source_name": "IRN2"
+		},
+		{
+			"description": "(Citation: IBM ZeroCleare Wiper December 2019)",
+			"source_name": "ITG13"
 		},
 		{
 			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
@@ -74,6 +79,11 @@
 			"url": "http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/"
 		},
 		{
+			"description": "Kessem, L. (2019, December 4). New Destructive Wiper ZeroCleare Targets Energy Sector in the Middle East. Retrieved September 4, 2024.",
+			"source_name": "IBM ZeroCleare Wiper December 2019",
+			"url": "https://securityintelligence.com/posts/new-destructive-wiper-zerocleare-targets-energy-sector-in-the-middle-east/"
+		},
+		{
 			"description": "Lee, B., Falcone, R. (2018, July 25). OilRig Targets Technology Service Provider and Government Agency with QUADAGENT. Retrieved August 9, 2018.",
 			"source_name": "Unit 42 QUADAGENT July 2018",
 			"url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/"
@@ -113,7 +123,7 @@
 			"url": "https://pan-unit42.github.io/playbook_viewer/?pb=evasive-serpens"
 		}
 	],
-	"modified": "2024-04-11T16:06:34.698Z",
+	"modified": "2024-09-04T20:33:04.739Z",
 	"name": "OilRig",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -132,5 +142,5 @@
 		"ics-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.0"
+	"x_mitre_version": "4.1"
 }

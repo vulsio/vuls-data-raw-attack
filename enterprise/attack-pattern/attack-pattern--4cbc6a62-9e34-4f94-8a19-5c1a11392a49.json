@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1218/003"
 		},
 		{
-			"description": "Carr, N. (2018, January 31). Here is some early bad cmstp.exe... Retrieved April 11, 2018.",
+			"description": "Carr, N. (2018, January 31). Here is some early bad cmstp.exe... Retrieved September 12, 2024.",
 			"source_name": "Twitter CMSTP Usage Jan 2018",
-			"url": "https://twitter.com/ItsReallyNick/status/958789644165894146"
+			"url": "https://x.com/ItsReallyNick/status/958789644165894146"
 		},
 		{
 			"description": "Microsoft. (2009, October 8). How Connection Manager Works. Retrieved April 11, 2018.",
@@ -36,9 +36,9 @@
 			"url": "http://www.endurant.io/cmstp/detecting-cmstp-enabled-code-execution-and-uac-bypass-with-sysmon/"
 		},
 		{
-			"description": "Tyrer, N. (2018, January 30). CMSTP.exe - remote .sct execution applocker bypass. Retrieved April 11, 2018.",
+			"description": "Tyrer, N. (2018, January 30). CMSTP.exe - remote .sct execution applocker bypass. Retrieved September 12, 2024.",
 			"source_name": "Twitter CMSTP Jan 2018",
-			"url": "https://twitter.com/NickTyrer/status/958450014111633408"
+			"url": "https://x.com/NickTyrer/status/958450014111633408"
 		}
 	],
 	"kill_chain_phases": [
@@ -47,14 +47,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-04-21T12:24:13.666Z",
+	"modified": "2024-09-12T19:35:43.077Z",
 	"name": "CMSTP",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Nik Seetharaman, Palantir",
 		"Ye Yint Min Thu Htut, Offensive Security Team, DBS Bank"

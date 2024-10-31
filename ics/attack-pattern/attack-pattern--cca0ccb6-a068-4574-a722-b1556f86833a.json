@@ -13,7 +13,7 @@
 		{
 			"description": "Australian Cyber Security Centre. (2012, December). Mitigating Spoofed Emails Using Sender Policy Framework. Retrieved October 19, 2020.",
 			"source_name": "ACSC Email Spoofing",
-			"url": "https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf"
+			"url": "https://web.archive.org/web/20210708014107/https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf"
 		},
 		{
 			"description": "Avertium. (n.d.). EVERYTHING YOU NEED TO KNOW ABOUT CALLBACK PHISHING. Retrieved February 2, 2023.",
@@ -77,14 +77,14 @@
 			"phase_name": "reconnaissance"
 		}
 	],
-	"modified": "2023-09-08T20:28:49.6Z",
+	"modified": "2024-05-31T04:18:44.57Z",
 	"name": "Phishing for Information",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Philip Winther",
 		"Sebastian Salla, McAfee",

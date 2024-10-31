@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1593/002"
 		},
 		{
-			"description": "Borges, E. (2019, March 5). Exploring Google Hacking Techniques. Retrieved October 20, 2020.",
+			"description": "Borges, E. (2019, March 5). Exploring Google Hacking Techniques. Retrieved September 12, 2024.",
 			"source_name": "SecurityTrails Google Hacking",
-			"url": "https://securitytrails.com/blog/google-hacking-techniques"
+			"url": "https://www.recordedfuture.com/threat-intelligence-101/threat-analysis-techniques/google-dorks"
 		},
 		{
 			"description": "Offensive Security. (n.d.). Google Hacking Database. Retrieved October 23, 2020.",
@@ -27,13 +27,15 @@
 			"phase_name": "reconnaissance"
 		}
 	],
-	"modified": "2021-04-15T03:52:06.96Z",
+	"modified": "2024-09-12T19:19:47.758Z",
 	"name": "Search Engines",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Much of this activity may have a very high occurrence and associated false positive rate, as well as potentially taking place outside the visibility of the target organization, making detection difficult for defenders.\n\nDetection efforts may be focused on related stages of the adversary lifecycle, such as during Initial Access.",
 	"x_mitre_domains": [
 		"enterprise-attack"

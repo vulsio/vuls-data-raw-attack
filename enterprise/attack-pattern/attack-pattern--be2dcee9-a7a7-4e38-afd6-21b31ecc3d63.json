@@ -17,17 +17,19 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2022-04-18T18:48:06.141Z",
+	"modified": "2024-10-15T16:34:23.908Z",
 	"name": "Exploitation for Client Execution",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Process: Process Creation",
-		"Application Log: Application Log Content"
+		"File: File Modification",
+		"Application Log: Application Log Content",
+		"Network Traffic: Network Traffic Flow"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the browser or Office processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/techniques/T1055) for attempts to hide execution, evidence of Discovery, or other unusual network traffic that may indicate additional tools transferred to the system.",

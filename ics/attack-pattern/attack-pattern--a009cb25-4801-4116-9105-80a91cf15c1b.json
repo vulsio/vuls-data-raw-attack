@@ -62,7 +62,7 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2024-03-28T16:14:28.678Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Cloud Account",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -72,7 +72,8 @@
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Praetorian",
-		"Microsoft Threat Intelligence Center (MSTIC)"
+		"Microsoft Threat Intelligence Center (MSTIC)",
+		"Arun Seelagan, CISA"
 	],
 	"x_mitre_data_sources": [
 		"User Account: User Account Creation"
@@ -85,11 +86,10 @@
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
-		"Azure AD",
-		"Office 365",
 		"IaaS",
-		"Google Workspace",
-		"SaaS"
+		"SaaS",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.5"
+	"x_mitre_version": "1.6"
 }

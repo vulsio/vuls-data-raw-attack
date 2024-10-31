@@ -46,7 +46,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2024-01-16T22:24:38.234Z",
+	"modified": "2024-10-15T15:35:57.382Z",
 	"name": "Account Manipulation",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -78,15 +78,14 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Azure AD",
-		"Office 365",
 		"IaaS",
 		"Linux",
 		"macOS",
-		"Google Workspace",
 		"SaaS",
 		"Network",
-		"Containers"
+		"Containers",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "2.6"
+	"x_mitre_version": "2.7"
 }

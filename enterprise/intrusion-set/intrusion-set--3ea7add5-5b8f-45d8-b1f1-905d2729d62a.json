@@ -5,11 +5,12 @@
 		"CURIUM",
 		"Crimson Sandstorm",
 		"TA456",
-		"Tortoise Shell"
+		"Tortoise Shell",
+		"Yellow Liderc"
 	],
 	"created": "2023-01-13T20:51:13.494Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[CURIUM](https://attack.mitre.org/groups/G1012) is an Iranian threat group first reported in November 2021 that has invested in building a relationship with potential targets via social media over a period of months to establish trust and confidence before sending malware. Security researchers note [CURIUM](https://attack.mitre.org/groups/G1012) has demonstrated great patience and persistence by chatting with potential targets daily and sending benign files to help lower their security consciousness.(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+	"description": "[CURIUM](https://attack.mitre.org/groups/G1012) is an Iranian threat group, first reported in September 2019 and active since at least July 2018, targeting IT service providers in the Middle East.(Citation: Symantec Tortoiseshell 2019) [CURIUM](https://attack.mitre.org/groups/G1012) has since invested in building relationships with potential targets via social media over a period of months to establish trust and confidence before sending malware. Security researchers note [CURIUM](https://attack.mitre.org/groups/G1012) has demonstrated great patience and persistence by chatting with potential targets daily and sending benign files to help lower their security consciousness.(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
 	"external_references": [
 		{
 			"external_id": "G1012",
@@ -29,6 +30,10 @@
 			"source_name": "TA456"
 		},
 		{
+			"description": "(Citation: PWC Yellow Liderc 2023)",
+			"source_name": "Yellow Liderc"
+		},
+		{
 			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
 			"source_name": "Microsoft Threat Actor Naming July 2023",
 			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
@@ -42,9 +47,19 @@
 			"description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity – MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
 			"source_name": "Microsoft Iranian Threat Actor Trends November 2021",
 			"url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+		},
+		{
+			"description": "PwC Threat Intelligence. (2023, October 25). Yellow Liderc ships its scripts and delivers IMAPLoader malware. Retrieved August 14, 2024.",
+			"source_name": "PWC Yellow Liderc 2023",
+			"url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/yellow-liderc-ships-its-scripts-delivers-imaploader-malware.html"
+		},
+		{
+			"description": "Symantec Threat Hunter Team. (2019, September 18). Tortoiseshell Group Targets IT Providers in Saudi Arabia in Probable Supply Chain Attacks. Retrieved May 20, 2024.",
+			"source_name": "Symantec Tortoiseshell 2019",
+			"url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/tortoiseshell-apt-supply-chain"
 		}
 	],
-	"modified": "2024-04-17T22:09:00.876Z",
+	"modified": "2024-10-02T12:13:42.278Z",
 	"name": "CURIUM",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -52,10 +67,14 @@
 	"revoked": false,
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_contributors": [
+		"Denise Tan",
+		"Wirapong Petshagun"
+	],
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "3.0"
 }

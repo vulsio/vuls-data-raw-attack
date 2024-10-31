@@ -3,8 +3,8 @@
 	"id": "relationship--59fee765-c771-4d66-bc8a-ddedb49f43d8",
 	"created": "2022-03-30T14:26:51.865Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor DLL/PE file events, specifically creation of these binary files as well as the loading of DLLs into processes. Look for DLLs that are not recognized or not normally loaded into a process.\n\nNote: This looks for unsigned images that may be loaded by regsvr32, while attempting to eliminate false positives stemming from Windows/Program Files binaries.\n\nAnalytic 5 - Loading Unsigned Images \n\n<code>(source=\"*WinEventLog:Microsoft-Windows-Sysmon/Operational\" EventCode=\"7\") (Image=\"C:\\\\Windows\\\\System32\\\\regsvr32.exe\" OR Image=\"C:\\\\Windows\\\\SysWOW64\\\\regsvr32.exe\") Signed=false ImageLoaded!=\"C:\\\\Program Files*\" ImageLoaded!=\"C:\\\\Windows\\\\*\"|stats values(ComputerName) as \"Computer Name\" count(ImageLoaded) as ImageLoadedCount by ImageLoaded</code>",
-	"modified": "2024-03-27T21:02:34.075Z",
+	"description": "Monitor DLL/PE file events, specifically creation of these binary files as well as the loading of DLLs into processes. Look for DLLs that are not recognized or not normally loaded into a process.\n\nNote: This looks for unsigned images that may be loaded by regsvr32, while attempting to eliminate false positives stemming from Windows/Program Files binaries.\n\nAnalytic 5 - Loading Unsigned Images \n\n<code>(sourcetype=WinEventLog:Microsoft-Windows-Sysmon/Operational EventCode=\"7\") (Image=\"C:\\\\Windows\\\\System32\\\\regsvr32.exe\" OR Image=\"C:\\\\Windows\\\\SysWOW64\\\\regsvr32.exe\") Signed=false ImageLoaded!=\"C:\\\\Program Files*\" ImageLoaded!=\"C:\\\\Windows\\\\*\"|stats values(ComputerName) as \"Computer Name\" count(ImageLoaded) as ImageLoadedCount by ImageLoaded</code>",
+	"modified": "2024-10-04T14:26:24.34Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

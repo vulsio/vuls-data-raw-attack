@@ -5,7 +5,8 @@
 		"Indrik Spider",
 		"Evil Corp",
 		"Manatee Tempest",
-		"DEV-0243"
+		"DEV-0243",
+		"UNC2165"
 	],
 	"created": "2021-01-06T17:46:35.134Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -21,6 +22,10 @@
 			"source_name": "Evil Corp"
 		},
 		{
+			"description": "(Citation: Mandiant_UNC2165)",
+			"source_name": "UNC2165"
+		},
+		{
 			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
 			"source_name": "Manatee Tempest"
 		},
@@ -32,6 +37,11 @@
 			"description": "Frankoff, S., Hartley, B. (2018, November 14). Big Game Hunting: The Evolution of INDRIK SPIDER From Dridex Wire Fraud to BitPaymer Targeted Ransomware. Retrieved January 6, 2021.",
 			"source_name": "Crowdstrike Indrik November 2018",
 			"url": "https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/"
+		},
+		{
+			"description": "Mandiant Intelligence. (2022, June 2). To HADES and Back: UNC2165 Shifts to LOCKBIT to Evade Sanctions. Retrieved July 29, 2024.",
+			"source_name": "Mandiant_UNC2165",
+			"url": "https://cloud.google.com/blog/topics/threat-intelligence/unc2165-shifts-to-evade-sanctions/"
 		},
 		{
 			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
@@ -49,7 +59,7 @@
 			"url": "https://home.treasury.gov/news/press-releases/sm845"
 		}
 	],
-	"modified": "2024-04-17T22:10:56.266Z",
+	"modified": "2024-10-28T19:11:56.485Z",
 	"name": "Indrik Spider",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -58,12 +68,13 @@
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Jennifer Kim Roman, CrowdStrike"
+		"Jennifer Kim Roman, CrowdStrike",
+		"Liran Ravich, CardinalOps"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.0"
+	"x_mitre_version": "4.1"
 }

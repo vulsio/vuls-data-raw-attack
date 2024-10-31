@@ -31,9 +31,9 @@
 			"url": "https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/"
 		},
 		{
-			"description": "Microsoft Threat Intelligence. (2023, June 21). Credential Attacks. Retrieved September 27, 2023.",
+			"description": "Microsoft Threat Intelligence. (2023, June 21). Credential Attacks. Retrieved September 12, 2024.",
 			"source_name": "Microsoft Midnight Blizzard Replay Attack",
-			"url": "https://twitter.com/MsftSecIntel/status/1671579359994343425"
+			"url": "https://x.com/MsftSecIntel/status/1671579359994343425"
 		},
 		{
 			"description": "Microsoft. (2014, November 18). Vulnerability in Kerberos Could Allow Elevation of Privilege (3011780). Retrieved December 23, 2015.",
@@ -47,7 +47,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-10-15T11:45:21.555Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Exploitation for Credential Access",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -75,7 +75,7 @@
 		"Linux",
 		"Windows",
 		"macOS",
-		"Azure AD"
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.5"
+	"x_mitre_version": "1.6"
 }

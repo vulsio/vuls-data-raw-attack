@@ -34,7 +34,7 @@
 			"url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools"
 		}
 	],
-	"modified": "2023-07-27T15:44:31.364Z",
+	"modified": "2024-09-25T20:32:02.152Z",
 	"name": "Empire",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -46,7 +46,7 @@
 		"EmPyre",
 		"PowerShell Empire"
 	],
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -57,5 +57,5 @@
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.7"
+	"x_mitre_version": "1.8"
 }

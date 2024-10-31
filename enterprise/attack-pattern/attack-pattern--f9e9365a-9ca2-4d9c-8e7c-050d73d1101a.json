@@ -11,14 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1505/001"
 		},
 		{
-			"description": "Sutherland, S. (2016, March 7). Maintaining Persistence via SQL Server – Part 1: Startup Stored Procedures. Retrieved July 8, 2019.",
-			"source_name": "NetSPI Startup Stored Procedures",
-			"url": "https://blog.netspi.com/sql-server-persistence-part-1-startup-stored-procedures/"
-		},
-		{
-			"description": "Plakhov, A., Sitchikhin, D. (2019, August 22). Agent 1433: remote attack on Microsoft SQL Server. Retrieved September 4, 2019.",
-			"source_name": "Kaspersky MSSQL Aug 2019",
-			"url": "https://securelist.com/malicious-tasks-in-ms-sql-server/92167/"
+			"description": "Microsoft. (2017, June 19). Common Language Runtime Integration. Retrieved July 8, 2019.",
+			"source_name": "Microsoft CLR Integration 2017",
+			"url": "https://docs.microsoft.com/en-us/sql/relational-databases/clr-integration/common-language-runtime-integration-overview?view=sql-server-2017"
 		},
 		{
 			"description": "Microsoft. (2017, March 15). xp_cmdshell (Transact-SQL). Retrieved September 9, 2019.",
@@ -26,14 +21,19 @@
 			"url": "https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/xp-cmdshell-transact-sql?view=sql-server-2017"
 		},
 		{
-			"description": "Microsoft. (2017, June 19). Common Language Runtime Integration. Retrieved July 8, 2019.",
-			"source_name": "Microsoft CLR Integration 2017",
-			"url": "https://docs.microsoft.com/en-us/sql/relational-databases/clr-integration/common-language-runtime-integration-overview?view=sql-server-2017"
+			"description": "Plakhov, A., Sitchikhin, D. (2019, August 22). Agent 1433: remote attack on Microsoft SQL Server. Retrieved September 4, 2019.",
+			"source_name": "Kaspersky MSSQL Aug 2019",
+			"url": "https://securelist.com/malicious-tasks-in-ms-sql-server/92167/"
 		},
 		{
-			"description": "Sutherland, S. (2017, July 13). Attacking SQL Server CLR Assemblies. Retrieved July 8, 2019.",
+			"description": "Sutherland, S. (2016, March 7). Maintaining Persistence via SQL Server – Part 1: Startup Stored Procedures. Retrieved September 12, 2024.",
+			"source_name": "NetSPI Startup Stored Procedures",
+			"url": "https://www.netspi.com/blog/technical-blog/network-penetration-testing/sql-server-persistence-part-1-startup-stored-procedures/"
+		},
+		{
+			"description": "Sutherland, S. (2017, July 13). Attacking SQL Server CLR Assemblies. Retrieved September 12, 2024.",
 			"source_name": "NetSPI SQL Server CLR",
-			"url": "https://blog.netspi.com/attacking-sql-server-clr-assemblies/"
+			"url": "https://www.netspi.com/blog/technical-blog/adversary-simulation/attacking-sql-server-clr-assemblies/"
 		}
 	],
 	"kill_chain_phases": [
@@ -42,13 +42,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2020-03-25T23:30:20.638Z",
+	"modified": "2024-10-15T16:05:24.007Z",
 	"name": "SQL Stored Procedures",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Carlos Borges, @huntingneo, CIP",
 		"Lucas da Silva Pereira, @vulcanunsec, CIP",
@@ -57,20 +58,16 @@
 	"x_mitre_data_sources": [
 		"Application Log: Application Log Content"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "On a MSSQL Server, consider monitoring for xp_cmdshell usage.(Citation: NetSPI Startup Stored Procedures) Consider enabling audit features that can log malicious startup activities.",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"Administrator",
-		"SYSTEM",
-		"root"
-	],
 	"x_mitre_platforms": [
 		"Windows",
 		"Linux"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

@@ -11,6 +11,11 @@
 			"url": "https://attack.mitre.org/techniques/T1555/003"
 		},
 		{
+			"description": "Jamieson O'Reilly (putterpanda). (2016, July 4). mimikittenz. Retrieved June 20, 2019.",
+			"source_name": "GitHub Mimikittenz July 2016",
+			"url": "https://github.com/putterpanda/mimikittenz"
+		},
+		{
 			"description": "Mercer, W. and Rascagneres, P. (2018, February 12). Olympic Destroyer Takes Aim At Winter Olympics. Retrieved March 14, 2019.",
 			"source_name": "Talos Olympic Destroyer 2018",
 			"url": "https://blog.talosintelligence.com/2018/02/olympic-destroyer.html"
@@ -29,11 +34,6 @@
 			"description": "Swapnil Patil, Yogesh Londhe. (2017, July 25). HawkEye Credential Theft Malware Distributed in Recent Phishing Campaign. Retrieved June 18, 2019.",
 			"source_name": "FireEye HawkEye Malware July 2017",
 			"url": "https://www.fireeye.com/blog/threat-research/2017/07/hawkeye-malware-distributed-in-phishing-campaign.html"
-		},
-		{
-			"description": "Jamieson O'Reilly (putterpanda). (2016, July 4). mimikittenz. Retrieved June 20, 2019.",
-			"source_name": "GitHub Mimikittenz July 2016",
-			"url": "https://github.com/putterpanda/mimikittenz"
 		}
 	],
 	"kill_chain_phases": [
@@ -42,13 +42,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2022-02-15T19:29:57.405Z",
+	"modified": "2024-08-15T14:13:45.294Z",
 	"name": "Credentials from Web Browsers",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Ryan Benson, Exabeam",
 		"Barry Shteiman, Exabeam",
@@ -61,19 +62,17 @@
 		"File: File Access",
 		"Process: OS API Execution"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Identify web browser files that contain credentials such as Google Chrome’s Login Data database file: <code>AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data</code>. Monitor file read events of web browser files that contain credentials, especially when the reading process is unrelated to the subject web browser. Monitor process execution logs to include PowerShell Transcription focusing on those that perform a combination of behaviors including reading web browser process memory, utilizing regular expressions, and those that contain numerous keywords for common web applications (Gmail, Twitter, Office365, etc.).",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

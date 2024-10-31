@@ -27,14 +27,14 @@
 			"phase_name": "discovery"
 		}
 	],
-	"modified": "2023-04-15T17:26:53.365Z",
+	"modified": "2024-10-15T16:03:06.294Z",
 	"name": "Permission Groups Discovery",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Daniel Prizmant, Palo Alto Networks",
 		"Yuval Avrahami, Palo Alto Networks",
@@ -56,14 +56,13 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Azure AD",
-		"Office 365",
 		"SaaS",
 		"IaaS",
 		"Linux",
 		"macOS",
-		"Google Workspace",
-		"Containers"
+		"Containers",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "2.5"
+	"x_mitre_version": "2.6"
 }

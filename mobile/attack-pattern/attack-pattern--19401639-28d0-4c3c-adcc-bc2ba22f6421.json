@@ -16,9 +16,9 @@
 			"url": "https://threatpost.com/final-report-diginotar-hack-shows-total-compromise-ca-servers-103112/77170/"
 		},
 		{
-			"description": "Let's Encrypt. (2020, April 23). Let's Encrypt FAQ. Retrieved October 15, 2020.",
-			"source_name": "Let's Encrypt FAQ",
-			"url": "https://letsencrypt.org/docs/faq/"
+			"description": "Insikt Group. (2019, June 18). A Multi-Method Approach to Identifying Rogue Cobalt Strike Servers. Retrieved September 16, 2024.",
+			"source_name": "Recorded Future Beacon Certificates",
+			"url": "https://www.recordedfuture.com/research/cobalt-strike-servers"
 		},
 		{
 			"description": "Kovar, R. (2017, December 11). Tall Tales of Hunting with TLS/SSL Certificates. Retrieved October 16, 2020.",
@@ -26,9 +26,9 @@
 			"url": "https://www.splunk.com/en_us/blog/security/tall-tales-of-hunting-with-tls-ssl-certificates.html"
 		},
 		{
-			"description": "Insikt Group. (2019, June 18). A Multi-Method Approach to Identifying Rogue Cobalt Strike Servers. Retrieved October 16, 2020.",
-			"source_name": "Recorded Future Beacon Certificates",
-			"url": "https://www.recordedfuture.com/cobalt-strike-servers/"
+			"description": "Let's Encrypt. (2020, April 23). Let's Encrypt FAQ. Retrieved October 15, 2020.",
+			"source_name": "Let's Encrypt FAQ",
+			"url": "https://letsencrypt.org/docs/faq/"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,17 +37,19 @@
 			"phase_name": "resource-development"
 		}
 	],
-	"modified": "2021-10-16T17:44:09.486Z",
+	"modified": "2024-09-16T16:19:41.567Z",
 	"name": "Digital Certificates",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Certificate: Certificate Registration",
 		"Internet Scan: Response Content"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Consider use of services that may aid in the tracking of newly issued certificates and/or certificates in use on sites across the Internet. In some cases it may be possible to pivot on known pieces of certificate information to uncover other adversary infrastructure.(Citation: Splunk Kovar Certificates 2017) Some server-side components of adversary tools may have default values set for SSL/TLS certificates.(Citation: Recorded Future Beacon Certificates)\n\nDetection efforts may be focused on related behaviors, such as [Web Protocols](https://attack.mitre.org/techniques/T1071/001), [Asymmetric Cryptography](https://attack.mitre.org/techniques/T1573/002), and/or [Install Root Certificate](https://attack.mitre.org/techniques/T1553/004).",
 	"x_mitre_domains": [
 		"enterprise-attack"

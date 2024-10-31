@@ -67,7 +67,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2024-04-18T23:47:41.667Z",
+	"modified": "2024-10-15T15:12:43.034Z",
 	"name": "OS Credential Dumping",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

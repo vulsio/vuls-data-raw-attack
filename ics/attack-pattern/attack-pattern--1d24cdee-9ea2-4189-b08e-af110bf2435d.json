@@ -27,14 +27,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-03-30T21:01:48.643Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Password Cracking",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Mohamed Kmal"
 	],
@@ -53,9 +53,9 @@
 		"Linux",
 		"macOS",
 		"Windows",
-		"Office 365",
-		"Azure AD",
-		"Network"
+		"Network",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

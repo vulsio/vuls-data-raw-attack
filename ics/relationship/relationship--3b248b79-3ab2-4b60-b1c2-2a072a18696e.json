@@ -3,7 +3,7 @@
 	"id": "relationship--3b248b79-3ab2-4b60-b1c2-2a072a18696e",
 	"created": "2022-10-17T22:01:22.949Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for changes made to AD security settings related to MFA logon requirements, such as changes to Azure AD Conditional Access Policies or the registration of new MFA applications.\n\nMonitor for changes made to security settings related to Azure AD Conditional Access Policies. These can be found in the Azure AD audit log under the operation name `Update Conditional Access policy.`(Citation: Microsoft Conditional Access Policy Changes)",
+	"description": "Monitor for changes made to AD security settings related to MFA logon requirements, such as changes to Azure AD Conditional Access Policies or the registration of new MFA applications.\n\nMonitor for changes made to security settings related to Azure AD Conditional Access Policies. These can be found in the Azure AD audit log under the operation name `Update Conditional Access policy.`(Citation: Microsoft Conditional Access Policy Changes)\n\nAnalytic 1 - Changes to AD security settings outside of normal maintenance windows.\n\n<code>index=security sourcetype IN (\"WinEventLog:Security\", \"azure:activity\", \"gsuite:reports:activity\", \"aws:cloudtrail\", \"linux_audit\", \"macos_secure\", \"network_logs\")\n(EventCode IN (4670, 5136, 5137, 5139, 5141) OR\n eventName IN (\"UpdateUser\", \"UpdateGroup\", \"UpdatePolicy\", \"UpdateRole\", \"PutRolePolicy\", \"AttachUserPolicy\", \"AttachGroupPolicy\", \"AttachRolePolicy\") OR\n \"protoPayload.methodName\" IN (\"directory.users.update\", \"admin.directory.group.update\", \"admin.directory.roleAssignments.update\")) </code>",
 	"external_references": [
 		{
 			"description": "Microsoft. (2023, October 23). Troubleshooting Conditional Access policy changes. Retrieved January 2, 2024.",
@@ -11,7 +11,7 @@
 			"url": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/troubleshoot-policy-changes-audit-log"
 		}
 	],
-	"modified": "2024-04-11T21:53:05.33Z",
+	"modified": "2024-08-19T14:52:51.849Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

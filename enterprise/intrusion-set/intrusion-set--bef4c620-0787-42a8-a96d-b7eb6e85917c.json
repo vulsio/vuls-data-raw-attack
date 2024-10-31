@@ -218,7 +218,7 @@
 			"source_name": "Sofacy"
 		}
 	],
-	"modified": "2024-04-04T19:07:48.903Z",
+	"modified": "2024-10-10T14:31:01.968Z",
 	"name": "APT28",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -238,5 +238,5 @@
 		"mobile-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "5.0"
+	"x_mitre_version": "5.1"
 }

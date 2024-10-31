@@ -11,12 +11,12 @@
 			"url": "https://blog.talosintelligence.com/2022/01/ukraine-campaign-delivers-defacement.html"
 		},
 		{
-			"description": "Insikt Group. (2020, January 28). WhisperGate Malware Corrupts Computers in Ukraine. Retrieved March 31, 2023.",
+			"description": "Insikt Group. (2020, January 28). WhisperGate Malware Corrupts Computers in Ukraine. Retrieved September 16, 2024.",
 			"source_name": "RecordedFuture WhisperGate Jan 2022",
-			"url": "https://www.recordedfuture.com/whispergate-malware-corrupts-computers-ukraine"
+			"url": "https://www.recordedfuture.com/research/whispergate-malware-corrupts-computers-ukraine"
 		}
 	],
-	"modified": "2023-03-31T21:31:54.848Z",
+	"modified": "2024-09-16T16:21:40.33Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -25,7 +25,7 @@
 	"source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
 	"spec_version": "",
 	"target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "0.1"

@@ -3,12 +3,17 @@
 	"id": "relationship--b42c23c9-99f4-4b1f-91e2-a945a119fe98",
 	"created": "2020-04-28T13:48:00.518Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[APT41](https://attack.mitre.org/groups/G0096) used [certutil](https://attack.mitre.org/software/S0160) to download additional files.(Citation: FireEye APT41 March 2020)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Group IB APT 41 June 2021) [APT41](https://attack.mitre.org/groups/G0096) downloaded post-exploitation tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154) via command shell following initial access.(Citation: Rostovcev APT41 2021)",
+	"description": "[APT41](https://attack.mitre.org/groups/G0096) used [certutil](https://attack.mitre.org/software/S0160) to download additional files.(Citation: FireEye APT41 March 2020)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Group IB APT 41 June 2021) [APT41](https://attack.mitre.org/groups/G0096) downloaded post-exploitation tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154) via command shell following initial access.(Citation: Rostovcev APT41 2021) [APT41](https://attack.mitre.org/groups/G0096) has uploaded Procdump   and NATBypass to a staging directory and has used these tools in follow-on activities.(Citation: apt41_dcsocytec_dec2022)",
 	"external_references": [
 		{
 			"description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020.",
 			"source_name": "Crowdstrike GTR2020 Mar 2020",
 			"url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+		},
+		{
+			"description": "DCSO CyTec Blog. (2022, December 24). APT41 — The spy who failed to encrypt me. Retrieved June 13, 2024.",
+			"source_name": "apt41_dcsocytec_dec2022",
+			"url": "https://medium.com/@DCSO_CyTec/apt41-the-spy-who-failed-to-encrypt-me-24fc0f49cad1"
 		},
 		{
 			"description": "Glyer, C, et al. (2020, March). This Is Not a Test: APT41 Initiates Global Intrusion Campaign Using Multiple Exploits. Retrieved April 28, 2020.",
@@ -26,7 +31,7 @@
 			"url": "https://www.group-ib.com/blog/colunmtk-apt41/"
 		}
 	],
-	"modified": "2024-02-22T21:34:38.754Z",
+	"modified": "2024-07-01T15:39:46.995Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

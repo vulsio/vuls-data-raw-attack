@@ -21,17 +21,19 @@
 			"url": "https://linux.die.net/man/1/ftp"
 		}
 	],
-	"modified": "2022-03-07T22:20:18.809Z",
+	"modified": "2024-08-14T15:21:48.196Z",
 	"name": "ftp",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
 	"x_mitre_aliases": [
 		"ftp",
 		"ftp.exe"
 	],
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
@@ -41,5 +43,5 @@
 		"Windows",
 		"macOS"
 	],
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "2.1"
 }

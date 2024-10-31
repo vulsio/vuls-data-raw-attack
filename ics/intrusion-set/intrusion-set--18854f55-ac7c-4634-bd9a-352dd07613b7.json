@@ -9,7 +9,7 @@
 	],
 	"created": "2019-09-23T13:43:36.945Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[APT41](https://attack.mitre.org/groups/G0096) is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, [APT41](https://attack.mitre.org/groups/G0096) has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries. [APT41](https://attack.mitre.org/groups/G0096) overlaps at least partially with public reporting on groups including BARIUM and [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n",
+	"description": "[APT41](https://attack.mitre.org/groups/G0096) is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, [APT41](https://attack.mitre.org/groups/G0096) has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include using a wide range of malware and tools to complete mission objectives. [APT41](https://attack.mitre.org/groups/G0096) overlaps at least partially with public reporting on groups including BARIUM and [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n",
 	"external_references": [
 		{
 			"external_id": "G0096",
@@ -48,6 +48,11 @@
 			"url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
 		},
 		{
+			"description": "Mandiant. (n.d.). APT41, A DUAL ESPIONAGE AND CYBER CRIME OPERATION. Retrieved June 11, 2024.",
+			"source_name": "apt41_mandiant",
+			"url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
+		},
+		{
 			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
 			"source_name": "Microsoft Threat Actor Naming July 2023",
 			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
@@ -58,7 +63,7 @@
 			"url": "https://www.group-ib.com/blog/colunmtk-apt41/"
 		}
 	],
-	"modified": "2024-04-03T15:20:38.791Z",
+	"modified": "2024-10-10T14:31:35.326Z",
 	"name": "APT41",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -75,5 +80,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.0"
+	"x_mitre_version": "4.1"
 }

@@ -47,7 +47,7 @@
 			"phase_name": "exfiltration"
 		}
 	],
-	"modified": "2024-04-11T15:53:00.577Z",
+	"modified": "2024-10-15T16:08:25.344Z",
 	"name": "Transfer Data to Cloud Account",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -81,8 +81,7 @@
 	"x_mitre_platforms": [
 		"IaaS",
 		"SaaS",
-		"Google Workspace",
-		"Office 365"
+		"Office Suite"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

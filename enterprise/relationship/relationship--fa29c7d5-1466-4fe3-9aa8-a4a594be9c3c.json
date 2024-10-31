@@ -3,7 +3,7 @@
 	"id": "relationship--fa29c7d5-1466-4fe3-9aa8-a4a594be9c3c",
 	"created": "2022-03-30T14:26:51.862Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for loading and/or execution of artifacts associated with PowerShell specific assemblies, such as System.Management.Automation.dll (especially to unusual process names/locations).(Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015)\n\nAnalytic 1 - Processes loading PowerShell assemblies\n\n<code>source=\"*WinEventLog:Microsoft-Windows-Sysmon/Operational\" EventCode=\"7\" | where ModulePath LIKE \"%system.management.automation%\" OR\n   FileDescription LIKE \"%system.management.automation%\"</code>",
+	"description": "Monitor for loading and/or execution of artifacts associated with PowerShell specific assemblies, such as System.Management.Automation.dll (especially to unusual process names/locations).(Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015)\n\nAnalytic 1 - Processes loading PowerShell assemblies\n\n<code>sourcetype=WinEventLog:Microsoft-Windows-Sysmon/Operational\n| search EventCode=7 ImageLoaded IN (\"C:\\\\Windows\\\\System32\\\\System.Management.Automation.dll\", \"C:\\\\Windows\\\\System32\\\\powershell.exe\")</code>",
 	"external_references": [
 		{
 			"description": "Christensen, L.. (2015, December 28). The Evolution of Offensive PowerShell Invocation. Retrieved December 8, 2018.",
@@ -16,7 +16,7 @@
 			"url": "https://web.archive.org/web/20160327101330/http://www.sixdub.net/?p=367"
 		}
 	],
-	"modified": "2024-03-27T19:55:08.382Z",
+	"modified": "2024-09-03T14:33:22.467Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

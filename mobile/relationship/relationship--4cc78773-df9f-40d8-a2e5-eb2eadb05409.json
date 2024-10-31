@@ -6,14 +6,14 @@
 	"description": "Use auditing tools capable of detecting hijacking opportunities on systems within an enterprise and correct them. Toolkits like the PowerSploit framework contain PowerUp modules that can be used to explore systems for hijacking weaknesses.(Citation: Powersploit)\n\nUse the program sxstrace.exe that is included with Windows along with manual inspection to check manifest files for side-loading vulnerabilities in software.\n\nFind and eliminate path interception weaknesses in program configuration files, scripts, the PATH environment variable, services, and in shortcuts by surrounding PATH variables with quotation marks when functions allow for them. Be aware of the search order Windows uses for executing or loading binaries and use fully qualified paths wherever appropriate.\n\nClean up old Windows Registry keys when software is uninstalled to avoid keys with no associated legitimate binaries. Periodically search for and correct or report path interception weaknesses on systems that may have been introduced using custom or available tools that report software using insecure path configurations.(Citation: Microsoft CreateProcess)(Citation: Microsoft Dynamic-Link Library Security)(Citation: Vulnerability and Exploit Detector)",
 	"external_references": [
 		{
-			"description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
-			"source_name": "Powersploit",
-			"url": "https://github.com/mattifestation/PowerSploit"
+			"description": "Kanthak, S.. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.",
+			"source_name": "Vulnerability and Exploit Detector",
+			"url": "https://skanthak.homepage.t-online.de/sentinel.html"
 		},
 		{
-			"description": "Microsoft. (n.d.). CreateProcess function. Retrieved December 5, 2014.",
+			"description": "Microsoft. (n.d.). CreateProcess function. Retrieved September 12, 2024.",
 			"source_name": "Microsoft CreateProcess",
-			"url": "http://msdn.microsoft.com/en-us/library/ms682425"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa"
 		},
 		{
 			"description": "Microsoft. (n.d.). Dynamic-Link Library Security. Retrieved July 25, 2016.",
@@ -21,20 +21,22 @@
 			"url": "https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-security?redirectedfrom=MSDN"
 		},
 		{
-			"description": "Kanthak, S.. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.",
-			"source_name": "Vulnerability and Exploit Detector",
-			"url": "https://skanthak.homepage.t-online.de/sentinel.html"
+			"description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+			"source_name": "Powersploit",
+			"url": "https://github.com/mattifestation/PowerSploit"
 		}
 	],
-	"modified": "2022-03-09T18:44:33.796Z",
+	"modified": "2024-09-12T15:25:57.06Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "mitigates",
+	"revoked": false,
 	"source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
 	"spec_version": "",
 	"target_ref": "attack-pattern--aedfca76-3b30-4866-b2aa-0f1d7fd1e4b6",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

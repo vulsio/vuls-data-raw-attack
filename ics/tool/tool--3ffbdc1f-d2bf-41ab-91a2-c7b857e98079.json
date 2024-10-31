@@ -21,7 +21,7 @@
 			"url": "https://web.archive.org/web/20160303200515/https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Destructive-Malware-Report.pdf"
 		}
 	],
-	"modified": "2022-07-28T18:55:35.991Z",
+	"modified": "2024-08-14T15:22:38.134Z",
 	"name": "RawDisk",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -31,7 +31,7 @@
 	"x_mitre_aliases": [
 		"RawDisk"
 	],
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -40,5 +40,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

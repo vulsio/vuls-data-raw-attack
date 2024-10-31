@@ -11,15 +11,6 @@
 			"url": "https://attack.mitre.org/techniques/T1051"
 		},
 		{
-			"external_id": "CAPEC-563",
-			"source_name": "capec",
-			"url": "https://capec.mitre.org/data/definitions/563.html"
-		},
-		{
-			"description": "Microsoft. (2016, October 20). How to: Find the Web Application Root. Retrieved July 27, 2018.",
-			"source_name": "Microsoft Web Root OCT 2016"
-		},
-		{
 			"description": "Apache. (n.d.). Apache HTTP Server Version 2.4 Documentation - Web Site Content. Retrieved July 27, 2018.",
 			"source_name": "Apache Server 2018",
 			"url": "http://httpd.apache.org/docs/2.4/getting-started.html#content"
@@ -28,6 +19,15 @@
 			"description": "Brandt, Andrew. (2011, February 22). Malicious PHP Scripts on the Rise. Retrieved October 3, 2018.",
 			"source_name": "Webroot PHP 2011",
 			"url": "https://www.webroot.com/blog/2011/02/22/malicious-php-scripts-on-the-rise/"
+		},
+		{
+			"description": "Microsoft. (2016, October 20). How to: Find the Web Application Root. Retrieved July 27, 2018.",
+			"source_name": "Microsoft Web Root OCT 2016"
+		},
+		{
+			"external_id": "CAPEC-563",
+			"source_name": "capec",
+			"url": "https://capec.mitre.org/data/definitions/563.html"
 		}
 	],
 	"kill_chain_phases": [
@@ -36,13 +36,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2020-03-30T13:56:55.356Z",
+	"modified": "2024-09-04T21:41:21.642Z",
 	"name": "Shared Webroot",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": true,
 	"x_mitre_detection": "Use file and process monitoring to detect when files are written to a Web server by a process that is not the normal Web server process or when files are written outside of normal administrative time periods. Use process monitoring to identify normal processes that run on the Web server and detect processes that are not typically executed.",
 	"x_mitre_domains": [

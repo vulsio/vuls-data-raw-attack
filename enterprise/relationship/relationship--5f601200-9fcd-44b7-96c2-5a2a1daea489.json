@@ -3,7 +3,7 @@
 	"id": "relationship--5f601200-9fcd-44b7-96c2-5a2a1daea489",
 	"created": "2020-10-30T20:07:37.959Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has registered domains to spoof targeted organizations and trusted third parties.(Citation: ThreatConnect Kimsuky September 2020)(Citation: Zdnet Kimsuky Group September 2020)(Citation: CISA AA20-301A Kimsuky)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: KISA Operation Muzabi)",
+	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has registered domains to spoof targeted organizations and trusted third parties including search engines, web platforms, and cryptocurrency exchanges.(Citation: ThreatConnect Kimsuky September 2020)(Citation: Zdnet Kimsuky Group September 2020)(Citation: CISA AA20-301A Kimsuky)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: KISA Operation Muzabi)(Citation: Mandiant APT43 March 2024)",
 	"external_references": [
 		{
 			"description": "Cimpanu, C. (2020, September 30). North Korea has tried to hack 11 officials of the UN Security Council. Retrieved November 4, 2020.",
@@ -26,9 +26,14 @@
 			"url": "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
 		},
 		{
-			"description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022.",
+			"description": "KISA. (2021). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 8, 2024.",
 			"source_name": "KISA Operation Muzabi",
-			"url": "https://www.boho.or.kr/krcert/publicationView.do?bulletin_writing_sequence=35936"
+			"url": "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+		},
+		{
+			"description": "Mandiant. (2024, March 14). APT43: North Korean Group Uses Cybercrime to Fund Espionage Operations. Retrieved May 3, 2024.",
+			"source_name": "Mandiant APT43 March 2024",
+			"url": "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
 		},
 		{
 			"description": "ThreatConnect. (2020, September 28). Kimsuky Phishing Operations Putting In Work. Retrieved October 30, 2020.",
@@ -36,7 +41,7 @@
 			"url": "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/"
 		}
 	],
-	"modified": "2022-04-12T17:49:04.18Z",
+	"modified": "2024-08-30T17:31:57.412Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
@@ -45,7 +50,7 @@
 	"source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
 	"spec_version": "",
 	"target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"

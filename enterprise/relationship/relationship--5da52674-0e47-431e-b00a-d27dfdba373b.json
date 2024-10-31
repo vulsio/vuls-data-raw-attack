@@ -3,8 +3,8 @@
 	"id": "relationship--5da52674-0e47-431e-b00a-d27dfdba373b",
 	"created": "2022-03-30T14:26:51.834Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor executed commands and arguments for actions that could be taken to gather system and network information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation and PowerShell.\n\nNote: Commands can also be obtained from Payload event field for PowerShell event id 4103. For PowerShell Module logging event id 4103, enable logging for module Microsoft.PowerShell.Management.\n\nAnalytic 1 - Suspicious Commands\n\n<code>source=WinEventLog:\"*Microsoft-Windows-PowerShell/Operational\" EventCode=\"4103\" | where CommandLine LIKE \"%Get-Process%\" AND CommandLine LIKE \"%mainWindowTitle%\"</code>",
-	"modified": "2024-03-27T16:13:07.744Z",
+	"description": "Monitor executed commands and arguments for actions that could be taken to gather system and network information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation and PowerShell.\n\nNote: Commands can also be obtained from Payload event field for PowerShell event id 4103. For PowerShell Module logging event id 4103, enable logging for module Microsoft.PowerShell.Management.\n\nAnalytic 1 - Suspicious Commands\n\n<code>sourcetype=\"WinEventLog:Microsoft-Windows-PowerShell/Operational\" EventCode=\"4103\" | where CommandLine LIKE \"%Get-Process%\" AND CommandLine LIKE \"%mainWindowTitle%\"</code>",
+	"modified": "2024-10-04T18:08:49.455Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -26,9 +26,9 @@
 			"url": "https://www.menlosecurity.com/blog/new-attack-alert-duri"
 		},
 		{
-			"description": "Warren, R. (2017, August 8). Smuggling HTA files in Internet Explorer/Edge. Retrieved May 20, 2021.",
+			"description": "Warren, R. (2017, August 8). Smuggling HTA files in Internet Explorer/Edge. Retrieved September 12, 2024.",
 			"source_name": "nccgroup Smuggling HTA 2017",
-			"url": "https://research.nccgroup.com/2017/08/08/smuggling-hta-files-in-internet-explorer-edge/"
+			"url": "https://www.nccgroup.com/us/research-blog/smuggling-hta-files-in-internet-exploreredge/"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,14 +37,14 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2023-07-14T14:01:41.475Z",
+	"modified": "2024-09-12T19:12:13.006Z",
 	"name": "HTML Smuggling",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Stan Hegt, Outflank",
 		"Jonathan Boucher, @crash_wave, Bank of Canada",

@@ -11,19 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1568/002"
 		},
 		{
-			"description": "Sternfeld, U. (2016). Dissecting Domain Generation Algorithms: Eight Real World DGA Variants. Retrieved February 18, 2019.",
-			"source_name": "Cybereason Dissecting DGAs",
-			"url": "http://go.cybereason.com/rs/996-YZT-709/images/Cybereason-Lab-Analysis-Dissecting-DGAs-Eight-Real-World-DGA-Variants.pdf"
-		},
-		{
-			"description": "Scarfo, A. (2016, October 10). Domain Generation Algorithms – Why so effective?. Retrieved February 18, 2019.",
-			"source_name": "Cisco Umbrella DGA",
-			"url": "https://umbrella.cisco.com/blog/2016/10/10/domain-generation-algorithms-effective/"
-		},
-		{
-			"description": "Unit 42. (2019, February 7). Threat Brief: Understanding Domain Generation Algorithms (DGA). Retrieved February 19, 2019.",
-			"source_name": "Unit 42 DGA Feb 2019",
-			"url": "https://unit42.paloaltonetworks.com/threat-brief-understanding-domain-generation-algorithms-dga/"
+			"description": "Ahuja, A., Anderson, H., Grant, D., Woodbridge, J.. (2016, November 2). Predicting Domain Generation Algorithms with Long Short-Term Memory Networks. Retrieved April 26, 2019.",
+			"source_name": "Elastic Predicting DGA",
+			"url": "https://arxiv.org/pdf/1611.00791.pdf"
 		},
 		{
 			"description": "Brumaghin, E. et al. (2017, September 18). CCleanup: A Vast Number of Machines at Risk. Retrieved March 9, 2018.",
@@ -31,9 +21,9 @@
 			"url": "http://blog.talosintelligence.com/2017/09/avast-distributes-malware.html"
 		},
 		{
-			"description": "Liu, H. and Yuzifovich, Y. (2018, January 9). A Death Match of Domain Generation Algorithms. Retrieved February 18, 2019.",
-			"source_name": "Akamai DGA Mitigation",
-			"url": "https://blogs.akamai.com/2018/01/a-death-match-of-domain-generation-algorithms.html"
+			"description": "Chen, L., Wang, T.. (2017, May 5). Detecting Algorithmically Generated Domains Using Data Visualization and N-Grams Methods . Retrieved April 26, 2019.",
+			"source_name": "Pace University Detecting DGA May 2017",
+			"url": "http://csis.pace.edu/~ctappert/srd2017/2017PDF/d4.pdf"
 		},
 		{
 			"description": "Dunwoody, M.. (2017, April 3). Dissecting One of APT29’s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017.",
@@ -51,14 +41,24 @@
 			"url": "https://datadrivensecurity.info/blog/posts/2014/Oct/dga-part2/"
 		},
 		{
-			"description": "Chen, L., Wang, T.. (2017, May 5). Detecting Algorithmically Generated Domains Using Data Visualization and N-Grams Methods . Retrieved April 26, 2019.",
-			"source_name": "Pace University Detecting DGA May 2017",
-			"url": "http://csis.pace.edu/~ctappert/srd2017/2017PDF/d4.pdf"
+			"description": "Liu, H. and Yuzifovich, Y. (2018, January 9). A Death Match of Domain Generation Algorithms. Retrieved February 18, 2019.",
+			"source_name": "Akamai DGA Mitigation",
+			"url": "https://medium.com/@yvyuz/a-death-match-of-domain-generation-algorithms-a5b5dbdc1c6e"
 		},
 		{
-			"description": "Ahuja, A., Anderson, H., Grant, D., Woodbridge, J.. (2016, November 2). Predicting Domain Generation Algorithms with Long Short-Term Memory Networks. Retrieved April 26, 2019.",
-			"source_name": "Elastic Predicting DGA",
-			"url": "https://arxiv.org/pdf/1611.00791.pdf"
+			"description": "Scarfo, A. (2016, October 10). Domain Generation Algorithms – Why so effective?. Retrieved February 18, 2019.",
+			"source_name": "Cisco Umbrella DGA",
+			"url": "https://umbrella.cisco.com/blog/2016/10/10/domain-generation-algorithms-effective/"
+		},
+		{
+			"description": "Sternfeld, U. (2016). Dissecting Domain Generation Algorithms: Eight Real World DGA Variants. Retrieved February 18, 2019.",
+			"source_name": "Cybereason Dissecting DGAs",
+			"url": "http://go.cybereason.com/rs/996-YZT-709/images/Cybereason-Lab-Analysis-Dissecting-DGAs-Eight-Real-World-DGA-Variants.pdf"
+		},
+		{
+			"description": "Unit 42. (2019, February 7). Threat Brief: Understanding Domain Generation Algorithms (DGA). Retrieved February 19, 2019.",
+			"source_name": "Unit 42 DGA Feb 2019",
+			"url": "https://unit42.paloaltonetworks.com/threat-brief-understanding-domain-generation-algorithms-dga/"
 		}
 	],
 	"kill_chain_phases": [
@@ -67,13 +67,14 @@
 			"phase_name": "command-and-control"
 		}
 	],
-	"modified": "2022-03-11T18:26:23.432Z",
+	"modified": "2024-10-15T15:55:16.111Z",
 	"name": "Domain Generation Algorithms",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Ryan Benson, Exabeam",
 		"Barry Shteiman, Exabeam",
@@ -82,19 +83,17 @@
 	"x_mitre_data_sources": [
 		"Network Traffic: Network Traffic Flow"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Detecting dynamically generated domains can be challenging due to the number of different DGA algorithms, constantly evolving malware families, and the increasing complexity of the algorithms. There is a myriad of approaches for detecting a pseudo-randomly generated domain name, including using frequency analysis, Markov chains, entropy, proportion of dictionary words, ratio of vowels to other characters, and more.(Citation: Data Driven Security DGA) CDN domains may trigger these detections due to the format of their domain names. In addition to detecting a DGA domain based on the name, another more general approach for detecting a suspicious domain is to check for recently registered names or for rarely visited domains.\n\nMachine learning approaches to detecting DGA domains have been developed and have seen success in applications. One approach is to use N-Gram methods to determine a randomness score for strings used in the domain name. If the randomness score is high, and the domains are not whitelisted (CDN, etc), then it may be determined if a domain is related to a legitimate host or DGA.(Citation: Pace University Detecting DGA May 2017) Another approach is to use deep learning to classify domains as DGA-generated.(Citation: Elastic Predicting DGA)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Linux",
 		"macOS",
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

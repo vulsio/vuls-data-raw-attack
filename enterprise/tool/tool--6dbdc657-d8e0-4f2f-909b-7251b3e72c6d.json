@@ -16,19 +16,24 @@
 			"url": "https://github.com/dirkjanm/ROADtools"
 		}
 	],
-	"modified": "2022-04-01T13:27:48.378Z",
+	"modified": "2024-09-16T17:02:37.377Z",
 	"name": "ROADTools",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
 	"x_mitre_aliases": [
 		"ROADTools"
 	],
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_platforms": [
+		"Identity Provider"
+	],
 	"x_mitre_version": "1.0"
 }

@@ -16,9 +16,9 @@
 			"url": "https://www.huntress.com/blog/blackcat-ransomware-affiliate-ttps"
 		},
 		{
-			"description": "The DFIR Report. (2022, March 1). \"Change RDP port\" #ContiLeaks. Retrieved March 1, 2022.",
+			"description": "The DFIR Report. (2022, March 1). \"Change RDP port\" #ContiLeaks. Retrieved September 12, 2024.",
 			"source_name": "change_rdp_port_conti",
-			"url": "https://twitter.com/TheDFIRReport/status/1498657772254240768"
+			"url": "https://x.com/TheDFIRReport/status/1498657772254240768"
 		}
 	],
 	"kill_chain_phases": [
@@ -27,7 +27,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2024-03-28T00:01:08.337Z",
+	"modified": "2024-09-12T19:37:57.867Z",
 	"name": "Disable or Modify System Firewall",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

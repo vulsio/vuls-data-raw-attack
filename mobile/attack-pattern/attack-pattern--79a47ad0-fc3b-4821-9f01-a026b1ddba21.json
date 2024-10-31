@@ -11,19 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1137/001"
 		},
 		{
-			"description": "Microsoft. (n.d.). Change the Normal template (Normal.dotm). Retrieved July 3, 2017.",
-			"source_name": "Microsoft Change Normal Template",
-			"url": "https://support.office.com/article/Change-the-Normal-template-Normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea"
-		},
-		{
 			"description": "Austin, J. (2017, June 6). Getting Started with VBA in Office. Retrieved July 3, 2017.",
 			"source_name": "MSDN VBA in Office",
 			"url": "https://msdn.microsoft.com/en-us/vba/office-shared-vba/articles/getting-started-with-vba-in-office"
-		},
-		{
-			"description": "Nelson, M. (2014, January 23). Maintaining Access with normal.dotm. Retrieved July 3, 2017.",
-			"source_name": "enigma0x3 normal.dotm",
-			"url": "https://enigma0x3.net/2014/01/23/maintaining-access-with-normal-dotm/comment-page-1/"
 		},
 		{
 			"description": "Hexacorn. (2017, April 17). Beyond good ol’ Run key, Part 62. Retrieved July 3, 2017.",
@@ -31,14 +21,24 @@
 			"url": "http://www.hexacorn.com/blog/2017/04/19/beyond-good-ol-run-key-part-62/"
 		},
 		{
-			"description": "Shukrun, S. (2019, June 2). Office Templates and GlobalDotName - A Stealthy Office Persistence Technique. Retrieved August 26, 2019.",
-			"source_name": "GlobalDotName Jun 2019",
-			"url": "https://www.221bluestreet.com/post/office-templates-and-globaldotname-a-stealthy-office-persistence-technique"
+			"description": "Microsoft. (n.d.). Change the Normal template (Normal.dotm). Retrieved July 3, 2017.",
+			"source_name": "Microsoft Change Normal Template",
+			"url": "https://support.office.com/article/Change-the-Normal-template-Normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea"
+		},
+		{
+			"description": "Nelson, M. (2014, January 23). Maintaining Access with normal.dotm. Retrieved July 3, 2017.",
+			"source_name": "enigma0x3 normal.dotm",
+			"url": "https://enigma0x3.net/2014/01/23/maintaining-access-with-normal-dotm/comment-page-1/"
 		},
 		{
 			"description": "Parisi, T., et al. (2017, July). Using Outlook Forms for Lateral Movement and Persistence. Retrieved February 5, 2019.",
 			"source_name": "CrowdStrike Outlook Forms",
 			"url": "https://malware.news/t/using-outlook-forms-for-lateral-movement-and-persistence/13746"
+		},
+		{
+			"description": "Shukrun, S. (2019, June 2). Office Templates and GlobalDotName - A Stealthy Office Persistence Technique. Retrieved August 26, 2019.",
+			"source_name": "GlobalDotName Jun 2019",
+			"url": "https://www.221bluestreet.com/post/office-templates-and-globaldotname-a-stealthy-office-persistence-technique"
 		},
 		{
 			"description": "Soutcast. (2018, September 14). Outlook Today Homepage Persistence. Retrieved February 5, 2019.",
@@ -52,13 +52,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2021-08-16T21:27:10.873Z",
+	"modified": "2024-10-15T16:01:35.918Z",
 	"name": "Office Template Macros",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"File: File Creation",
 		"Windows Registry: Windows Registry Key Modification",
@@ -67,19 +68,16 @@
 		"Windows Registry: Windows Registry Key Creation",
 		"File: File Modification"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Many Office-related persistence mechanisms require changes to the Registry and for binaries, files, or scripts to be written to disk or existing files modified to include malicious scripts. Collect events related to Registry key creation and modification for keys that could be used for Office-based persistence.(Citation: CrowdStrike Outlook Forms)(Citation: Outlook Today Home Page) Modification to base templates, like Normal.dotm, should also be investigated since the base templates should likely not contain VBA macros. Changes to the Office macro security settings should also be investigated.(Citation: GlobalDotName Jun 2019)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User",
-		"Administrator"
-	],
 	"x_mitre_platforms": [
 		"Windows",
-		"Office 365"
+		"Office Suite"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

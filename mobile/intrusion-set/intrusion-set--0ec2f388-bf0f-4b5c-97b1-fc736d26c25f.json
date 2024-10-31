@@ -6,11 +6,13 @@
 		"Black Banshee",
 		"Velvet Chollima",
 		"Emerald Sleet",
-		"THALLIUM"
+		"THALLIUM",
+		"APT43",
+		"TA427"
 	],
 	"created": "2019-08-26T15:03:02.577Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially focused on targeting South Korean government entities, think tanks, and individuals identified as experts in various fields, and expanded its operations to include the United States, Russia, Europe, and the UN. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused its intelligence collection activities on foreign policy and national security issues related to the Korean peninsula, nuclear policy, and sanctions.(Citation: EST Kimsuky April 2019)(Citation: BRI Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)\n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name [Lazarus Group](https://attack.mitre.org/groups/G0032) instead of tracking clusters or subgroups.",
+	"description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially focused on targeting South Korean government entities, think tanks, and individuals identified as experts in various fields, and expanded its operations to include the UN and the government, education, business services, and manufacturing sectors in the United States, Japan, Russia, and Europe. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused its intelligence collection activities on foreign policy and national security issues related to the Korean peninsula, nuclear policy, and sanctions. [Kimsuky](https://attack.mitre.org/groups/G0094) operations have overlapped with those of other North Korean cyber espionage actors likely as a result of ad hoc collaborations or other limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024)\n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name [Lazarus Group](https://attack.mitre.org/groups/G0032) instead of tracking clusters or subgroups.",
 	"external_references": [
 		{
 			"external_id": "G0094",
@@ -22,12 +24,20 @@
 			"source_name": "Black Banshee"
 		},
 		{
-			"description": "(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)",
+			"description": "(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024)",
 			"source_name": "THALLIUM"
 		},
 		{
-			"description": "(Citation: Microsoft Threat Actor Naming July 2023)",
+			"description": "(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024)",
+			"source_name": "APT43"
+		},
+		{
+			"description": "(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Proofpoint TA427 April 2024)",
 			"source_name": "Emerald Sleet"
+		},
+		{
+			"description": "(Citation: Proofpoint TA427 April 2024)",
+			"source_name": "TA427"
 		},
 		{
 			"description": "(Citation: Securelist Kimsuky Sept 2013)(Citation: Malwarebytes Kimsuky June 2021)",
@@ -51,11 +61,6 @@
 			"description": "ASERT team. (2018, December 5). STOLEN PENCIL Campaign Targets Academia. Retrieved February 5, 2019.",
 			"source_name": "Netscout Stolen Pencil Dec 2018",
 			"url": "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
-		},
-		{
-			"description": "BRI. (2019, April). Kimsuky unveils APT campaign 'Smoke Screen' aimed at Korea and America. Retrieved October 7, 2019.",
-			"source_name": "BRI Kimsuky April 2019",
-			"url": "https://brica.de/alerts/alert/public/1255063/kimsuky-unveils-apt-campaign-smoke-screen-aimed-at-korea-and-america/"
 		},
 		{
 			"description": "Cimpanu, C.. (2018, December 5). Cyber-espionage group uses Chrome extension to infect victims. Retrieved August 26, 2019.",
@@ -83,6 +88,16 @@
 			"url": "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
 		},
 		{
+			"description": "Lesnewich, G. et al. (2024, April 16). From Social Engineering to DMARC Abuse: TA427’s Art of Information Gathering. Retrieved May 3, 2024.",
+			"source_name": "Proofpoint TA427 April 2024",
+			"url": "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering"
+		},
+		{
+			"description": "Mandiant. (2024, March 14). APT43: North Korean Group Uses Cybercrime to Fund Espionage Operations. Retrieved May 3, 2024.",
+			"source_name": "Mandiant APT43 March 2024",
+			"url": "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+		},
+		{
 			"description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
 			"source_name": "Microsoft Threat Actor Naming July 2023",
 			"url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
@@ -98,7 +113,7 @@
 			"url": "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/"
 		}
 	],
-	"modified": "2024-04-17T22:11:50.321Z",
+	"modified": "2024-10-10T14:32:27.067Z",
 	"name": "Kimsuky",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -115,5 +130,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "4.0"
+	"x_mitre_version": "5.0"
 }

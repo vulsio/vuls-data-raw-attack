@@ -11,14 +11,14 @@
 			"url": "https://attack.mitre.org/techniques/T1559"
 		},
 		{
-			"description": "N/A. (2021, April 1). Inter Process Communication (IPC). Retrieved March 11, 2022.",
-			"source_name": "Linux IPC",
-			"url": "https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),of%20co%2Doperation%20between%20them."
-		},
-		{
 			"description": "Hamilton, C. (2019, June 4). Hunting COM Objects. Retrieved June 10, 2019.",
 			"source_name": "Fireeye Hunting COM June 2019",
 			"url": "https://www.fireeye.com/blog/threat-research/2019/06/hunting-com-objects.html"
+		},
+		{
+			"description": "N/A. (2021, April 1). Inter Process Communication (IPC). Retrieved March 11, 2022.",
+			"source_name": "Linux IPC",
+			"url": "https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),of%20co%2Doperation%20between%20them."
 		}
 	],
 	"kill_chain_phases": [
@@ -27,35 +27,32 @@
 			"phase_name": "execution"
 		}
 	],
-	"modified": "2022-03-11T20:23:23.122Z",
+	"modified": "2024-09-10T19:06:35.666Z",
 	"name": "Inter-Process Communication",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Module: Module Load",
 		"Process: Process Creation",
 		"Script: Script Execution",
 		"Process: Process Access"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor for strings in files/commands, loaded DLLs/libraries, or spawned processes that are associated with abuse of IPC mechanisms.",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"Administrator",
-		"User",
-		"SYSTEM"
-	],
 	"x_mitre_platforms": [
 		"Windows",
 		"macOS",
 		"Linux"
 	],
 	"x_mitre_remote_support": true,
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

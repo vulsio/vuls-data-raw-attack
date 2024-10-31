@@ -22,14 +22,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2023-05-31T12:33:20.915Z",
+	"modified": "2024-10-15T16:07:36.903Z",
 	"name": "Taint Shared Content",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Michal Dida, ESET",
 		"David Routin"
@@ -49,13 +49,13 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Office 365",
 		"SaaS",
 		"Linux",
-		"macOS"
+		"macOS",
+		"Office Suite"
 	],
 	"x_mitre_system_requirements": [
 		"Access to shared folders and content with write permissions"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

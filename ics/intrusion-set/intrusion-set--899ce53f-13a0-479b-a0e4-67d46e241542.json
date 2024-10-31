@@ -7,7 +7,6 @@
 		"IRON HEMLOCK",
 		"NobleBaron",
 		"Dark Halo",
-		"StellarParticle",
 		"NOBELIUM",
 		"UNC2452",
 		"YTTRIUM",
@@ -35,10 +34,6 @@
 		{
 			"description": "(Citation: Crowdstrike DNC June 2016)(Citation: ESET Dukes October 2019)(Citation: NCSC APT29 July 2020)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: CrowdStrike StellarParticle January 2022)",
 			"source_name": "Cozy Bear"
-		},
-		{
-			"description": "(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: CrowdStrike StellarParticle January 2022)",
-			"source_name": "StellarParticle"
 		},
 		{
 			"description": "(Citation: F-Secure The Dukes)(Citation: ESET Dukes October 2019)(Citation: NCSC APT29 July 2020)(Citation: Cybersecurity Advisory SVR TTP May 2021)",
@@ -238,7 +233,7 @@
 			"url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/"
 		}
 	],
-	"modified": "2024-04-12T21:15:41.833Z",
+	"modified": "2024-09-03T18:48:32.299Z",
 	"name": "APT29",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -258,5 +253,5 @@
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "6.0"
+	"x_mitre_version": "6.1"
 }

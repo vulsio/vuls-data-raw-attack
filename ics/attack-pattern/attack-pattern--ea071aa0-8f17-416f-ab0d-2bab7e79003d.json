@@ -52,7 +52,7 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2023-09-30T21:28:45.038Z",
+	"modified": "2024-10-16T20:11:40.334Z",
 	"name": "Power Settings",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -61,7 +61,7 @@
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Goldstein Menachem",
+		"Menachem Goldstein",
 		"Juan Tapiador"
 	],
 	"x_mitre_data_sources": [

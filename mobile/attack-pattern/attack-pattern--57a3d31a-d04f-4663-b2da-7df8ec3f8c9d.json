@@ -48,7 +48,7 @@
 		{
 			"description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020.",
 			"source_name": "Mandiant M-Trends 2020",
-			"url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020"
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/mtrends-2020.pdf"
 		},
 		{
 			"description": "Microsoft. (n.d.). az ad user. Retrieved October 6, 2019.",
@@ -67,14 +67,14 @@
 			"phase_name": "discovery"
 		}
 	],
-	"modified": "2022-04-20T19:03:12.977Z",
+	"modified": "2024-09-30T13:28:37.415Z",
 	"name": "Cloud Infrastructure Discovery",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "2.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Regina Elwell",
 		"Praetorian",

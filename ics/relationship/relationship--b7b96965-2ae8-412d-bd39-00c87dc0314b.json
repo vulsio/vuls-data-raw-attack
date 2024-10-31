@@ -1,0 +1,27 @@
+{
+	"type": "relationship",
+	"id": "relationship--b7b96965-2ae8-412d-bd39-00c87dc0314b",
+	"created": "2024-08-01T22:34:55.871Z",
+	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) can remove files related to use and installation.(Citation: Sekoia Raccoon1 2022)",
+	"external_references": [
+		{
+			"description": "Quentin Bourgue, Pierre le Bourhis, & Sekoia TDR. (2022, June 28). Raccoon Stealer v2 - Part 1: The return of the dead. Retrieved August 1, 2024.",
+			"source_name": "Sekoia Raccoon1 2022",
+			"url": "https://blog.sekoia.io/raccoon-stealer-v2-part-1-the-return-of-the-dead/"
+		}
+	],
+	"modified": "2024-08-01T22:34:55.871Z",
+	"object_marking_refs": [
+		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+	],
+	"relationship_type": "uses",
+	"revoked": false,
+	"source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
+	"spec_version": "",
+	"target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
+	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+	"x_mitre_version": "0.1"
+}

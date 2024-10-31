@@ -16,9 +16,9 @@
 			"url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
 		},
 		{
-			"description": "Mavis, N. (2020, September 21). The Art and Science of Detecting Cobalt Strike. Retrieved April 6, 2021.",
+			"description": "Mavis, N. (2020, September 21). The Art and Science of Detecting Cobalt Strike. Retrieved September 12, 2024.",
 			"source_name": "Talos Cobalt Strike September 2020",
-			"url": "https://talos-intelligence-site.s3.amazonaws.com/production/document_files/files/000/095/031/original/Talos_Cobalt_Strike.pdf"
+			"url": "https://web.archive.org/web/20210219195905/https://talos-intelligence-site.s3.amazonaws.com/production/document_files/files/000/095/031/original/Talos_Cobalt_Strike.pdf"
 		},
 		{
 			"description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
@@ -31,7 +31,7 @@
 			"url": "https://web.archive.org/web/20210708035426/https://www.cobaltstrike.com/downloads/csmanual43.pdf"
 		}
 	],
-	"modified": "2024-01-22T21:51:15.701Z",
+	"modified": "2024-09-12T19:23:54.842Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

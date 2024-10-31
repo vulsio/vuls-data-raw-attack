@@ -26,9 +26,9 @@
 			"url": "https://msdn.microsoft.com/en-us/library/aa394582.aspx"
 		},
 		{
-			"description": "Microsoft. (n.d.). Windows Remote Management. Retrieved November 12, 2014.",
+			"description": "Microsoft. (n.d.). Windows Remote Management. Retrieved September 12, 2024.",
 			"source_name": "Microsoft WinRM",
-			"url": "http://msdn.microsoft.com/en-us/library/aa384426"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/winrm/portal"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,14 +37,14 @@
 			"phase_name": "lateral-movement"
 		}
 	],
-	"modified": "2023-08-11T15:26:41.941Z",
+	"modified": "2024-09-12T15:28:23.398Z",
 	"name": "Windows Remote Management",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Process: Process Creation",
 		"Logon Session: Logon Session Creation",

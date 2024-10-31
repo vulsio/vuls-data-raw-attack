@@ -26,7 +26,7 @@
 			"url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html"
 		}
 	],
-	"modified": "2024-04-04T03:49:04.493Z",
+	"modified": "2024-09-25T15:21:53.462Z",
 	"name": "AdFind",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -45,5 +45,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.4"
+	"x_mitre_version": "1.5"
 }

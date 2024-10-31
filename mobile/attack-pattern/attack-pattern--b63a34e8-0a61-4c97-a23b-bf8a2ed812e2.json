@@ -11,14 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1546/004"
 		},
 		{
-			"description": "Paul Litvak. (2020, May 4). Kaiji: New Chinese Linux malware turning to Golang. Retrieved December 17, 2020.",
-			"source_name": "intezer-kaiji-malware",
-			"url": "https://www.intezer.com/blog/research/kaiji-new-chinese-linux-malware-turning-to-golang/"
-		},
-		{
-			"description": "Benjamin Cane. (2013, September 16). Understanding a little more about /etc/profile and /etc/bashrc. Retrieved February 25, 2021.",
-			"source_name": "bencane blog bashrc",
-			"url": "https://bencane.com/2013/09/16/understanding-a-little-more-about-etcprofile-and-etcbashrc/"
+			"description": "Anomali Threat Research. (2018, December 6). Pulling Linux Rabbit/Rabbot Malware Out of a Hat. Retrieved December 17, 2020.",
+			"source_name": "anomali-linux-rabbit",
+			"url": "https://www.anomali.com/blog/pulling-linux-rabbit-rabbot-malware-out-of-a-hat"
 		},
 		{
 			"description": "Anomali Threat Research. (2019, October 15). Illicit Cryptomining Threat Actor Rocke Changes Tactics, Now More Difficult to Detect. Retrieved December 17, 2020.",
@@ -31,14 +26,19 @@
 			"url": "https://wiki.archlinux.org/index.php/Bash#Invocation"
 		},
 		{
-			"description": "Claud Xiao and Cong Zheng. (2017, April 6). New IoT/Linux Malware Targets DVRs, Forms Botnet. Retrieved December 17, 2020.",
-			"source_name": "Tsunami",
-			"url": "https://unit42.paloaltonetworks.com/unit42-new-iotlinux-malware-targets-dvrs-forms-botnet/"
+			"description": "Armin Briegel. (2019, June 5). Moving to zsh, part 2: Configuration Files. Retrieved February 25, 2021.",
+			"source_name": "ScriptingOSX zsh",
+			"url": "https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/"
 		},
 		{
-			"description": "Anomali Threat Research. (2018, December 6). Pulling Linux Rabbit/Rabbot Malware Out of a Hat. Retrieved December 17, 2020.",
-			"source_name": "anomali-linux-rabbit",
-			"url": "https://www.anomali.com/blog/pulling-linux-rabbit-rabbot-malware-out-of-a-hat"
+			"description": "Benjamin Cane. (2013, September 16). Understanding a little more about /etc/profile and /etc/bashrc. Retrieved September 25, 2024.",
+			"source_name": "bencane blog bashrc",
+			"url": "https://web.archive.org/web/20220316014323/http://bencane.com/2013/09/16/understanding-a-little-more-about-etcprofile-and-etcbashrc/"
+		},
+		{
+			"description": "Cedric Owens. (2021, May 22). macOS MS Office Sandbox Brain Dump. Retrieved August 20, 2021.",
+			"source_name": "macOS MS office sandbox escape",
+			"url": "https://cedowens.medium.com/macos-ms-office-sandbox-brain-dump-4509b5fed49a"
 		},
 		{
 			"description": "Cesar Anjos. (2018, May 31). Shell Logins as a Magento Reinfection Vector. Retrieved December 17, 2020.",
@@ -46,9 +46,9 @@
 			"url": "https://blog.sucuri.net/2018/05/shell-logins-as-a-magento-reinfection-vector.html"
 		},
 		{
-			"description": "Armin Briegel. (2019, June 5). Moving to zsh, part 2: Configuration Files. Retrieved February 25, 2021.",
-			"source_name": "ScriptingOSX zsh",
-			"url": "https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/"
+			"description": "Claud Xiao and Cong Zheng. (2017, April 6). New IoT/Linux Malware Targets DVRs, Forms Botnet. Retrieved December 17, 2020.",
+			"source_name": "Tsunami",
+			"url": "https://unit42.paloaltonetworks.com/unit42-new-iotlinux-malware-targets-dvrs-forms-botnet/"
 		},
 		{
 			"description": "Leo Pitt. (2020, August 6). Persistent JXA - A poor man's Powershell for macOS. Retrieved January 11, 2021.",
@@ -61,14 +61,14 @@
 			"url": "https://github.com/D00MFist/PersistentJXA/blob/master/BashProfilePersist.js"
 		},
 		{
-			"description": "Cedric Owens. (2021, May 22). macOS MS Office Sandbox Brain Dump. Retrieved August 20, 2021.",
-			"source_name": "macOS MS office sandbox escape",
-			"url": "https://cedowens.medium.com/macos-ms-office-sandbox-brain-dump-4509b5fed49a"
-		},
-		{
 			"description": "Patrick Wardle. (2019, September 17). Writing a File Monitor with Apple's Endpoint Security Framework. Retrieved December 17, 2020.",
 			"source_name": "ESF_filemonitor",
 			"url": "https://objective-see.com/blog/blog_0x48.html"
+		},
+		{
+			"description": "Paul Litvak. (2020, May 4). Kaiji: New Chinese Linux malware turning to Golang. Retrieved December 17, 2020.",
+			"source_name": "intezer-kaiji-malware",
+			"url": "https://www.intezer.com/blog/research/kaiji-new-chinese-linux-malware-turning-to-golang/"
 		}
 	],
 	"kill_chain_phases": [
@@ -81,13 +81,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2021-08-20T18:01:52.12Z",
+	"modified": "2024-09-25T15:02:24.143Z",
 	"name": "Unix Shell Configuration Modification",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Robert Wilson",
 		"Tony Lambert, Red Canary"
@@ -98,6 +99,7 @@
 		"Command: Command Execution",
 		"File: File Modification"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "While users may customize their shell profile files, there are only certain types of commands that typically appear in these files. Monitor for abnormal commands such as execution of unknown programs, opening network sockets, or reaching out across the network when user profiles are loaded during the login process.\n\nMonitor for changes to <code>/etc/profile</code> and <code>/etc/profile.d</code>, these files should only be modified by system administrators. MacOS users can leverage Endpoint Security Framework file events monitoring these specific files.(Citation: ESF_filemonitor) \n\nFor most Linux and macOS systems, a list of file paths for valid shell options available on a system are located in the <code>/etc/shells</code> file.\n",
 	"x_mitre_domains": [
 		"enterprise-attack"

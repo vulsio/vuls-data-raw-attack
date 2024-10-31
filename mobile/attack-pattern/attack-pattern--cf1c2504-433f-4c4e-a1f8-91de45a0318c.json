@@ -11,24 +11,24 @@
 			"url": "https://attack.mitre.org/techniques/T1578/002"
 		},
 		{
-			"description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020.",
-			"source_name": "Mandiant M-Trends 2020",
-			"url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020"
-		},
-		{
 			"description": "Amazon. (n.d.). Search CloudTrail logs for API calls to EC2 Instances. Retrieved June 17, 2020.",
 			"source_name": "AWS CloudTrail Search",
 			"url": "https://aws.amazon.com/premiumsupport/knowledge-center/cloudtrail-search-api-calls/"
 		},
 		{
-			"description": "Microsoft. (n.d.). View Azure activity logs. Retrieved June 17, 2020.",
-			"source_name": "Azure Activity Logs",
-			"url": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/view-activity-logs"
-		},
-		{
 			"description": "Google. (n.d.). Audit Logs. Retrieved June 1, 2020.",
 			"source_name": "Cloud Audit Logs",
 			"url": "https://cloud.google.com/logging/docs/audit#admin-activity"
+		},
+		{
+			"description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020.",
+			"source_name": "Mandiant M-Trends 2020",
+			"url": "https://www.mandiant.com/sites/default/files/2021-09/mtrends-2020.pdf"
+		},
+		{
+			"description": "Microsoft. (n.d.). View Azure activity logs. Retrieved June 17, 2020.",
+			"source_name": "Azure Activity Logs",
+			"url": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/view-activity-logs"
 		}
 	],
 	"kill_chain_phases": [
@@ -37,28 +37,30 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2021-03-08T10:33:02.034Z",
+	"modified": "2024-09-30T13:28:37.416Z",
 	"name": "Create Cloud Instance",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_contributors": [
+		"Arun Seelagan, CISA"
+	],
 	"x_mitre_data_sources": [
 		"Instance: Instance Creation",
 		"Instance: Instance Metadata"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "The creation of a new instance or VM is a common part of operations within many cloud environments. Events should then not be viewed in isolation, but as part of a chain of behavior that could lead to other activities. For example, the creation of an instance by a new user account or the unexpected creation of one or more snapshots followed by the creation of an instance may indicate suspicious activity.\n\nIn AWS, CloudTrail logs capture the creation of an instance in the <code>RunInstances</code> event, and in Azure the creation of a VM may be captured in Azure activity logs.(Citation: AWS CloudTrail Search)(Citation: Azure Activity Logs) Google's Admin Activity audit logs within their Cloud Audit logs can be used to detect the usage of <code>gcloud compute instances create</code> to create a VM.(Citation: Cloud Audit Logs)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"IaaS"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

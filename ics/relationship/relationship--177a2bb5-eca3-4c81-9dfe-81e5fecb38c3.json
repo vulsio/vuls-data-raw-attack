@@ -3,8 +3,8 @@
 	"id": "relationship--177a2bb5-eca3-4c81-9dfe-81e5fecb38c3",
 	"created": "2022-03-30T14:26:51.862Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for any attempts to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent. \n\nAnalytic 1 - Script Block Logging Events\n\n<code> (source=WinEventLog:\"Microsoft-Windows-PowerShell/Operational\" EventID=\"4104” AND Image=\"powershell.exe\" AND (CommandLine=\"\\-enc*\" OR CommandLine=\"*-ep bypass*\" OR CommandLine=\"*-noni*\")<code>",
-	"modified": "2024-03-28T19:00:15.25Z",
+	"description": "Monitor for any attempts to enable scripts running on a system that would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent. \n\nAnalytic 1 - Script Block Logging Events\n\n<code> (source=WinEventLog:\"Microsoft-Windows-PowerShell/Operational\" EventID=\"4104” AND Image=\"powershell.exe\" AND (CommandLine=\"\\-enc*\" OR CommandLine=\"*-ep bypass*\" OR CommandLine=\"*-noni*\")<code>",
+	"modified": "2024-08-05T19:20:37.766Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

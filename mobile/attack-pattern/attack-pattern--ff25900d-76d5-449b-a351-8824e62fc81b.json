@@ -51,6 +51,8 @@
 	],
 	"x_mitre_data_sources": [
 		"Command: Command Execution",
+		"Module: Module Load",
+		"Process: Process Metadata",
 		"Process: Process Creation"
 	],
 	"x_mitre_defense_bypassed": [

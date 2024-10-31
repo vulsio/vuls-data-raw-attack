@@ -51,9 +51,9 @@
 			"url": "https://wald0.com/?p=179"
 		},
 		{
-			"description": "Schroeder, W. (2016, March 17). Abusing GPO Permissions. Retrieved March 5, 2019.",
+			"description": "Schroeder, W. (2016, March 17). Abusing GPO Permissions. Retrieved September 23, 2024.",
 			"source_name": "Harmj0y Abusing GPO Permissions",
-			"url": "http://www.harmj0y.net/blog/redteaming/abusing-gpo-permissions/"
+			"url": "https://blog.harmj0y.net/redteaming/abusing-gpo-permissions/"
 		},
 		{
 			"description": "Sygnia. (2020, December). Detection and Hunting of Golden SAML Attack. Retrieved January 6, 2021.",
@@ -71,7 +71,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2024-04-19T04:27:31.884Z",
+	"modified": "2024-10-15T15:55:32.946Z",
 	"name": "Domain or Tenant Policy Modification",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -106,8 +106,7 @@
 	],
 	"x_mitre_platforms": [
 		"Windows",
-		"Azure AD",
-		"SaaS"
+		"Identity Provider"
 	],
-	"x_mitre_version": "3.0"
+	"x_mitre_version": "3.1"
 }

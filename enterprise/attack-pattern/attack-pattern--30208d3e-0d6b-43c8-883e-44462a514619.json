@@ -22,7 +22,7 @@
 			"phase_name": "collection"
 		}
 	],
-	"modified": "2024-01-02T13:35:57.68Z",
+	"modified": "2024-09-25T20:40:07.791Z",
 	"name": "Automated Collection",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -31,9 +31,11 @@
 	"spec_version": "",
 	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
-		"Praetorian"
+		"Praetorian",
+		"Arun Seelagan, CISA"
 	],
 	"x_mitre_data_sources": [
+		"User Account: User Account Authentication",
 		"Command: Command Execution",
 		"File: File Access",
 		"Script: Script Execution"
@@ -50,10 +52,11 @@
 		"macOS",
 		"Windows",
 		"IaaS",
-		"SaaS"
+		"SaaS",
+		"Office Suite"
 	],
 	"x_mitre_system_requirements": [
 		"Permissions to access directories, files, and API endpoints that store information of interest."
 	],
-	"x_mitre_version": "1.2"
+	"x_mitre_version": "1.3"
 }

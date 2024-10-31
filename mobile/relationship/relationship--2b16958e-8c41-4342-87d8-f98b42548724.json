@@ -3,15 +3,20 @@
 	"id": "relationship--2b16958e-8c41-4342-87d8-f98b42548724",
 	"created": "2023-09-29T21:08:44.938Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "[Emotet](https://attack.mitre.org/software/S0367) has the ability to duplicate the user’s token.(Citation: Binary Defense Emotes Wi-Fi Spreader)",
+	"description": "[Emotet](https://attack.mitre.org/software/S0367) has the ability to duplicate the user’s token.(Citation: Binary Defense Emotes Wi-Fi Spreader) For example, [Emotet](https://attack.mitre.org/software/S0367) may use a variant of Google’s ProtoBuf to send messages that specify how code will be executed.(Citation: emotet_hc3_nov2023)",
 	"external_references": [
 		{
 			"description": "Binary Defense. (n.d.). Emotet Evolves With new Wi-Fi Spreader. Retrieved September 8, 2023.",
 			"source_name": "Binary Defense Emotes Wi-Fi Spreader",
 			"url": "https://www.binarydefense.com/resources/blog/emotet-evolves-with-new-wi-fi-spreader/"
+		},
+		{
+			"description": "Office of Information Security, Health Sector Cybersecurity Coordination Center. (2023, November 16). Emotet Malware: The Enduring and Persistent Threat to the Health Sector. Retrieved June 19, 2024.",
+			"source_name": "emotet_hc3_nov2023",
+			"url": "https://www.hhs.gov/sites/default/files/emotet-the-enduring-and-persistent-threat-to-the-hph-tlpclear.pdf"
 		}
 	],
-	"modified": "2023-09-29T21:08:44.938Z",
+	"modified": "2024-07-09T16:11:28.609Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

@@ -21,9 +21,9 @@
 			"url": "https://msdn.microsoft.com/library/windows/desktop/aa374733.aspx"
 		},
 		{
-			"description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved November 12, 2014.",
+			"description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved September 12, 2024.",
 			"source_name": "Microsoft Run Key",
-			"url": "http://msdn.microsoft.com/en-us/library/aa376977"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys"
 		},
 		{
 			"description": "Microsoft. (n.d.). Time Provider. Retrieved March 26, 2018.",
@@ -51,7 +51,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2024-04-16T12:26:07.945Z",
+	"modified": "2024-09-12T15:27:58.051Z",
 	"name": "Boot or Logon Autostart Execution",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

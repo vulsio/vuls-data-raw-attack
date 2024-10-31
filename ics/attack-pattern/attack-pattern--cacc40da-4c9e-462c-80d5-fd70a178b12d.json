@@ -52,7 +52,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2024-04-12T21:13:56.431Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Disable or Modify Cloud Logs",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -68,7 +68,8 @@
 		"Alex Soler, AttackIQ",
 		"Janantha Marasinghe",
 		"Matt Snyder, VMware",
-		"Joe Gumke, U.S. Bank"
+		"Joe Gumke, U.S. Bank",
+		"Arun Seelagan, CISA"
 	],
 	"x_mitre_data_sources": [
 		"Cloud Service: Cloud Service Modification",
@@ -85,9 +86,8 @@
 	"x_mitre_platforms": [
 		"IaaS",
 		"SaaS",
-		"Google Workspace",
-		"Azure AD",
-		"Office 365"
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "2.0"
+	"x_mitre_version": "2.1"
 }

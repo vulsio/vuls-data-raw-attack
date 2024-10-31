@@ -52,14 +52,14 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-08-14T19:30:45.123Z",
+	"modified": "2024-10-15T16:33:34.508Z",
 	"name": "Forced Authentication",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Teodor Cimpoesu",
 		"Sudhanshu Chauhan, @Sudhanshu_C"

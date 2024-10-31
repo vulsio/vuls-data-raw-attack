@@ -11,9 +11,9 @@
 			"url": "https://attack.mitre.org/techniques/T1137/006"
 		},
 		{
-			"description": "Microsoft. (n.d.). Add or remove add-ins. Retrieved July 3, 2017.",
-			"source_name": "Microsoft Office Add-ins",
-			"url": "https://support.office.com/article/Add-or-remove-add-ins-0af570c4-5cf3-4fa9-9b88-403625a0b460"
+			"description": "Caban, D. and Hirani, M. (2018, October 3). You’ve Got Mail! Enterprise Email Compromise. Retrieved April 22, 2019.",
+			"source_name": "FireEye Mail CDS 2018",
+			"url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s03-youve-got-mail.pdf"
 		},
 		{
 			"description": "Knowles, W. (2017, April 21). Add-In Opportunities for Office Persistence. Retrieved July 3, 2017.",
@@ -21,9 +21,9 @@
 			"url": "https://labs.mwrinfosecurity.com/blog/add-in-opportunities-for-office-persistence/"
 		},
 		{
-			"description": "Caban, D. and Hirani, M. (2018, October 3). You’ve Got Mail! Enterprise Email Compromise. Retrieved April 22, 2019.",
-			"source_name": "FireEye Mail CDS 2018",
-			"url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s03-youve-got-mail.pdf"
+			"description": "Microsoft. (n.d.). Add or remove add-ins. Retrieved July 3, 2017.",
+			"source_name": "Microsoft Office Add-ins",
+			"url": "https://support.office.com/article/Add-or-remove-add-ins-0af570c4-5cf3-4fa9-9b88-403625a0b460"
 		},
 		{
 			"description": "Shukrun, S. (2019, June 2). Office Templates and GlobalDotName - A Stealthy Office Persistence Technique. Retrieved August 26, 2019.",
@@ -37,13 +37,14 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2021-08-16T21:26:09.296Z",
+	"modified": "2024-10-15T15:37:09.19Z",
 	"name": "Add-ins",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Windows Registry: Windows Registry Key Modification",
 		"File: File Modification",
@@ -52,19 +53,16 @@
 		"Process: Process Creation",
 		"File: File Creation"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor and validate the Office trusted locations on the file system and audit the Registry entries relevant for enabling add-ins.(Citation: GlobalDotName Jun 2019)(Citation: MRWLabs Office Persistence Add-ins)\n\nCollect process execution information including process IDs (PID) and parent process IDs (PPID) and look for abnormal chains of activity resulting from Office processes. Non-standard process execution trees may also indicate suspicious or malicious behavior",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"Administrator",
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Windows",
-		"Office 365"
+		"Office Suite"
 	],
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "1.2"
 }

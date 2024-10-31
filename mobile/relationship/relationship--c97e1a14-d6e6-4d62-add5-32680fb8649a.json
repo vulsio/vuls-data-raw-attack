@@ -3,8 +3,8 @@
 	"id": "relationship--c97e1a14-d6e6-4d62-add5-32680fb8649a",
 	"created": "2023-09-30T20:20:42.297Z",
 	"created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"description": "Monitor for API calls and CLI commands that attempt to enumerate and fetch credential material from cloud secrets managers, such as `get-secret-value` in AWS, `gcloud secrets describe` in GCP, and `az key vault secret show` in Azure. Alert on any suspicious usages of these commands, such as an account or service generating an unusually high number of secret requests.",
-	"modified": "2023-09-30T20:21:13.08Z",
+	"description": "Monitor for API calls and CLI commands that attempt to enumerate and fetch credential material from cloud secrets managers, such as `get-secret-value` in AWS, `gcloud secrets describe` in GCP, and `az key vault secret show` in Azure. Alert on any suspicious usages of these commands, such as an account or service generating an unusually high number of secret requests.\n\nAnalytic 1 - High volume of secret requests from unusual accounts or services.\n\n<code> index=security sourcetype IN (\"aws:cloudtrail\", \"azure:activity\", \"gcp:activity\")\n(eventName IN (\"ListAccessKeys\", \"GetLoginProfile\", \"ListSecrets\", \"GetSecretValue\", \"GetParametersByPath\", \"ListKeys\") OR\noperationName IN (\"ListAccessKeys\", \"GetLoginProfile\", \"ListSecrets\", \"GetSecretValue\", \"GetParametersByPath\", \"ListKeys\") OR\nprotoPayload.methodName IN (\"ListAccessKeys\", \"GetLoginProfile\", \"ListSecrets\", \"GetSecretValue\", \"GetParametersByPath\", \"ListKeys\"))</code>",
+	"modified": "2024-08-15T13:35:03.29Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],

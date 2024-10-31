@@ -6,20 +6,22 @@
 	"description": "[Miner-C](https://attack.mitre.org/software/S0133) copies itself into the public folder of Network Attached Storage (NAS) devices and infects new victims who open the file.(Citation: Softpedia MinerC)",
 	"external_references": [
 		{
-			"description": "Cimpanu, C.. (2016, September 9). Cryptocurrency Mining Malware Discovered Targeting Seagate NAS Hard Drives. Retrieved October 12, 2016.",
+			"description": "Cimpanu, C.. (2016, September 9). Cryptocurrency Mining Malware Discovered Targeting Seagate NAS Hard Drives. Retrieved September 12, 2024.",
 			"source_name": "Softpedia MinerC",
-			"url": "http://news.softpedia.com/news/cryptocurrency-mining-malware-discovered-targeting-seagate-nas-hard-drives-508119.shtml"
+			"url": "https://news.softpedia.com/news/cryptocurrency-mining-malware-discovered-targeting-seagate-nas-hard-drives-508119.shtml"
 		}
 	],
-	"modified": "2018-10-17T00:14:20.652Z",
+	"modified": "2024-09-12T15:19:00.434Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "malware--17dec760-9c8f-4f1b-9b4b-0ac47a453234",
 	"spec_version": "",
 	"target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

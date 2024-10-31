@@ -19,24 +19,26 @@
 			"url": "https://www.crowdstrike.com/blog/overwatch-exposes-aquatic-panda-in-possession-of-log-4-shell-exploit-tools/"
 		}
 	],
-	"modified": "2023-03-21T21:16:34.243Z",
+	"modified": "2024-10-10T14:31:59.099Z",
 	"name": "Aquatic Panda",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"NST Assure Research Team, NetSentries Technologies",
 		"Pooja Natarajan, NEC Corporation India",
 		"Hiroki Nagahama, NEC Corporation",
-		"Manikantan Srinivasan, NEC Corporation India"
+		"Manikantan Srinivasan, NEC Corporation India",
+		"Jai Minton, CrowdStrike",
+		"Jennifer Kim Roman, CrowdStrike"
 	],
 	"x_mitre_deprecated": false,
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_version": "1.1"
+	"x_mitre_version": "2.0"
 }

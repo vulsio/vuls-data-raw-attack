@@ -6,25 +6,27 @@
 	"description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) communicates to servers operated by Google using the Jabber/XMPP protocol.(Citation: Mandiant APT1)(Citation: CyberESI GTALK)",
 	"external_references": [
 		{
+			"description": "CyberESI. (2011). TROJAN.GTALK. Retrieved September 12, 2024.",
+			"source_name": "CyberESI GTALK",
+			"url": "https://web.archive.org/web/20141226203328/http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/"
+		},
+		{
 			"description": "Mandiant. (n.d.). APT1 Exposing One of China’s Cyber Espionage Units. Retrieved July 18, 2016.",
 			"source_name": "Mandiant APT1",
 			"url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-		},
-		{
-			"description": "CyberESI. (2011). TROJAN.GTALK. Retrieved June 29, 2015.",
-			"source_name": "CyberESI GTALK",
-			"url": "http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/"
 		}
 	],
-	"modified": "2020-03-20T21:13:00.163Z",
+	"modified": "2024-09-12T17:21:49.854Z",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
 	"relationship_type": "uses",
+	"revoked": false,
 	"source_ref": "malware--f2e8c7a1-cae1-45c4-baf0-6f21bdcbb2c2",
 	"spec_version": "",
 	"target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_deprecated": false,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_version": "1.0"
 }

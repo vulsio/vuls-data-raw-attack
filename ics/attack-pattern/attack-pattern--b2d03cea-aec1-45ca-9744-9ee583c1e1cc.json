@@ -22,7 +22,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2024-03-07T14:28:02.91Z",
+	"modified": "2024-10-14T22:11:30.271Z",
 	"name": "Credential Stuffing",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -47,15 +47,14 @@
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
 	"x_mitre_platforms": [
 		"Windows",
-		"Azure AD",
-		"Office 365",
 		"SaaS",
 		"IaaS",
 		"Linux",
 		"macOS",
-		"Google Workspace",
 		"Containers",
-		"Network"
+		"Network",
+		"Office Suite",
+		"Identity Provider"
 	],
-	"x_mitre_version": "1.5"
+	"x_mitre_version": "1.6"
 }

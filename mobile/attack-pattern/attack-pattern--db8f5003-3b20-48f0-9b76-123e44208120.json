@@ -22,16 +22,22 @@
 			"phase_name": "reconnaissance"
 		}
 	],
-	"modified": "2021-04-15T03:19:38.469Z",
+	"modified": "2024-10-15T13:46:55.039Z",
 	"name": "Scanning IP Blocks",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
+	"x_mitre_contributors": [
+		"Diego Sappa, Securonix"
+	],
 	"x_mitre_data_sources": [
+		"Network Traffic: Network Traffic Content",
 		"Network Traffic: Network Traffic Flow"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor for suspicious network traffic that could be indicative of scanning, such as large quantities originating from a single source (especially if the source is known to be associated with an adversary/botnet).\n\nMuch of this activity may have a very high occurrence and associated false positive rate, as well as potentially taking place outside the visibility of the target organization, making detection difficult for defenders.\n\nDetection efforts may be focused on related stages of the adversary lifecycle, such as during Initial Access.",
 	"x_mitre_domains": [
 		"enterprise-attack"
@@ -41,5 +47,5 @@
 	"x_mitre_platforms": [
 		"PRE"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

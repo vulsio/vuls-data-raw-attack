@@ -52,7 +52,7 @@
 			"phase_name": "exfiltration"
 		}
 	],
-	"modified": "2023-10-12T05:22:59.079Z",
+	"modified": "2024-10-15T15:57:55.928Z",
 	"name": "Exfiltration Over Webhook",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -83,8 +83,7 @@
 		"macOS",
 		"Linux",
 		"SaaS",
-		"Office 365",
-		"Google Workspace"
+		"Office Suite"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

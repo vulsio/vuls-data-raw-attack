@@ -16,9 +16,9 @@
 			"url": "https://www.defcon.org/images/defcon-22/dc-22-presentations/Bloxham/DEFCON-22-Brady-Bloxham-Windows-API-Abuse-UPDATED.pdf"
 		},
 		{
-			"description": "Microsoft. (n.d.). AddMonitor function. Retrieved November 12, 2014.",
+			"description": "Microsoft. (n.d.). AddMonitor function. Retrieved September 12, 2024.",
 			"source_name": "AddMonitor",
-			"url": "http://msdn.microsoft.com/en-us/library/dd183341"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/printdocs/addmonitor"
 		},
 		{
 			"description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
@@ -36,7 +36,7 @@
 			"phase_name": "privilege-escalation"
 		}
 	],
-	"modified": "2024-04-12T02:49:39.98Z",
+	"modified": "2024-09-12T15:26:17.886Z",
 	"name": "Port Monitors",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

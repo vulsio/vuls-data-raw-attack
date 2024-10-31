@@ -33,7 +33,7 @@
 		{
 			"description": "Schneider Electric. (2018, August 24). Security Notification – USB Removable Media Provided With Conext Combox and Conext Battery Monitor. Retrieved May 28, 2019.",
 			"source_name": "Schneider Electric USB Malware",
-			"url": "https://www.se.com/ww/en/download/document/SESN-2018-236-01/"
+			"url": "https://www.se.com/us/en/download/document/SESN-2018-236-01/"
 		},
 		{
 			"description": "Trendmicro. (2018, November 29). Hacker Infects Node.js Package to Steal from Bitcoin Wallets. Retrieved April 10, 2019.",
@@ -52,7 +52,7 @@
 			"phase_name": "initial-access"
 		}
 	],
-	"modified": "2024-02-26T14:23:37.009Z",
+	"modified": "2024-10-04T11:17:00.778Z",
 	"name": "Supply Chain Compromise",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

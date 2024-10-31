@@ -42,7 +42,7 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2023-09-30T20:24:19.357Z",
+	"modified": "2024-10-15T14:20:16.722Z",
 	"name": "Cloud Secrets Management Stores",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

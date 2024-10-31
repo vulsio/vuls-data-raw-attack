@@ -36,9 +36,9 @@
 			"url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43824.pdf"
 		},
 		{
-			"description": "Kjaer, M. (2016, July 18). Malware in the browser: how you might get hacked by a Chrome extension. Retrieved November 22, 2017.",
+			"description": "Kjaer, M. (2016, July 18). Malware in the browser: how you might get hacked by a Chrome extension. Retrieved September 12, 2024.",
 			"source_name": "Chrome Extension C2 Malware",
-			"url": "https://kjaer.io/extension-malware/"
+			"url": "https://web.archive.org/web/20240608001937/https://kjaer.io/extension-malware/"
 		},
 		{
 			"description": "Marinho, R. (n.d.). \"Catch-All\" Google Chrome Malicious Extension Steals All Posted Data. Retrieved November 16, 2017.",
@@ -77,7 +77,7 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2024-04-18T23:22:37.874Z",
+	"modified": "2024-09-12T19:48:15.871Z",
 	"name": "Browser Extensions",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

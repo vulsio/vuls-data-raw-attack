@@ -40,7 +40,7 @@
 			"url": "https://www.sans.org/blog/cracked-brute-ratel-c4-framework-proliferates-across-the-cybercriminal-underground/"
 		}
 	],
-	"modified": "2023-04-17T21:44:03.462Z",
+	"modified": "2024-09-19T15:46:58.008Z",
 	"name": "Brute Ratel C4",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
@@ -51,7 +51,7 @@
 		"Brute Ratel C4",
 		"BRc4"
 	],
-	"x_mitre_attack_spec_version": "3.1.0",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_contributors": [
 		"Sittikorn Sangrattanapitak",
 		"Daniel Acevedo, @darmad0, ARMADO"
@@ -64,5 +64,5 @@
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

@@ -11,6 +11,11 @@
 			"url": "https://attack.mitre.org/techniques/T1556/005"
 		},
 		{
+			"description": "Metcalf, S. (2015, November 22). Dump Clear-Text Passwords for All Admins in the Domain Using Mimikatz DCSync. Retrieved November 15, 2021.",
+			"source_name": "dump_pwd_dcsync",
+			"url": "https://adsecurity.org/?p=2053"
+		},
+		{
 			"description": "Microsoft. (2021, October 28). Store passwords using reversible encryption. Retrieved January 3, 2022.",
 			"source_name": "store_pwd_rev_enc",
 			"url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/store-passwords-using-reversible-encryption"
@@ -24,11 +29,6 @@
 			"description": "Teusink, N. (2009, August 26). Passwords stored using reversible encryption: how it works (part 2). Retrieved November 17, 2021.",
 			"source_name": "how_pwd_rev_enc_2",
 			"url": "http://blog.teusink.net/2009/08/passwords-stored-using-reversible_26.html"
-		},
-		{
-			"description": "Metcalf, S. (2015, November 22). Dump Clear-Text Passwords for All Admins in the Domain Using Mimikatz DCSync. Retrieved November 15, 2021.",
-			"source_name": "dump_pwd_dcsync",
-			"url": "https://adsecurity.org/?p=2053"
 		}
 	],
 	"kill_chain_phases": [
@@ -45,31 +45,29 @@
 			"phase_name": "persistence"
 		}
 	],
-	"modified": "2022-02-10T21:35:25.377Z",
+	"modified": "2024-08-26T15:40:31.871Z",
 	"name": "Reversible Encryption",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"Active Directory: Active Directory Object Modification",
 		"Command: Command Execution",
 		"User Account: User Account Metadata",
 		"Script: Script Execution"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor property changes in Group Policy: <code>Computer Configuration\\Windows Settings\\Security Settings\\Account Policies\\Password Policy\\Store passwords using reversible encryption</code>. By default, the property should be set to Disabled.\n\nMonitor command-line usage for <code>-AllowReversiblePasswordEncryption $true</code> or other actions that could be related to malicious tampering of user settings (i.e. [Group Policy Modification](https://attack.mitre.org/techniques/T1484/001)). Furthermore, consider monitoring and/or blocking suspicious execution of Active Directory PowerShell modules, such as <code>Set-ADUser</code> and <code>Set-ADAccountControl</code>, that change account configurations. \n\nMonitor Fine-Grained Password Policies and regularly audit user accounts and group settings.(Citation: dump_pwd_dcsync)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User",
-		"Administrator"
-	],
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }

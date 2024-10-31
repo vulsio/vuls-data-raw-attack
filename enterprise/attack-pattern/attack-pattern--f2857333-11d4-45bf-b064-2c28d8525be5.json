@@ -36,9 +36,9 @@
 			"url": "https://blogs.technet.microsoft.com/askcore/2013/03/24/alternate-data-streams-in-ntfs/"
 		},
 		{
-			"description": "Microsoft. (n.d.). File Streams. Retrieved December 2, 2014.",
+			"description": "Microsoft. (n.d.). File Streams. Retrieved September 12, 2024.",
 			"source_name": "Microsoft File Streams",
-			"url": "http://msdn.microsoft.com/en-us/library/aa364404"
+			"url": "https://learn.microsoft.com/en-us/windows/win32/fileio/file-streams"
 		},
 		{
 			"description": "Moe, O. (2018, April 11). Putting Data in Alternate Data Streams and How to Execute It - Part 2. Retrieved June 30, 2018.",
@@ -62,7 +62,7 @@
 			"phase_name": "defense-evasion"
 		}
 	],
-	"modified": "2024-02-14T21:56:34.831Z",
+	"modified": "2024-09-12T15:27:29.615Z",
 	"name": "NTFS File Attributes",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"

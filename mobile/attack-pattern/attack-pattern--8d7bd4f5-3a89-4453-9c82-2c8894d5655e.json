@@ -11,6 +11,11 @@
 			"url": "https://attack.mitre.org/techniques/T1552/006"
 		},
 		{
+			"description": "Campbell, C. (2012, May 24). GPP Password Retrieval with PowerShell. Retrieved April 11, 2018.",
+			"source_name": "Obscuresecurity Get-GPPPassword",
+			"url": "https://obscuresecurity.blogspot.co.uk/2012/05/gpp-password-retrieval-with-powershell.html"
+		},
+		{
 			"description": "Microsoft. (2016, August 31). Group Policy Preferences. Retrieved March 9, 2020.",
 			"source_name": "Microsoft GPP 2016",
 			"url": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn581922(v%3Dws.11)"
@@ -19,11 +24,6 @@
 			"description": "Microsoft. (n.d.). 2.2.1.1.4 Password Encryption. Retrieved April 11, 2018.",
 			"source_name": "Microsoft GPP Key",
 			"url": "https://msdn.microsoft.com/library/cc422924.aspx"
-		},
-		{
-			"description": "Campbell, C. (2012, May 24). GPP Password Retrieval with PowerShell. Retrieved April 11, 2018.",
-			"source_name": "Obscuresecurity Get-GPPPassword",
-			"url": "https://obscuresecurity.blogspot.co.uk/2012/05/gpp-password-retrieval-with-powershell.html"
 		},
 		{
 			"description": "Sean Metcalf. (2015, December 28). Finding Passwords in SYSVOL & Exploiting Group Policy Preferences. Retrieved February 17, 2020.",
@@ -37,28 +37,27 @@
 			"phase_name": "credential-access"
 		}
 	],
-	"modified": "2020-06-17T14:25:38.082Z",
+	"modified": "2024-08-15T13:21:22.734Z",
 	"name": "Group Policy Preferences",
 	"object_marking_refs": [
 		"marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
 	],
+	"revoked": false,
 	"spec_version": "",
-	"x_mitre_attack_spec_version": "",
+	"x_mitre_attack_spec_version": "3.2.0",
 	"x_mitre_data_sources": [
 		"File: File Access",
 		"Command: Command Execution"
 	],
+	"x_mitre_deprecated": false,
 	"x_mitre_detection": "Monitor for attempts to access SYSVOL that involve searching for XML files. \n\nDeploy a new XML file with permissions set to Everyone:Deny and monitor for Access Denied errors.(Citation: ADSecurity Finding Passwords in SYSVOL)",
 	"x_mitre_domains": [
 		"enterprise-attack"
 	],
 	"x_mitre_is_subtechnique": true,
 	"x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-	"x_mitre_permissions_required": [
-		"User"
-	],
 	"x_mitre_platforms": [
 		"Windows"
 	],
-	"x_mitre_version": "1.0"
+	"x_mitre_version": "1.1"
 }
